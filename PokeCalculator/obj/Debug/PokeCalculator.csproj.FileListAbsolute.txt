@@ -1,0 +1,10 @@
+d:\Users\Jiapei\Documents\Visual Studio 2017\Projects\PokeCalculator\PokeCalculator\bin\Debug\PokeCalculator.exe.config
+d:\Users\Jiapei\Documents\Visual Studio 2017\Projects\PokeCalculator\PokeCalculator\bin\Debug\PokeCalculator.exe
+d:\Users\Jiapei\Documents\Visual Studio 2017\Projects\PokeCalculator\PokeCalculator\bin\Debug\PokeCalculator.pdb
+d:\Users\Jiapei\Documents\Visual Studio 2017\Projects\PokeCalculator\PokeCalculator\obj\Debug\PokeCalculator.csprojResolveAssemblyReference.cache
+d:\Users\Jiapei\Documents\Visual Studio 2017\Projects\PokeCalculator\PokeCalculator\obj\Debug\PokeCalculator.PokeDamageCalc.resources
+d:\Users\Jiapei\Documents\Visual Studio 2017\Projects\PokeCalculator\PokeCalculator\obj\Debug\PokeCalculator.Properties.Resources.resources
+d:\Users\Jiapei\Documents\Visual Studio 2017\Projects\PokeCalculator\PokeCalculator\obj\Debug\PokeCalculator.csproj.GenerateResource.Cache
+d:\Users\Jiapei\Documents\Visual Studio 2017\Projects\PokeCalculator\PokeCalculator\obj\Debug\PokeCalculator.csproj.CoreCompileInputs.cache
+d:\Users\Jiapei\Documents\Visual Studio 2017\Projects\PokeCalculator\PokeCalculator\obj\Debug\PokeCalculator.exe
+d:\Users\Jiapei\Documents\Visual Studio 2017\Projects\PokeCalculator\PokeCalculator\obj\Debug\PokeCalculator.pdb

@@ -45,7 +45,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Calculator.cs" />
+    <Compile Include="Pokemon.cs" />
     <Compile Include="PokeDamageCalc.cs">
       <SubType>Form</SubType>
     </Compile>

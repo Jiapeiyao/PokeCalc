@@ -19,6 +19,9 @@ namespace PokeCalculator
 
         private void PokeDamageCalc_Load(object sender, EventArgs e)
         {
+            Pokemon p1 = new Pokemon();
+            Pokemon p2 = new Pokemon();
+            Calculator calc = new Calculator();
 
         }
 

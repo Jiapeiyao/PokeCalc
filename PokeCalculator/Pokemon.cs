@@ -6,35 +6,12 @@ using System.Threading.Tasks;
 
 namespace PokeCalculator
 {
-    enum Types
-    {
-        None = 0,
-        Normal,
-        Fighting,
-        Flying,
-        Poison,
-        Ground,
-        Rock,
-        Bug,
-        Ghost,
-        Steel,
-        Fire,
-        Water,
-        Grass,
-        Electric,
-        Psychic,
-        Ice,
-        Dragon,
-        Dark,
-        Fairy
-    }
-
     
 
     class Pokemon
     {
-        public String Type1;
-        public String Type2;
+        public Type Type1;
+        public Type Type2;
         //public int Forme;
         public int level;
         public int HP;
@@ -51,10 +28,23 @@ namespace PokeCalculator
 
         
 
-        Pokemon()
+        public Pokemon()
         {
+            Type1 = Type.None;
+            Type2 = Type.None;
+            level = 100;
+            HP = 321;
+            Atk = 221;
+            Def = 167;
+            SpAtk = 311;
+            SpDef = 206;
+            Spd = 219;
+
+
 
         }
 
     }
+
+
 }

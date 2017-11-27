@@ -188,8 +188,11 @@ namespace PokeCalculator
             }
 
             double Modifier = Targets * Weather * Critical * random * STAB * Type * Burn * other;
-            double damage = ((2 * level / 5 + 2) * power * attack / defence / 50 + 2) * Modifier;
-            
+            double damage = 1;
+            if (defence != 0)
+            {
+                damage = ((2 * level / 5 + 2) * power * attack / defence / 50 + 2) * Modifier;
+            }
             return (int)damage;
         }
     }

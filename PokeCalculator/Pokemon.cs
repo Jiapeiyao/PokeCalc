@@ -70,19 +70,122 @@ namespace PokeCalculator
 
     }
 
+    enum Stats : int {
+        HP,
+        ATK,
+        DEF,
+        SP_ATK,
+        SP_DEF,
+        SPD
+    }
+
+    enum Stage : int {
+        ATK,
+        DEF,
+        SP_ATK,
+        SP_DEF,
+        SPD,
+        ACC,
+        EVA
+    }
+
 
     class Pokemon
     {
         public Type Type1;
         public Type Type2;
-        //public int Forme;
+        public List<int> Forme;
         public int level;
-        public int HP;
-        public int Atk;
-        public int Def;
-        public int SpAtk;
-        public int SpDef;
-        public int Spd;
+        private int _HP;
+        public int HP {
+            get {
+                int Base = Bases[(int)Stats.HP];
+                int IV = IVs[(int)Stats.HP];
+                int EV = EVs[(int)Stats.HP];
+                return ((2 * Base + IV + EV/4) * level / 100) + level + 10;
+            }
+            set {
+                _HP = value;
+            }
+        }
+        private int _Atk;
+        public int Atk {
+            get {
+                int Base = Bases[(int)Stats.ATK];
+                int IV = IVs[(int)Stats.ATK];
+                int EV = EVs[(int)Stats.ATK];
+                return (int)((((2 * Base + IV + EV / 4) * level / 100) + 5) * NatureModifier(Stats.ATK, this.Nature));
+            }
+            set {
+                _Atk = value;
+            }
+        }
+        private int _Def;
+        public int Def
+        {
+            get
+            {
+                int Base = Bases[(int)Stats.DEF];
+                int IV = IVs[(int)Stats.DEF];
+                int EV = EVs[(int)Stats.DEF];
+                return (int)((((2 * Base + IV + EV / 4) * level / 100) + 5) * NatureModifier(Stats.DEF, this.Nature));
+            }
+            set
+            {
+                _Atk = value;
+            }
+        }
+        private int _SpAtk;
+        public int SpAtk
+        {
+            get
+            {
+                int Base = Bases[(int)Stats.SP_ATK];
+                int IV = IVs[(int)Stats.SP_ATK];
+                int EV = EVs[(int)Stats.SP_ATK];
+                return (int)((((2 * Base + IV + EV / 4) * level / 100) + 5) * NatureModifier(Stats.SP_ATK, this.Nature));
+            }
+            set
+            {
+                _Atk = value;
+            }
+        }
+        private int _SpDef;
+        public int SpDef
+        {
+            get
+            {
+                int Base = Bases[(int)Stats.SP_DEF];
+                int IV = IVs[(int)Stats.SP_DEF];
+                int EV = EVs[(int)Stats.SP_DEF];
+                return (int)((((2 * Base + IV + EV / 4) * level / 100) + 5) * NatureModifier(Stats.SP_DEF, this.Nature));
+            }
+            set
+            {
+                _Atk = value;
+            }
+        }
+        private int _Spd;
+        public int Spd
+        {
+            get
+            {
+                int Base = Bases[(int)Stats.SPD];
+                int IV = IVs[(int)Stats.SPD];
+                int EV = EVs[(int)Stats.SPD];
+                return (int)((((2 * Base + IV + EV / 4) * level / 100) + 5) * NatureModifier(Stats.SPD, this.Nature));
+            }
+            set
+            {
+                _Atk = value;
+            }
+        }
+
+        public int[] Bases;
+        public int[] IVs;
+        public int[] EVs;
+        public int[] Stages;
+
         public Nature Nature;
         public String Ability;
         public String Item;
@@ -96,24 +199,29 @@ namespace PokeCalculator
 
         public Pokemon()
         {
-            Type1 = Type.Grass;
-            Type2 = Type.Ice;
+            Type1 = Type.None;
+            Type2 = Type.None;
+            Forme = null;
             level = 100;
-            HP = 321;
-            Atk = 221;
-            Def = 167;
-            SpAtk = 311;
-            SpDef = 206;
-            Spd = 219;
-            Nature = Nature.Mild;
-            Ability = "Other";
+            HP = 0;
+            Atk = 0;
+            Def = 0;
+            SpAtk = 0;
+            SpDef = 0;
+            Spd = 0;
+            Bases = new int[6];
+            IVs = new int[6];
+            EVs = new int[6];
+            Stages = new int[7];
+            Nature = (Nature)0;
+            Ability = "其它";
             Item = "Life Orb";
-            Status = Status.Frozen;
-            CurrentHP = 321;
-            move1 = new Move("Ice Shard", 40, Type.Ice, 100, "物理");
-            move2 = new Move("Blizzard", 110, Type.Ice, 100, "特殊");
-            move3 = new Move("Giga Drain", 75, Type.Grass, 100, "物理");
-            move4 = new Move("Earthquake", 100, Type.Ground, 100, "特殊");
+            Status = Status.Healthy;
+            CurrentHP = 100;
+            move1 = new Move("", 0, Type.None, 100, "物理");
+            move2 = new Move("", 0, Type.None, 100, "物理");
+            move3 = new Move("", 0, Type.None, 100, "物理");
+            move4 = new Move("", 0, Type.None, 100, "物理");
         }
 
         public static String typeToString(Type t) {
@@ -216,6 +324,20 @@ namespace PokeCalculator
             }
             return "(无)";
         }
+
+        public static double NatureModifier(Stats s, Nature n) {
+            int natureIndex = (int)n;
+            double retVal = 1;
+            if (natureIndex / 5 == ((int)s) - 1) {
+                retVal += 0.1;
+            }
+            if (natureIndex % 5 == ((int)s) - 1)
+            {
+                retVal -= 0.1;
+            }
+            return retVal;
+        }
+
         public static String statusToString(Status s) {
             switch (s) {
                 case Status.Healthy:

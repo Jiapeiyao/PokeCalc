@@ -10,27 +10,38 @@ namespace PokeCalculator
     class DataReader
     {
         Excel.Workbook wb;
-        Excel.Worksheet ws;
-        //String[,] dataTable;
-        public int nrow;
-        public int ncol;
+        Excel.Application excel;
 
-        public DataReader(string path, int sheet) {
-            Excel.Application excel = new Excel.Application();
-            wb = excel.Workbooks.Open(path);
-            ws = wb.Worksheets[sheet];
-            nrow = ws.UsedRange.Rows.Count;
-            Console.Out.WriteLine(nrow);
-            ncol = ws.UsedRange.Columns.Count;
+        public DataReader(string path) {
+            excel = new Excel.Application();
+            wb = excel.Workbooks.Open(path, Password:"517672205", WriteResPassword:"517672205");
         }
 
-        public string ReadCell(int i, int j) {
-            i++;
-            j++;
-            if (ws.Cells[i, j].Value2 != null) {
-                return ws.Cells[i, j].Value2.ToString();
+        public String[,] dataSheet(int sheet) {
+            Excel.Worksheet ws = wb.Worksheets[sheet];
+            int nrow = ws.UsedRange.Rows.Count;
+            int ncol = ws.UsedRange.Columns.Count;
+            String[,] dataTable = new String[nrow, ncol];
+            object[,] objectTable = ws.UsedRange.Value2;
+            for (int i = 0; i < nrow; i++)
+            {
+                for (int j = 0; j < ncol; j++)
+                {
+                    if (objectTable[i + 1, j + 1] != null)
+                    {
+                        dataTable[i, j] = objectTable[i + 1, j + 1].ToString().Trim();
+                    }
+                    else
+                    {
+                        dataTable[i, j] = "";
+                    }
+                }
             }
-            return "";
+            return dataTable;
+        }
+
+        ~DataReader() {
+            excel.Workbooks.Close();
         }
     }
 }

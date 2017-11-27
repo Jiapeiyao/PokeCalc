@@ -16,41 +16,41 @@ namespace PokeCalculator
     {
         Pokemon p1;
         Pokemon p2;
-        DataReader pokemonReader;
+        String[,] pokemonTable;
+        String[,] moveTable;
+        String[,] abilityTable;
+        private List<int> currentPokemonFormsIndex; 
+
 
         public PokeDamageCalc()
         {
-            String[] tmp = Assembly.GetExecutingAssembly().GetManifestResourceNames();
-
-            foreach (String i in tmp) {
-                Console.Out.WriteLine(i);
-            }
-
-            Console.Out.WriteLine( Assembly.GetExecutingAssembly().GetManifestResourceStream("PokeCalculator.pokemon.xlsx") );
-
-            //InitializeComponent();
+            InitializeComponent();
         }
 
         private void PokeDamageCalc_Load(object sender, EventArgs e)
         {
+            DataReader reader = new DataReader(@"" + Application.StartupPath + "/../../db/pokemon.xlsx");
+            pokemonTable = reader.dataSheet(1);
+            moveTable = reader.dataSheet(2);
             InitializePokemonCombobox();
             InitializeTypeCombobox();
             InitializeNatureCombobox();
             InitializeStatusCombobox();
             InitializeItemCombobox();
+            //InitializeStats();
             InitializeMove();
+            InitializeStage();
             p1 = new Pokemon();
             p2 = new Pokemon();
-            LoadPokemon1(p1);
-            LoadPokemon2(p2);
+            DisplayPokemon1(p1);
+            DisplayPokemon2(p2);
             viewDamage();
         }
 
         private void InitializePokemonCombobox() {
-            //String path = Assembly.GetExecutingAssembly().GetManifestResourceStream("PokeDamageCalc.pokemon.xlsx");
-            pokemonReader = new DataReader(@"PokeCalculator.pokemon.xlsx", 1);
-            for (int i = 0; i < pokemonReader.nrow; i++) {
-                String pokemonName = pokemonReader.ReadCell(i, 1).Trim();
+            int nrow = pokemonTable.GetLength(0);
+            for (int i = 0; i < nrow; i++) {
+                String pokemonName = pokemonTable[i,1];
                 comboBox1.Items.Add(pokemonName);
                 comboBox58.Items.Add(pokemonName);
             }
@@ -92,76 +92,33 @@ namespace PokeCalculator
 
         private void InitializeItemCombobox()
         {
+            comboBox12.Items.Add("(无)");
+            comboBox47.Items.Add("(无)");
             for (int i = 0; i < 7; i++)
             {
                 comboBox12.Items.Add("Life Ord");
                 comboBox47.Items.Add("Life Ord");
             }
+            comboBox12.SelectedIndex = 0;
+            comboBox47.SelectedIndex = 0;
         }
 
         private void InitializeMove()
         {
-            // move names
-            String[] moveList = new String[4] { "Ice Shard", "Blizzard", "Giga Drain", "Earthquake" };
-            foreach (String m in moveList)
+            int nrow = moveTable.GetLength(0);
+            for (int i = 0; i < nrow; i++) 
             {
-                comboBox14.Items.Add(m);
-                comboBox21.Items.Add(m);
-                comboBox25.Items.Add(m);
-                comboBox29.Items.Add(m);
-                comboBox45.Items.Add(m);
-                comboBox41.Items.Add(m);
-                comboBox37.Items.Add(m);
-                comboBox33.Items.Add(m);
+                comboBox14.Items.Add(moveTable[i, 0]);
+                comboBox21.Items.Add(moveTable[i, 0]);
+                comboBox25.Items.Add(moveTable[i, 0]);
+                comboBox29.Items.Add(moveTable[i, 0]);
+                comboBox45.Items.Add(moveTable[i, 0]);
+                comboBox41.Items.Add(moveTable[i, 0]);
+                comboBox37.Items.Add(moveTable[i, 0]);
+                comboBox33.Items.Add(moveTable[i, 0]);
             }
-            comboBox16.Items.Add("物理");
-            comboBox19.Items.Add("物理");
-            comboBox23.Items.Add("物理");
-            comboBox27.Items.Add("物理");
-            comboBox43.Items.Add("物理");
-            comboBox39.Items.Add("物理");
-            comboBox35.Items.Add("物理");
-            comboBox31.Items.Add("物理");
-            comboBox16.Items.Add("特殊");
-            comboBox19.Items.Add("特殊");
-            comboBox23.Items.Add("特殊");
-            comboBox27.Items.Add("特殊");
-            comboBox43.Items.Add("特殊");
-            comboBox39.Items.Add("特殊");
-            comboBox35.Items.Add("特殊");
-            comboBox31.Items.Add("特殊");
-            textBox49.Text = "100";
-            textBox50.Text = "100";
-            textBox51.Text = "100";
-            textBox52.Text = "100";
-            textBox53.Text = "100";
-            textBox54.Text = "100";
-            textBox55.Text = "100";
-            textBox56.Text = "100";
-            comboBox17.Items.Add("未会心");
-            comboBox18.Items.Add("未会心");
-            comboBox22.Items.Add("未会心");
-            comboBox26.Items.Add("未会心");
-            comboBox42.Items.Add("未会心");
-            comboBox38.Items.Add("未会心");
-            comboBox34.Items.Add("未会心");
-            comboBox30.Items.Add("未会心");
-            comboBox17.Items.Add("会心");
-            comboBox18.Items.Add("会心");
-            comboBox22.Items.Add("会心");
-            comboBox26.Items.Add("会心");
-            comboBox42.Items.Add("会心");
-            comboBox38.Items.Add("会心");
-            comboBox34.Items.Add("会心");
-            comboBox30.Items.Add("会心");
-            comboBox17.Items.Add("期望");
-            comboBox18.Items.Add("期望");
-            comboBox22.Items.Add("期望");
-            comboBox26.Items.Add("期望");
-            comboBox42.Items.Add("期望");
-            comboBox38.Items.Add("期望");
-            comboBox34.Items.Add("期望");
-            comboBox30.Items.Add("期望");
+
+            
             comboBox17.SelectedIndex = 0;
             comboBox18.SelectedIndex = 0;
             comboBox22.SelectedIndex = 0;
@@ -173,7 +130,54 @@ namespace PokeCalculator
 
         }
 
-        private void LoadPokemon1(Pokemon p) {
+
+
+        public void InitializeStage()
+        {
+            for (int i = 6; i > 0; i--) {
+                comboBox5.Items.Add("+" + i);
+                comboBox6.Items.Add("+" + i);
+                comboBox8.Items.Add("+" + i);
+                comboBox7.Items.Add("+" + i);
+                comboBox9.Items.Add("+" + i);
+                comboBox60.Items.Add("+" + i);
+                comboBox59.Items.Add("+" + i);
+                comboBox61.Items.Add("+" + i);
+                comboBox62.Items.Add("+" + i);
+            }
+            comboBox5.Items.Add("" + 0);
+            comboBox6.Items.Add("" + 0);
+            comboBox8.Items.Add("" + 0);
+            comboBox7.Items.Add("" + 0);
+            comboBox9.Items.Add("" + 0);
+            comboBox60.Items.Add("" + 0);
+            comboBox59.Items.Add("" + 0);
+            comboBox61.Items.Add("" + 0);
+            comboBox62.Items.Add("" + 0);
+            for (int i = 1; i <= 6; i++)
+            {
+                comboBox5.Items.Add("-" + i);
+                comboBox6.Items.Add("-" + i);
+                comboBox8.Items.Add("-" + i);
+                comboBox7.Items.Add("-" + i);
+                comboBox9.Items.Add("-" + i);
+                comboBox60.Items.Add("-" + i);
+                comboBox59.Items.Add("-" + i);
+                comboBox61.Items.Add("-" + i);
+                comboBox62.Items.Add("-" + i);
+            }
+            comboBox5.SelectedIndex = 6;
+            comboBox6.SelectedIndex = 6;
+            comboBox8.SelectedIndex = 6;
+            comboBox7.SelectedIndex = 6;
+            comboBox9.SelectedIndex = 6;
+            comboBox60.SelectedIndex = 6;
+            comboBox59.SelectedIndex = 6;
+            comboBox61.SelectedIndex = 6;
+            comboBox62.SelectedIndex = 6;
+        }
+
+        private void DisplayPokemon1(Pokemon p) {
             comboBox2.SelectedIndex = (int)p.Type1;
             comboBox3.SelectedIndex = (int)p.Type2;
             textBox1.Text = "" + p.level;
@@ -183,6 +187,7 @@ namespace PokeCalculator
             label39.Text = "" + p.SpAtk;
             label40.Text = "" + p.SpDef;
             label41.Text = "" + p.Spd;
+            label61.Text = "" + p.HP;
             comboBox10.SelectedIndex = (int)p.Nature;
             comboBox11.SelectedItem = p.Ability;
             comboBox12.SelectedItem = p.Item;
@@ -208,9 +213,50 @@ namespace PokeCalculator
             textBox24.Text = "" + p.move4.power;
             comboBox28.SelectedItem = Pokemon.typeToString(p.move4.Type);
             comboBox27.SelectedItem = p.move4.Category;
+
         }
 
-        private void LoadPokemon2(Pokemon p)
+
+        private void UpdatePokemon1Instance()
+        {
+            p1.Type1 = (Type)comboBox2.SelectedIndex;
+            p1.Type2 = (Type)comboBox3.SelectedIndex;
+            //p1.Forme = currentPokemonFormsIndex;
+            p1.Item = comboBox12.SelectedItem.ToString();
+            p1.level = Int32.Parse(textBox1.Text);
+            p1.Ability = comboBox11.SelectedItem.ToString();
+            p1.Bases[(int)Stats.HP] = Int32.Parse(textBox2.Text);
+            p1.Bases[(int)Stats.ATK] = Int32.Parse(textBox7.Text);
+            p1.Bases[(int)Stats.DEF] = Int32.Parse(textBox10.Text);
+            p1.Bases[(int)Stats.SP_ATK] = Int32.Parse(textBox13.Text);
+            p1.Bases[(int)Stats.SP_DEF] = Int32.Parse(textBox16.Text);
+            p1.Bases[(int)Stats.SPD] = Int32.Parse(textBox19.Text);
+            p1.IVs[(int)Stats.HP] = Int32.Parse(textBox3.Text);
+            p1.IVs[(int)Stats.ATK] = Int32.Parse(textBox6.Text);
+            p1.IVs[(int)Stats.DEF] = Int32.Parse(textBox9.Text);
+            p1.IVs[(int)Stats.SP_ATK] = Int32.Parse(textBox12.Text);
+            p1.IVs[(int)Stats.SP_DEF] = Int32.Parse(textBox15.Text);
+            p1.IVs[(int)Stats.SPD] = Int32.Parse(textBox18.Text);
+            p1.EVs[(int)Stats.HP] = Int32.Parse(textBox4.Text);
+            p1.EVs[(int)Stats.ATK] = Int32.Parse(textBox5.Text);
+            p1.EVs[(int)Stats.DEF] = Int32.Parse(textBox8.Text);
+            p1.EVs[(int)Stats.SP_ATK] = Int32.Parse(textBox11.Text);
+            p1.EVs[(int)Stats.SP_DEF] = Int32.Parse(textBox14.Text);
+            p1.EVs[(int)Stats.SPD] = Int32.Parse(textBox17.Text);
+
+        }
+
+        private void displayResult1() {
+            label36.Text = "" + p1.HP;
+            label37.Text = "" + p1.Atk;
+            label38.Text = "" + p1.Def;
+            label39.Text = "" + p1.SpAtk;
+            label40.Text = "" + p1.SpDef;
+            label41.Text = "" + p1.Spd;
+            label61.Text = "/" + p1.HP;
+        }
+
+        private void DisplayPokemon2(Pokemon p)
         {
             comboBox57.SelectedIndex = (int)p.Type1;
             comboBox56.SelectedIndex = (int)p.Type2;
@@ -221,6 +267,7 @@ namespace PokeCalculator
             label44.Text = "" + p.SpAtk;
             label43.Text = "" + p.SpDef;
             label42.Text = "" + p.Spd;
+            label62.Text = "" + p.HP;
             comboBox49.SelectedIndex = (int)p.Nature;
             comboBox48.SelectedItem = p.Ability;
             comboBox47.SelectedItem = p.Item;
@@ -248,6 +295,46 @@ namespace PokeCalculator
             comboBox31.SelectedItem = p.move4.Category;
         }
 
+        private void UpdatePokemon2Instance()
+        {
+            p2.Type1 = (Type)comboBox57.SelectedIndex;
+            p2.Type2 = (Type)comboBox56.SelectedIndex;
+            //p2.Forme = currentPokemonFormsIndex;
+            p2.Item = comboBox47.SelectedItem.ToString();
+            p2.level = Int32.Parse(textBox48.Text);
+            p2.Ability = comboBox48.SelectedItem.ToString();
+            p2.Bases[(int)Stats.HP] = Int32.Parse(textBox47.Text);
+            p2.Bases[(int)Stats.ATK] = Int32.Parse(textBox44.Text);
+            p2.Bases[(int)Stats.DEF] = Int32.Parse(textBox41.Text);
+            p2.Bases[(int)Stats.SP_ATK] = Int32.Parse(textBox38.Text);
+            p2.Bases[(int)Stats.SP_DEF] = Int32.Parse(textBox35.Text);
+            p2.Bases[(int)Stats.SPD] = Int32.Parse(textBox32.Text);
+            p2.IVs[(int)Stats.HP] = Int32.Parse(textBox46.Text);
+            p2.IVs[(int)Stats.ATK] = Int32.Parse(textBox43.Text);
+            p2.IVs[(int)Stats.DEF] = Int32.Parse(textBox40.Text);
+            p2.IVs[(int)Stats.SP_ATK] = Int32.Parse(textBox37.Text);
+            p2.IVs[(int)Stats.SP_DEF] = Int32.Parse(textBox34.Text);
+            p2.IVs[(int)Stats.SPD] = Int32.Parse(textBox31.Text);
+            p2.EVs[(int)Stats.HP] = Int32.Parse(textBox45.Text);
+            p2.EVs[(int)Stats.ATK] = Int32.Parse(textBox42.Text);
+            p2.EVs[(int)Stats.DEF] = Int32.Parse(textBox39.Text);
+            p2.EVs[(int)Stats.SP_ATK] = Int32.Parse(textBox36.Text);
+            p2.EVs[(int)Stats.SP_DEF] = Int32.Parse(textBox33.Text);
+            p2.EVs[(int)Stats.SPD] = Int32.Parse(textBox30.Text);
+
+        }
+
+        private void displayResult2()
+        {
+            label47.Text = "" + p1.HP;
+            label46.Text = "" + p1.Atk;
+            label45.Text = "" + p1.Def;
+            label44.Text = "" + p1.SpAtk;
+            label43.Text = "" + p1.SpDef;
+            label42.Text = "" + p1.Spd;
+            label62.Text = "/" + p1.HP;
+        }
+
         private void viewDamage() {
             label18.Text = "" + Calculator.calculateDamage(p1, p1.move1, p2);
         }
@@ -255,8 +342,56 @@ namespace PokeCalculator
         //pokemon selection
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            int index = comboBox1.SelectedIndex;
+            //Types
+            comboBox2.SelectedItem = pokemonTable[index, 3];
+            if (pokemonTable[index, 4].Equals(""))
+                comboBox3.SelectedIndex = 0;
+            else
+                comboBox3.SelectedItem = pokemonTable[index, 4];
+            //forms
+            comboBox4.Items.Clear();
+            currentPokemonFormsIndex = new List<int>();
+            if (pokemonTable[index, 5].Equals("1")) {
+                comboBox4.Enabled = true;
+                String dexNum = pokemonTable[index, 0];
+                for (int i = 0; i < pokemonTable.GetLength(0); i++) {
+                    if (dexNum.Equals(pokemonTable[i, 0])) {
+                        comboBox4.Items.Add(pokemonTable[i, 1]);
+                        currentPokemonFormsIndex.Add(i);
+                    }
+                }
+                comboBox4.SelectedIndex = 0;
+                p1.Forme = currentPokemonFormsIndex;
+            }
+            else {
+                comboBox4.Enabled = false;
+            }
+            //ability
+            comboBox11.Items.Clear();
+            for (int i = 12; i < 15; i++) {
+                String to_add = pokemonTable[index, i];
+                if (!to_add.Equals(""))
+                    comboBox11.Items.Add(to_add);
+            }
+            comboBox11.SelectedIndex = 0;
 
+            //stats
+            textBox2.Text = pokemonTable[index, 6];
+            textBox7.Text = pokemonTable[index, 7];
+            textBox10.Text = pokemonTable[index, 8];
+            textBox13.Text = pokemonTable[index, 9];
+            textBox16.Text = pokemonTable[index, 10];
+            textBox19.Text = pokemonTable[index, 11];
+
+            UpdatePokemon1Instance();
+            displayResult1();
+
+            textBox20.Text = "" + p1.HP;
+            textBox57.Text = "" + 100;
         }
+
+
         private void comboBox58_SelectedIndexChanged(object sender, EventArgs e)
         {
 

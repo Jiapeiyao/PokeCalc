@@ -8,3 +8,7 @@ d:\Users\Jiapei\Documents\Visual Studio 2017\Projects\PokeCalculator\PokeCalcula
 d:\Users\Jiapei\Documents\Visual Studio 2017\Projects\PokeCalculator\PokeCalculator\obj\Debug\PokeCalculator.csproj.CoreCompileInputs.cache
 d:\Users\Jiapei\Documents\Visual Studio 2017\Projects\PokeCalculator\PokeCalculator\obj\Debug\PokeCalculator.exe
 d:\Users\Jiapei\Documents\Visual Studio 2017\Projects\PokeCalculator\PokeCalculator\obj\Debug\PokeCalculator.pdb
+d:\Users\Jiapei\Documents\Visual Studio 2017\Projects\PokeCalculator\PokeCalculator\obj\Debug\Interop.Excel.dll
+d:\Users\Jiapei\Documents\Visual Studio 2017\Projects\PokeCalculator\PokeCalculator\obj\Debug\Interop.Office.dll
+d:\Users\Jiapei\Documents\Visual Studio 2017\Projects\PokeCalculator\PokeCalculator\obj\Debug\Interop.VBIDE.dll
+d:\Users\Jiapei\Documents\Visual Studio 2017\Projects\PokeCalculator\PokeCalculator\obj\Debug\PokeCalculator.csproj.ResolveComReference.cache

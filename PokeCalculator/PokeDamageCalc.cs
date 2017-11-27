@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using System.Reflection;
 
 namespace PokeCalculator
 {
@@ -14,15 +16,24 @@ namespace PokeCalculator
     {
         Pokemon p1;
         Pokemon p2;
+        DataReader pokemonReader;
 
         public PokeDamageCalc()
         {
-            InitializeComponent();
+            String[] tmp = Assembly.GetExecutingAssembly().GetManifestResourceNames();
+
+            foreach (String i in tmp) {
+                Console.Out.WriteLine(i);
+            }
+
+            Console.Out.WriteLine( Assembly.GetExecutingAssembly().GetManifestResourceStream("PokeCalculator.pokemon.xlsx") );
+
+            //InitializeComponent();
         }
 
         private void PokeDamageCalc_Load(object sender, EventArgs e)
         {
-
+            InitializePokemonCombobox();
             InitializeTypeCombobox();
             InitializeNatureCombobox();
             InitializeStatusCombobox();
@@ -33,6 +44,17 @@ namespace PokeCalculator
             LoadPokemon1(p1);
             LoadPokemon2(p2);
             viewDamage();
+        }
+
+        private void InitializePokemonCombobox() {
+            //String path = Assembly.GetExecutingAssembly().GetManifestResourceStream("PokeDamageCalc.pokemon.xlsx");
+            pokemonReader = new DataReader(@"PokeCalculator.pokemon.xlsx", 1);
+            for (int i = 0; i < pokemonReader.nrow; i++) {
+                String pokemonName = pokemonReader.ReadCell(i, 1).Trim();
+                comboBox1.Items.Add(pokemonName);
+                comboBox58.Items.Add(pokemonName);
+            }
+
         }
 
         private void InitializeTypeCombobox() {

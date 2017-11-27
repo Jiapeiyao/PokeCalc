@@ -6,42 +6,15 @@ using System.Threading.Tasks;
 
 namespace PokeCalculator
 {
-    enum Type : int
-    {
-        None = 0,
-        Normal,
-        Fighting,
-        Flying,
-        Poison,
-        Ground,
-        Rock,
-        Bug,
-        Ghost,
-        Steel,
-        Fire,
-        Water,
-        Grass,
-        Electric,
-        Psychic,
-        Ice,
-        Dragon,
-        Dark,
-        Fairy
-    }
-
-    enum Nature : int
-    {
-
-    }
-
+    
     class Calculator
     {
-        public double[,] matchup;
+        public static double[,] matchup = initialize();
 
-        public Calculator()
+        public static double[,] initialize()
         {
             // Attack->defend matchup chart: https://bulbapedia.bulbagarden.net/wiki/Type
-            matchup = new double[19, 19];
+            double[,] matchup = new double[19, 19];
             for (int i = 0; i < 19; i++)
             {
                 for (int j = 0; j < 19; j++)
@@ -173,11 +146,52 @@ namespace PokeCalculator
             addMatchup(Type.Fairy, Type.Fire, 0.5);
             addMatchup(Type.Fairy, Type.Dragon, 2);
             addMatchup(Type.Fairy, Type.Dark, 2);
+            return matchup;
+        }
 
-
+        public static double Matchup(Type t1, Type t2) {
+            return matchup[(int)t1, (int)t2];
         }
 
 
+        public static int calculateDamage(Pokemon p1, Move m1, Pokemon p2) {
+            //欺诈 地球上投
+            double level = p1.level;
+
+            double power = m1.power;
+
+            double attack = (m1.Category.Equals("物理")) ? p1.Atk : p1.SpAtk;
+            double defence = (m1.Category.Equals("物理")) ? p2.Def : p2.SpDef;
+            if (m1.Name.Equals("精神击破") || m1.Name.Equals("精神冲击") || m1.Name.Equals("神秘之剑")) {
+                defence = p2.Def;
+            }
+
+            double Targets = 1;
+            double Weather = 1;
+            double Critical = 1;
+            double random = 1;
+            double STAB = 1;
+            if (m1.Type == p1.Type1 || m1.Type == p1.Type2) {
+                if (p1.Ability.Equals("适应力"))
+                    STAB = 2;
+                else
+                    STAB = 1.5;
+            }
+
+            //double Type = matchup[(int)m1.Type, (int)p2.Type1] * matchup[(int)m1.Type, (int)p2.Type2];
+            double Type = Matchup(m1.Type, p2.Type1) * Matchup(m1.Type, p2.Type2);
+
+            double Burn = 1;
+            double other = 1;
+            if (p1.Item.Equals("Life Orb")) {
+                other *= 1.3;
+            }
+
+            double Modifier = Targets * Weather * Critical * random * STAB * Type * Burn * other;
+            double damage = ((2 * level / 5 + 2) * power * attack / defence / 50 + 2) * Modifier;
+            
+            return (int)damage;
+        }
     }
 
 }

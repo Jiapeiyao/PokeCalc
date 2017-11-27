@@ -46,6 +46,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Calculator.cs" />
+    <Compile Include="DataReader.cs" />
+    <Compile Include="Move.cs" />
     <Compile Include="Pokemon.cs" />
     <Compile Include="PokeDamageCalc.cs">
       <SubType>Form</SubType>

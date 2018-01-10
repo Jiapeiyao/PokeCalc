@@ -1,1 +1,1 @@
-"# PokeCalc" 
+Pokemon Damage Calculator

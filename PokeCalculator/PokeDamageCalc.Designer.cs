@@ -28,170 +28,170 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.pokemon1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.p1_type1 = new System.Windows.Forms.ComboBox();
+            this.p1_type2 = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.p1_forme = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.p1_stage_atk = new System.Windows.Forms.ComboBox();
+            this.p1_level = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.p1_base_hp = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.p1_iv_hp = new System.Windows.Forms.TextBox();
+            this.p1_ev_hp = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.p1_ev_atk = new System.Windows.Forms.TextBox();
+            this.p1_iv_atk = new System.Windows.Forms.TextBox();
+            this.p1_base_atk = new System.Windows.Forms.TextBox();
+            this.p1_ev_def = new System.Windows.Forms.TextBox();
+            this.p1_iv_def = new System.Windows.Forms.TextBox();
+            this.p1_base_def = new System.Windows.Forms.TextBox();
+            this.p1_ev_spatk = new System.Windows.Forms.TextBox();
+            this.p1_iv_spatk = new System.Windows.Forms.TextBox();
+            this.p1_base_spatk = new System.Windows.Forms.TextBox();
+            this.p1_ev_spdef = new System.Windows.Forms.TextBox();
+            this.p1_iv_spdef = new System.Windows.Forms.TextBox();
+            this.p1_base_spdef = new System.Windows.Forms.TextBox();
+            this.p1_ev_spd = new System.Windows.Forms.TextBox();
+            this.p1_iv_spd = new System.Windows.Forms.TextBox();
+            this.p1_base_spd = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
-            this.comboBox9 = new System.Windows.Forms.ComboBox();
-            this.comboBox10 = new System.Windows.Forms.ComboBox();
+            this.p1_stage_def = new System.Windows.Forms.ComboBox();
+            this.p1_stage_spdef = new System.Windows.Forms.ComboBox();
+            this.p1_stage_spatk = new System.Windows.Forms.ComboBox();
+            this.p1_stage_spd = new System.Windows.Forms.ComboBox();
+            this.p1_nature = new System.Windows.Forms.ComboBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.comboBox11 = new System.Windows.Forms.ComboBox();
+            this.p1_ability = new System.Windows.Forms.ComboBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.comboBox12 = new System.Windows.Forms.ComboBox();
+            this.p1_item = new System.Windows.Forms.ComboBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.p1_curhp = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
-            this.comboBox13 = new System.Windows.Forms.ComboBox();
-            this.comboBox14 = new System.Windows.Forms.ComboBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.comboBox15 = new System.Windows.Forms.ComboBox();
-            this.comboBox16 = new System.Windows.Forms.ComboBox();
-            this.comboBox17 = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.comboBox18 = new System.Windows.Forms.ComboBox();
-            this.comboBox19 = new System.Windows.Forms.ComboBox();
-            this.comboBox20 = new System.Windows.Forms.ComboBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.comboBox21 = new System.Windows.Forms.ComboBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.comboBox22 = new System.Windows.Forms.ComboBox();
-            this.comboBox23 = new System.Windows.Forms.ComboBox();
-            this.comboBox24 = new System.Windows.Forms.ComboBox();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.comboBox25 = new System.Windows.Forms.ComboBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.comboBox26 = new System.Windows.Forms.ComboBox();
-            this.comboBox27 = new System.Windows.Forms.ComboBox();
-            this.comboBox28 = new System.Windows.Forms.ComboBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.comboBox29 = new System.Windows.Forms.ComboBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.comboBox30 = new System.Windows.Forms.ComboBox();
-            this.comboBox31 = new System.Windows.Forms.ComboBox();
-            this.comboBox32 = new System.Windows.Forms.ComboBox();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.comboBox33 = new System.Windows.Forms.ComboBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.comboBox34 = new System.Windows.Forms.ComboBox();
-            this.comboBox35 = new System.Windows.Forms.ComboBox();
-            this.comboBox36 = new System.Windows.Forms.ComboBox();
-            this.textBox26 = new System.Windows.Forms.TextBox();
-            this.comboBox37 = new System.Windows.Forms.ComboBox();
-            this.button7 = new System.Windows.Forms.Button();
-            this.comboBox38 = new System.Windows.Forms.ComboBox();
-            this.comboBox39 = new System.Windows.Forms.ComboBox();
-            this.comboBox40 = new System.Windows.Forms.ComboBox();
-            this.textBox27 = new System.Windows.Forms.TextBox();
-            this.comboBox41 = new System.Windows.Forms.ComboBox();
-            this.button8 = new System.Windows.Forms.Button();
-            this.comboBox42 = new System.Windows.Forms.ComboBox();
-            this.comboBox44 = new System.Windows.Forms.ComboBox();
-            this.textBox28 = new System.Windows.Forms.TextBox();
-            this.comboBox45 = new System.Windows.Forms.ComboBox();
-            this.comboBox46 = new System.Windows.Forms.ComboBox();
+            this.p1_status = new System.Windows.Forms.ComboBox();
+            this.p1_move1 = new System.Windows.Forms.ComboBox();
+            this.p1_m1_power = new System.Windows.Forms.TextBox();
+            this.p1_m1_type = new System.Windows.Forms.ComboBox();
+            this.p1_m1_category = new System.Windows.Forms.ComboBox();
+            this.p1_m1_crit = new System.Windows.Forms.ComboBox();
+            this.p1_m1_Z = new System.Windows.Forms.Button();
+            this.p1_m2_Z = new System.Windows.Forms.Button();
+            this.p1_m2_crit = new System.Windows.Forms.ComboBox();
+            this.p1_m2_category = new System.Windows.Forms.ComboBox();
+            this.p1_m2_type = new System.Windows.Forms.ComboBox();
+            this.p1_m2_power = new System.Windows.Forms.TextBox();
+            this.p1_move2 = new System.Windows.Forms.ComboBox();
+            this.p1_m3_Z = new System.Windows.Forms.Button();
+            this.p1_m3_crit = new System.Windows.Forms.ComboBox();
+            this.p1_m3_category = new System.Windows.Forms.ComboBox();
+            this.p1_m3_type = new System.Windows.Forms.ComboBox();
+            this.p1_m3_power = new System.Windows.Forms.TextBox();
+            this.p1_move3 = new System.Windows.Forms.ComboBox();
+            this.p1_m4_Z = new System.Windows.Forms.Button();
+            this.p1_m4_crit = new System.Windows.Forms.ComboBox();
+            this.p1_m4_category = new System.Windows.Forms.ComboBox();
+            this.p1_m4_type = new System.Windows.Forms.ComboBox();
+            this.p1_m4_power = new System.Windows.Forms.TextBox();
+            this.p1_move4 = new System.Windows.Forms.ComboBox();
+            this.ConsoleLabel = new System.Windows.Forms.Label();
+            this.p2_m4_Z = new System.Windows.Forms.Button();
+            this.p2_m4_crit = new System.Windows.Forms.ComboBox();
+            this.p2_m4_category = new System.Windows.Forms.ComboBox();
+            this.p2_m4_type = new System.Windows.Forms.ComboBox();
+            this.p2_m4_power = new System.Windows.Forms.TextBox();
+            this.p2_move4 = new System.Windows.Forms.ComboBox();
+            this.p2_m3_Z = new System.Windows.Forms.Button();
+            this.p2_m3_crit = new System.Windows.Forms.ComboBox();
+            this.p2_m3_category = new System.Windows.Forms.ComboBox();
+            this.p2_m3_type = new System.Windows.Forms.ComboBox();
+            this.p2_m3_power = new System.Windows.Forms.TextBox();
+            this.p2_move3 = new System.Windows.Forms.ComboBox();
+            this.p2_m2_Z = new System.Windows.Forms.Button();
+            this.p2_m2_crit = new System.Windows.Forms.ComboBox();
+            this.p2_m2_category = new System.Windows.Forms.ComboBox();
+            this.p2_m2_type = new System.Windows.Forms.ComboBox();
+            this.p2_m2_power = new System.Windows.Forms.TextBox();
+            this.p2_move2 = new System.Windows.Forms.ComboBox();
+            this.p2_m1_Z = new System.Windows.Forms.Button();
+            this.p2_m1_crit = new System.Windows.Forms.ComboBox();
+            this.p2_m1_type = new System.Windows.Forms.ComboBox();
+            this.p2_m1_power = new System.Windows.Forms.TextBox();
+            this.p2_move1 = new System.Windows.Forms.ComboBox();
+            this.p2_status = new System.Windows.Forms.ComboBox();
             this.label19 = new System.Windows.Forms.Label();
-            this.textBox29 = new System.Windows.Forms.TextBox();
+            this.p2_curhp = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
-            this.comboBox47 = new System.Windows.Forms.ComboBox();
+            this.p2_item = new System.Windows.Forms.ComboBox();
             this.label21 = new System.Windows.Forms.Label();
-            this.comboBox48 = new System.Windows.Forms.ComboBox();
+            this.p2_ability = new System.Windows.Forms.ComboBox();
             this.label22 = new System.Windows.Forms.Label();
-            this.comboBox49 = new System.Windows.Forms.ComboBox();
+            this.p2_nature = new System.Windows.Forms.ComboBox();
             this.label23 = new System.Windows.Forms.Label();
-            this.comboBox50 = new System.Windows.Forms.ComboBox();
-            this.comboBox51 = new System.Windows.Forms.ComboBox();
-            this.comboBox52 = new System.Windows.Forms.ComboBox();
-            this.comboBox53 = new System.Windows.Forms.ComboBox();
+            this.p2_stage_spd = new System.Windows.Forms.ComboBox();
+            this.p2_stage_spdef = new System.Windows.Forms.ComboBox();
+            this.p2_stage_spatk = new System.Windows.Forms.ComboBox();
+            this.p2_stage_def = new System.Windows.Forms.ComboBox();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
-            this.textBox30 = new System.Windows.Forms.TextBox();
-            this.textBox31 = new System.Windows.Forms.TextBox();
-            this.textBox32 = new System.Windows.Forms.TextBox();
-            this.textBox33 = new System.Windows.Forms.TextBox();
-            this.textBox34 = new System.Windows.Forms.TextBox();
-            this.textBox35 = new System.Windows.Forms.TextBox();
-            this.textBox36 = new System.Windows.Forms.TextBox();
-            this.textBox37 = new System.Windows.Forms.TextBox();
-            this.textBox38 = new System.Windows.Forms.TextBox();
-            this.textBox39 = new System.Windows.Forms.TextBox();
-            this.textBox40 = new System.Windows.Forms.TextBox();
-            this.textBox41 = new System.Windows.Forms.TextBox();
-            this.textBox42 = new System.Windows.Forms.TextBox();
-            this.textBox43 = new System.Windows.Forms.TextBox();
-            this.textBox44 = new System.Windows.Forms.TextBox();
+            this.p2_ev_spd = new System.Windows.Forms.TextBox();
+            this.p2_iv_spd = new System.Windows.Forms.TextBox();
+            this.p2_base_spd = new System.Windows.Forms.TextBox();
+            this.p2_ev_spdef = new System.Windows.Forms.TextBox();
+            this.p2_iv_spdef = new System.Windows.Forms.TextBox();
+            this.p2_base_spdef = new System.Windows.Forms.TextBox();
+            this.p2_ev_spatk = new System.Windows.Forms.TextBox();
+            this.p2_iv_spatk = new System.Windows.Forms.TextBox();
+            this.p2_base_spatk = new System.Windows.Forms.TextBox();
+            this.p2_ev_def = new System.Windows.Forms.TextBox();
+            this.p2_iv_def = new System.Windows.Forms.TextBox();
+            this.p2_base_def = new System.Windows.Forms.TextBox();
+            this.p2_ev_atk = new System.Windows.Forms.TextBox();
+            this.p2_iv_atk = new System.Windows.Forms.TextBox();
+            this.p2_base_atk = new System.Windows.Forms.TextBox();
             this.label30 = new System.Windows.Forms.Label();
-            this.textBox45 = new System.Windows.Forms.TextBox();
-            this.textBox46 = new System.Windows.Forms.TextBox();
+            this.p2_ev_hp = new System.Windows.Forms.TextBox();
+            this.p2_iv_hp = new System.Windows.Forms.TextBox();
             this.label31 = new System.Windows.Forms.Label();
-            this.textBox47 = new System.Windows.Forms.TextBox();
+            this.p2_base_hp = new System.Windows.Forms.TextBox();
             this.label32 = new System.Windows.Forms.Label();
-            this.textBox48 = new System.Windows.Forms.TextBox();
-            this.comboBox54 = new System.Windows.Forms.ComboBox();
+            this.p2_level = new System.Windows.Forms.TextBox();
+            this.p2_stage_atk = new System.Windows.Forms.ComboBox();
             this.label33 = new System.Windows.Forms.Label();
-            this.comboBox55 = new System.Windows.Forms.ComboBox();
+            this.p2_forme = new System.Windows.Forms.ComboBox();
             this.label34 = new System.Windows.Forms.Label();
-            this.comboBox56 = new System.Windows.Forms.ComboBox();
-            this.comboBox57 = new System.Windows.Forms.ComboBox();
+            this.p2_type2 = new System.Windows.Forms.ComboBox();
+            this.p2_type1 = new System.Windows.Forms.ComboBox();
             this.label35 = new System.Windows.Forms.Label();
-            this.comboBox58 = new System.Windows.Forms.ComboBox();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
-            this.textBox49 = new System.Windows.Forms.TextBox();
-            this.textBox50 = new System.Windows.Forms.TextBox();
-            this.textBox51 = new System.Windows.Forms.TextBox();
-            this.textBox52 = new System.Windows.Forms.TextBox();
+            this.pokemon2 = new System.Windows.Forms.ComboBox();
+            this.p1_panel_hp = new System.Windows.Forms.Label();
+            this.p1_panel_atk = new System.Windows.Forms.Label();
+            this.p1_panel_def = new System.Windows.Forms.Label();
+            this.p1_panel_spatk = new System.Windows.Forms.Label();
+            this.p1_panel_spdef = new System.Windows.Forms.Label();
+            this.p1_panel_spd = new System.Windows.Forms.Label();
+            this.p2_panel_spd = new System.Windows.Forms.Label();
+            this.p2_panel_spdef = new System.Windows.Forms.Label();
+            this.p2_panel_spatk = new System.Windows.Forms.Label();
+            this.p2_panel_def = new System.Windows.Forms.Label();
+            this.p2_panel_atk = new System.Windows.Forms.Label();
+            this.p2_panel_hp = new System.Windows.Forms.Label();
+            this.p1_m1_acc = new System.Windows.Forms.TextBox();
+            this.p1_m2_acc = new System.Windows.Forms.TextBox();
+            this.p1_m3_acc = new System.Windows.Forms.TextBox();
+            this.p1_m4_acc = new System.Windows.Forms.TextBox();
             this.label48 = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
             this.label50 = new System.Windows.Forms.Label();
@@ -200,63 +200,100 @@
             this.label53 = new System.Windows.Forms.Label();
             this.label54 = new System.Windows.Forms.Label();
             this.label55 = new System.Windows.Forms.Label();
-            this.textBox53 = new System.Windows.Forms.TextBox();
-            this.textBox54 = new System.Windows.Forms.TextBox();
-            this.textBox55 = new System.Windows.Forms.TextBox();
-            this.textBox56 = new System.Windows.Forms.TextBox();
+            this.p2_m4_acc = new System.Windows.Forms.TextBox();
+            this.p2_m3_acc = new System.Windows.Forms.TextBox();
+            this.p2_m2_acc = new System.Windows.Forms.TextBox();
+            this.p2_m1_acc = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label57 = new System.Windows.Forms.Label();
-            this.comboBox59 = new System.Windows.Forms.ComboBox();
-            this.comboBox60 = new System.Windows.Forms.ComboBox();
-            this.label58 = new System.Windows.Forms.Label();
-            this.comboBox61 = new System.Windows.Forms.ComboBox();
-            this.label59 = new System.Windows.Forms.Label();
-            this.comboBox62 = new System.Windows.Forms.ComboBox();
-            this.label60 = new System.Windows.Forms.Label();
-            this.label61 = new System.Windows.Forms.Label();
-            this.label62 = new System.Windows.Forms.Label();
+            this.p1_hp_percent = new System.Windows.Forms.TextBox();
             this.label56 = new System.Windows.Forms.Label();
-            this.textBox57 = new System.Windows.Forms.TextBox();
-            this.textBox58 = new System.Windows.Forms.TextBox();
+            this.p1_totalhp = new System.Windows.Forms.Label();
+            this.p1_stage_acc = new System.Windows.Forms.ComboBox();
+            this.label58 = new System.Windows.Forms.Label();
+            this.p1_stage_eva = new System.Windows.Forms.ComboBox();
+            this.label57 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.p2_hp_percent = new System.Windows.Forms.TextBox();
             this.label63 = new System.Windows.Forms.Label();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
+            this.p2_totalhp = new System.Windows.Forms.Label();
+            this.p2_stage_acc = new System.Windows.Forms.ComboBox();
+            this.label59 = new System.Windows.Forms.Label();
+            this.label60 = new System.Windows.Forms.Label();
+            this.p2_stage_eva = new System.Windows.Forms.ComboBox();
+            this.btn_single = new System.Windows.Forms.Button();
+            this.btn_double = new System.Windows.Forms.Button();
+            this.terrain_electric = new System.Windows.Forms.Button();
+            this.terrain_grassy = new System.Windows.Forms.Button();
+            this.terrain_misty = new System.Windows.Forms.Button();
+            this.terrain_psychic = new System.Windows.Forms.Button();
+            this.weather_none = new System.Windows.Forms.Button();
+            this.weather_sun = new System.Windows.Forms.Button();
+            this.weather_rain = new System.Windows.Forms.Button();
+            this.weather_sand = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
-            this.button26 = new System.Windows.Forms.Button();
+            this.label65 = new System.Windows.Forms.Label();
+            this.aurora_veil_2 = new System.Windows.Forms.Button();
+            this.friend_guard_2 = new System.Windows.Forms.Button();
+            this.helping_hand_2 = new System.Windows.Forms.Button();
+            this.foresight_2 = new System.Windows.Forms.Button();
+            this.leech_seed_2 = new System.Windows.Forms.Button();
+            this.spikes_2 = new System.Windows.Forms.ComboBox();
+            this.protect_2 = new System.Windows.Forms.Button();
+            this.light_screen_2 = new System.Windows.Forms.Button();
+            this.reflect_2 = new System.Windows.Forms.Button();
+            this.stealth_rock_2 = new System.Windows.Forms.Button();
+            this.label64 = new System.Windows.Forms.Label();
+            this.aurora_veil_1 = new System.Windows.Forms.Button();
+            this.friend_guard_1 = new System.Windows.Forms.Button();
+            this.helping_hand_1 = new System.Windows.Forms.Button();
+            this.foresight_1 = new System.Windows.Forms.Button();
+            this.leech_seed_1 = new System.Windows.Forms.Button();
+            this.spikes_1 = new System.Windows.Forms.ComboBox();
+            this.protect_1 = new System.Windows.Forms.Button();
+            this.light_screen_1 = new System.Windows.Forms.Button();
+            this.reflect_1 = new System.Windows.Forms.Button();
+            this.stealth_rock_1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.comboBox43 = new System.Windows.Forms.ComboBox();
-            this.comboBox63 = new System.Windows.Forms.ComboBox();
+            this.weather_strongwind = new System.Windows.Forms.Button();
+            this.weather_heavyrain = new System.Windows.Forms.Button();
+            this.btn_gravity = new System.Windows.Forms.Button();
+            this.weather_hail = new System.Windows.Forms.Button();
+            this.weather_harshsun = new System.Windows.Forms.Button();
+            this.p2_m1_category = new System.Windows.Forms.ComboBox();
+            this.btn_p1_m4 = new System.Windows.Forms.Button();
+            this.btn_p1_m3 = new System.Windows.Forms.Button();
+            this.btn_p1_m2 = new System.Windows.Forms.Button();
+            this.btn_p1_m1 = new System.Windows.Forms.Button();
+            this.btn_p2_m4 = new System.Windows.Forms.Button();
+            this.btn_p2_m3 = new System.Windows.Forms.Button();
+            this.btn_p2_m2 = new System.Windows.Forms.Button();
+            this.btn_p2_m1 = new System.Windows.Forms.Button();
+            this.p1_m1_damage = new System.Windows.Forms.Label();
+            this.p1_m2_damage = new System.Windows.Forms.Label();
+            this.p1_m3_damage = new System.Windows.Forms.Label();
+            this.p1_m4_damage = new System.Windows.Forms.Label();
+            this.p2_m4_damage = new System.Windows.Forms.Label();
+            this.p2_m3_damage = new System.Windows.Forms.Label();
+            this.p2_m2_damage = new System.Windows.Forms.Label();
+            this.p2_m1_damage = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // comboBox1
+            // pokemon1
             // 
-            this.comboBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(44, 157);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(340, 20);
-            this.comboBox1.TabIndex = 0;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.pokemon1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.pokemon1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.pokemon1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.pokemon1.FormattingEnabled = true;
+            this.pokemon1.Location = new System.Drawing.Point(44, 157);
+            this.pokemon1.Name = "pokemon1";
+            this.pokemon1.Size = new System.Drawing.Size(340, 20);
+            this.pokemon1.TabIndex = 0;
+            this.pokemon1.Text = "（选择精灵1）";
+            this.pokemon1.SelectedIndexChanged += new System.EventHandler(this.pokemon1_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -267,25 +304,65 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "属性";
             // 
-            // comboBox2
+            // p1_type1
             // 
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(65, 195);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(82, 20);
-            this.comboBox2.TabIndex = 2;
-            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            this.p1_type1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p1_type1.FormattingEnabled = true;
+            this.p1_type1.Items.AddRange(new object[] {
+            "(无)",
+            "一般",
+            "格斗",
+            "飞行",
+            "毒",
+            "地面",
+            "岩石",
+            "虫",
+            "幽灵",
+            "钢",
+            "火",
+            "水",
+            "草",
+            "电",
+            "超能力",
+            "冰",
+            "龙",
+            "恶",
+            "妖精"});
+            this.p1_type1.Location = new System.Drawing.Point(65, 195);
+            this.p1_type1.Name = "p1_type1";
+            this.p1_type1.Size = new System.Drawing.Size(82, 20);
+            this.p1_type1.TabIndex = 2;
+            this.p1_type1.SelectedIndexChanged += new System.EventHandler(this.p1_type1_SelectedIndexChanged);
             // 
-            // comboBox3
+            // p1_type2
             // 
-            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(153, 195);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(82, 20);
-            this.comboBox3.TabIndex = 3;
-            this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
+            this.p1_type2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p1_type2.FormattingEnabled = true;
+            this.p1_type2.Items.AddRange(new object[] {
+            "(无)",
+            "一般",
+            "格斗",
+            "飞行",
+            "毒",
+            "地面",
+            "岩石",
+            "虫",
+            "幽灵",
+            "钢",
+            "火",
+            "水",
+            "草",
+            "电",
+            "超能力",
+            "冰",
+            "龙",
+            "恶",
+            "妖精"});
+            this.p1_type2.Location = new System.Drawing.Point(153, 195);
+            this.p1_type2.Name = "p1_type2";
+            this.p1_type2.Size = new System.Drawing.Size(82, 20);
+            this.p1_type2.TabIndex = 3;
+            this.p1_type2.SelectedIndexChanged += new System.EventHandler(this.p1_type2_SelectedIndexChanged);
             // 
             // label2
             // 
@@ -296,39 +373,58 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "形态";
             // 
-            // comboBox4
+            // p1_forme
             // 
-            this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox4.Enabled = false;
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(280, 195);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(82, 20);
-            this.comboBox4.TabIndex = 5;
+            this.p1_forme.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p1_forme.Enabled = false;
+            this.p1_forme.FormattingEnabled = true;
+            this.p1_forme.Location = new System.Drawing.Point(280, 195);
+            this.p1_forme.Name = "p1_forme";
+            this.p1_forme.Size = new System.Drawing.Size(82, 20);
+            this.p1_forme.TabIndex = 5;
+            this.p1_forme.SelectedIndexChanged += new System.EventHandler(this.p1_forme_SelectedIndexChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(30, 247);
+            this.label3.Location = new System.Drawing.Point(30, 250);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(29, 12);
             this.label3.TabIndex = 6;
             this.label3.Text = "等级";
             // 
-            // comboBox5
+            // p1_stage_atk
             // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(272, 326);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(44, 20);
-            this.comboBox5.TabIndex = 7;
+            this.p1_stage_atk.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p1_stage_atk.FormattingEnabled = true;
+            this.p1_stage_atk.Items.AddRange(new object[] {
+            "+6",
+            "+5",
+            "+4",
+            "+3",
+            "+2",
+            "+1",
+            "0",
+            "-1",
+            "-2",
+            "-3",
+            "-4",
+            "-5",
+            "-6"});
+            this.p1_stage_atk.Location = new System.Drawing.Point(272, 326);
+            this.p1_stage_atk.Name = "p1_stage_atk";
+            this.p1_stage_atk.Size = new System.Drawing.Size(44, 20);
+            this.p1_stage_atk.TabIndex = 7;
+            this.p1_stage_atk.SelectedIndexChanged += new System.EventHandler(this.p1_stage_atk_SelectedIndexChanged);
             // 
-            // textBox1
+            // p1_level
             // 
-            this.textBox1.Location = new System.Drawing.Point(65, 247);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(50, 21);
-            this.textBox1.TabIndex = 8;
+            this.p1_level.Location = new System.Drawing.Point(65, 247);
+            this.p1_level.Name = "p1_level";
+            this.p1_level.Size = new System.Drawing.Size(50, 21);
+            this.p1_level.TabIndex = 8;
+            this.p1_level.Text = "100";
+            this.p1_level.TextChanged += new System.EventHandler(this.p1_level_TextChanged);
             // 
             // label4
             // 
@@ -339,13 +435,14 @@
             this.label4.TabIndex = 9;
             this.label4.Text = "种族值";
             // 
-            // textBox2
+            // p1_base_hp
             // 
-            this.textBox2.Location = new System.Drawing.Point(65, 298);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(50, 21);
-            this.textBox2.TabIndex = 10;
-            this.textBox2.Text = "0";
+            this.p1_base_hp.Location = new System.Drawing.Point(65, 298);
+            this.p1_base_hp.Name = "p1_base_hp";
+            this.p1_base_hp.Size = new System.Drawing.Size(50, 21);
+            this.p1_base_hp.TabIndex = 10;
+            this.p1_base_hp.Text = "0";
+            this.p1_base_hp.TextChanged += new System.EventHandler(this.p1_base_hp_TextChanged);
             // 
             // label5
             // 
@@ -356,21 +453,23 @@
             this.label5.TabIndex = 11;
             this.label5.Text = "个体值";
             // 
-            // textBox3
+            // p1_iv_hp
             // 
-            this.textBox3.Location = new System.Drawing.Point(121, 298);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(50, 21);
-            this.textBox3.TabIndex = 12;
-            this.textBox3.Text = "31";
+            this.p1_iv_hp.Location = new System.Drawing.Point(121, 298);
+            this.p1_iv_hp.Name = "p1_iv_hp";
+            this.p1_iv_hp.Size = new System.Drawing.Size(50, 21);
+            this.p1_iv_hp.TabIndex = 12;
+            this.p1_iv_hp.Text = "31";
+            this.p1_iv_hp.TextChanged += new System.EventHandler(this.p1_iv_hp_TextChanged);
             // 
-            // textBox4
+            // p1_ev_hp
             // 
-            this.textBox4.Location = new System.Drawing.Point(179, 298);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(50, 21);
-            this.textBox4.TabIndex = 13;
-            this.textBox4.Text = "0";
+            this.p1_ev_hp.Location = new System.Drawing.Point(179, 298);
+            this.p1_ev_hp.Name = "p1_ev_hp";
+            this.p1_ev_hp.Size = new System.Drawing.Size(50, 21);
+            this.p1_ev_hp.TabIndex = 13;
+            this.p1_ev_hp.Text = "0";
+            this.p1_ev_hp.TextChanged += new System.EventHandler(this.p1_ev_hp_TextChanged);
             // 
             // label6
             // 
@@ -381,125 +480,140 @@
             this.label6.TabIndex = 14;
             this.label6.Text = "努力值";
             // 
-            // textBox5
+            // p1_ev_atk
             // 
-            this.textBox5.Location = new System.Drawing.Point(179, 325);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(50, 21);
-            this.textBox5.TabIndex = 17;
-            this.textBox5.Text = "0";
+            this.p1_ev_atk.Location = new System.Drawing.Point(179, 325);
+            this.p1_ev_atk.Name = "p1_ev_atk";
+            this.p1_ev_atk.Size = new System.Drawing.Size(50, 21);
+            this.p1_ev_atk.TabIndex = 17;
+            this.p1_ev_atk.Text = "0";
+            this.p1_ev_atk.TextChanged += new System.EventHandler(this.p1_ev_atk_TextChanged);
             // 
-            // textBox6
+            // p1_iv_atk
             // 
-            this.textBox6.Location = new System.Drawing.Point(121, 325);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(50, 21);
-            this.textBox6.TabIndex = 16;
-            this.textBox6.Text = "31";
+            this.p1_iv_atk.Location = new System.Drawing.Point(121, 325);
+            this.p1_iv_atk.Name = "p1_iv_atk";
+            this.p1_iv_atk.Size = new System.Drawing.Size(50, 21);
+            this.p1_iv_atk.TabIndex = 16;
+            this.p1_iv_atk.Text = "31";
+            this.p1_iv_atk.TextChanged += new System.EventHandler(this.p1_iv_atk_TextChanged);
             // 
-            // textBox7
+            // p1_base_atk
             // 
-            this.textBox7.Location = new System.Drawing.Point(65, 325);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(50, 21);
-            this.textBox7.TabIndex = 15;
-            this.textBox7.Text = "0";
+            this.p1_base_atk.Location = new System.Drawing.Point(65, 325);
+            this.p1_base_atk.Name = "p1_base_atk";
+            this.p1_base_atk.Size = new System.Drawing.Size(50, 21);
+            this.p1_base_atk.TabIndex = 15;
+            this.p1_base_atk.Text = "0";
+            this.p1_base_atk.TextChanged += new System.EventHandler(this.p1_base_atk_TextChanged);
             // 
-            // textBox8
+            // p1_ev_def
             // 
-            this.textBox8.Location = new System.Drawing.Point(179, 352);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(50, 21);
-            this.textBox8.TabIndex = 20;
-            this.textBox8.Text = "0";
+            this.p1_ev_def.Location = new System.Drawing.Point(179, 352);
+            this.p1_ev_def.Name = "p1_ev_def";
+            this.p1_ev_def.Size = new System.Drawing.Size(50, 21);
+            this.p1_ev_def.TabIndex = 20;
+            this.p1_ev_def.Text = "0";
+            this.p1_ev_def.TextChanged += new System.EventHandler(this.p1_ev_def_TextChanged);
             // 
-            // textBox9
+            // p1_iv_def
             // 
-            this.textBox9.Location = new System.Drawing.Point(121, 352);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(50, 21);
-            this.textBox9.TabIndex = 19;
-            this.textBox9.Text = "31";
+            this.p1_iv_def.Location = new System.Drawing.Point(121, 352);
+            this.p1_iv_def.Name = "p1_iv_def";
+            this.p1_iv_def.Size = new System.Drawing.Size(50, 21);
+            this.p1_iv_def.TabIndex = 19;
+            this.p1_iv_def.Text = "31";
+            this.p1_iv_def.TextChanged += new System.EventHandler(this.p1_iv_def_TextChanged);
             // 
-            // textBox10
+            // p1_base_def
             // 
-            this.textBox10.Location = new System.Drawing.Point(65, 352);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(50, 21);
-            this.textBox10.TabIndex = 18;
-            this.textBox10.Text = "0";
+            this.p1_base_def.Location = new System.Drawing.Point(65, 352);
+            this.p1_base_def.Name = "p1_base_def";
+            this.p1_base_def.Size = new System.Drawing.Size(50, 21);
+            this.p1_base_def.TabIndex = 18;
+            this.p1_base_def.Text = "0";
+            this.p1_base_def.TextChanged += new System.EventHandler(this.p1_base_def_TextChanged);
             // 
-            // textBox11
+            // p1_ev_spatk
             // 
-            this.textBox11.Location = new System.Drawing.Point(179, 379);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(50, 21);
-            this.textBox11.TabIndex = 23;
-            this.textBox11.Text = "0";
+            this.p1_ev_spatk.Location = new System.Drawing.Point(179, 379);
+            this.p1_ev_spatk.Name = "p1_ev_spatk";
+            this.p1_ev_spatk.Size = new System.Drawing.Size(50, 21);
+            this.p1_ev_spatk.TabIndex = 23;
+            this.p1_ev_spatk.Text = "0";
+            this.p1_ev_spatk.TextChanged += new System.EventHandler(this.p1_ev_spatk_TextChanged);
             // 
-            // textBox12
+            // p1_iv_spatk
             // 
-            this.textBox12.Location = new System.Drawing.Point(121, 379);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(50, 21);
-            this.textBox12.TabIndex = 22;
-            this.textBox12.Text = "31";
+            this.p1_iv_spatk.Location = new System.Drawing.Point(121, 379);
+            this.p1_iv_spatk.Name = "p1_iv_spatk";
+            this.p1_iv_spatk.Size = new System.Drawing.Size(50, 21);
+            this.p1_iv_spatk.TabIndex = 22;
+            this.p1_iv_spatk.Text = "31";
+            this.p1_iv_spatk.TextChanged += new System.EventHandler(this.p1_iv_spatk_TextChanged);
             // 
-            // textBox13
+            // p1_base_spatk
             // 
-            this.textBox13.Location = new System.Drawing.Point(65, 379);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(50, 21);
-            this.textBox13.TabIndex = 21;
-            this.textBox13.Text = "0";
+            this.p1_base_spatk.Location = new System.Drawing.Point(65, 379);
+            this.p1_base_spatk.Name = "p1_base_spatk";
+            this.p1_base_spatk.Size = new System.Drawing.Size(50, 21);
+            this.p1_base_spatk.TabIndex = 21;
+            this.p1_base_spatk.Text = "0";
+            this.p1_base_spatk.TextChanged += new System.EventHandler(this.p1_base_spatk_TextChanged);
             // 
-            // textBox14
+            // p1_ev_spdef
             // 
-            this.textBox14.Location = new System.Drawing.Point(179, 406);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(50, 21);
-            this.textBox14.TabIndex = 26;
-            this.textBox14.Text = "0";
+            this.p1_ev_spdef.Location = new System.Drawing.Point(179, 406);
+            this.p1_ev_spdef.Name = "p1_ev_spdef";
+            this.p1_ev_spdef.Size = new System.Drawing.Size(50, 21);
+            this.p1_ev_spdef.TabIndex = 26;
+            this.p1_ev_spdef.Text = "0";
+            this.p1_ev_spdef.TextChanged += new System.EventHandler(this.p1_ev_spdef_TextChanged);
             // 
-            // textBox15
+            // p1_iv_spdef
             // 
-            this.textBox15.Location = new System.Drawing.Point(121, 406);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(50, 21);
-            this.textBox15.TabIndex = 25;
-            this.textBox15.Text = "31";
+            this.p1_iv_spdef.Location = new System.Drawing.Point(121, 406);
+            this.p1_iv_spdef.Name = "p1_iv_spdef";
+            this.p1_iv_spdef.Size = new System.Drawing.Size(50, 21);
+            this.p1_iv_spdef.TabIndex = 25;
+            this.p1_iv_spdef.Text = "31";
+            this.p1_iv_spdef.TextChanged += new System.EventHandler(this.p1_iv_spdef_TextChanged);
             // 
-            // textBox16
+            // p1_base_spdef
             // 
-            this.textBox16.Location = new System.Drawing.Point(65, 406);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(50, 21);
-            this.textBox16.TabIndex = 24;
-            this.textBox16.Text = "0";
+            this.p1_base_spdef.Location = new System.Drawing.Point(65, 406);
+            this.p1_base_spdef.Name = "p1_base_spdef";
+            this.p1_base_spdef.Size = new System.Drawing.Size(50, 21);
+            this.p1_base_spdef.TabIndex = 24;
+            this.p1_base_spdef.Text = "0";
+            this.p1_base_spdef.TextChanged += new System.EventHandler(this.p1_base_spdef_TextChanged);
             // 
-            // textBox17
+            // p1_ev_spd
             // 
-            this.textBox17.Location = new System.Drawing.Point(179, 433);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(50, 21);
-            this.textBox17.TabIndex = 29;
-            this.textBox17.Text = "0";
+            this.p1_ev_spd.Location = new System.Drawing.Point(179, 433);
+            this.p1_ev_spd.Name = "p1_ev_spd";
+            this.p1_ev_spd.Size = new System.Drawing.Size(50, 21);
+            this.p1_ev_spd.TabIndex = 29;
+            this.p1_ev_spd.Text = "0";
+            this.p1_ev_spd.TextChanged += new System.EventHandler(this.p1_ev_spd_TextChanged);
             // 
-            // textBox18
+            // p1_iv_spd
             // 
-            this.textBox18.Location = new System.Drawing.Point(121, 433);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(50, 21);
-            this.textBox18.TabIndex = 28;
-            this.textBox18.Text = "31";
+            this.p1_iv_spd.Location = new System.Drawing.Point(121, 433);
+            this.p1_iv_spd.Name = "p1_iv_spd";
+            this.p1_iv_spd.Size = new System.Drawing.Size(50, 21);
+            this.p1_iv_spd.TabIndex = 28;
+            this.p1_iv_spd.Text = "31";
+            this.p1_iv_spd.TextChanged += new System.EventHandler(this.p1_iv_spd_TextChanged);
             // 
-            // textBox19
+            // p1_base_spd
             // 
-            this.textBox19.Location = new System.Drawing.Point(65, 433);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(50, 21);
-            this.textBox19.TabIndex = 27;
-            this.textBox19.Text = "0";
+            this.p1_base_spd.Location = new System.Drawing.Point(65, 433);
+            this.p1_base_spd.Name = "p1_base_spd";
+            this.p1_base_spd.Size = new System.Drawing.Size(50, 21);
+            this.p1_base_spd.TabIndex = 27;
+            this.p1_base_spd.Text = "0";
+            this.p1_base_spd.TextChanged += new System.EventHandler(this.p1_base_spd_TextChanged);
             // 
             // label7
             // 
@@ -555,64 +669,156 @@
             this.label12.TabIndex = 35;
             this.label12.Text = "速度";
             // 
-            // comboBox6
+            // p1_stage_def
             // 
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(272, 353);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(44, 20);
-            this.comboBox6.TabIndex = 36;
+            this.p1_stage_def.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p1_stage_def.FormattingEnabled = true;
+            this.p1_stage_def.Items.AddRange(new object[] {
+            "+6",
+            "+5",
+            "+4",
+            "+3",
+            "+2",
+            "+1",
+            "0",
+            "-1",
+            "-2",
+            "-3",
+            "-4",
+            "-5",
+            "-6"});
+            this.p1_stage_def.Location = new System.Drawing.Point(272, 353);
+            this.p1_stage_def.Name = "p1_stage_def";
+            this.p1_stage_def.Size = new System.Drawing.Size(44, 20);
+            this.p1_stage_def.TabIndex = 36;
+            this.p1_stage_def.SelectedIndexChanged += new System.EventHandler(this.p1_stage_def_SelectedIndexChanged);
             // 
-            // comboBox7
+            // p1_stage_spdef
             // 
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Location = new System.Drawing.Point(272, 407);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(44, 20);
-            this.comboBox7.TabIndex = 38;
+            this.p1_stage_spdef.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p1_stage_spdef.FormattingEnabled = true;
+            this.p1_stage_spdef.Items.AddRange(new object[] {
+            "+6",
+            "+5",
+            "+4",
+            "+3",
+            "+2",
+            "+1",
+            "0",
+            "-1",
+            "-2",
+            "-3",
+            "-4",
+            "-5",
+            "-6"});
+            this.p1_stage_spdef.Location = new System.Drawing.Point(272, 407);
+            this.p1_stage_spdef.Name = "p1_stage_spdef";
+            this.p1_stage_spdef.Size = new System.Drawing.Size(44, 20);
+            this.p1_stage_spdef.TabIndex = 38;
+            this.p1_stage_spdef.SelectedIndexChanged += new System.EventHandler(this.p1_stage_spdef_SelectedIndexChanged);
             // 
-            // comboBox8
+            // p1_stage_spatk
             // 
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Location = new System.Drawing.Point(272, 380);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(44, 20);
-            this.comboBox8.TabIndex = 37;
+            this.p1_stage_spatk.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p1_stage_spatk.FormattingEnabled = true;
+            this.p1_stage_spatk.Items.AddRange(new object[] {
+            "+6",
+            "+5",
+            "+4",
+            "+3",
+            "+2",
+            "+1",
+            "0",
+            "-1",
+            "-2",
+            "-3",
+            "-4",
+            "-5",
+            "-6"});
+            this.p1_stage_spatk.Location = new System.Drawing.Point(272, 380);
+            this.p1_stage_spatk.Name = "p1_stage_spatk";
+            this.p1_stage_spatk.Size = new System.Drawing.Size(44, 20);
+            this.p1_stage_spatk.TabIndex = 37;
+            this.p1_stage_spatk.SelectedIndexChanged += new System.EventHandler(this.p1_stage_spatk_SelectedIndexChanged);
             // 
-            // comboBox9
+            // p1_stage_spd
             // 
-            this.comboBox9.FormattingEnabled = true;
-            this.comboBox9.Location = new System.Drawing.Point(272, 434);
-            this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(44, 20);
-            this.comboBox9.TabIndex = 39;
+            this.p1_stage_spd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p1_stage_spd.FormattingEnabled = true;
+            this.p1_stage_spd.Items.AddRange(new object[] {
+            "+6",
+            "+5",
+            "+4",
+            "+3",
+            "+2",
+            "+1",
+            "0",
+            "-1",
+            "-2",
+            "-3",
+            "-4",
+            "-5",
+            "-6"});
+            this.p1_stage_spd.Location = new System.Drawing.Point(272, 434);
+            this.p1_stage_spd.Name = "p1_stage_spd";
+            this.p1_stage_spd.Size = new System.Drawing.Size(44, 20);
+            this.p1_stage_spd.TabIndex = 39;
+            this.p1_stage_spd.SelectedIndexChanged += new System.EventHandler(this.p1_stage_spd_SelectedIndexChanged);
             // 
-            // comboBox10
+            // p1_nature
             // 
-            this.comboBox10.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox10.FormattingEnabled = true;
-            this.comboBox10.Location = new System.Drawing.Point(65, 221);
-            this.comboBox10.Name = "comboBox10";
-            this.comboBox10.Size = new System.Drawing.Size(170, 20);
-            this.comboBox10.TabIndex = 41;
-            this.comboBox10.SelectedIndexChanged += new System.EventHandler(this.comboBox10_SelectedIndexChanged);
+            this.p1_nature.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p1_nature.FormattingEnabled = true;
+            this.p1_nature.Items.AddRange(new object[] {
+            "勤奋",
+            "怕寂寞(Atk+,Def-)",
+            "勇敢(Atk+,Spd-)",
+            "固执(Atk+,S.Atk-)",
+            "顽皮(Atk+,S.Def-)",
+            "大胆(Def+,Atk-)",
+            "坦率",
+            "悠闲(Def+,Spd-)",
+            "淘气(Def+,S.Atk-)",
+            "乐天(Def+,S.Def-)",
+            "胆小(Spd+,Atk-)",
+            "急躁(Spd+,Def-)",
+            "认真",
+            "爽朗(Spd+,S.Atk-)",
+            "天真(Spd+,S.Def-)",
+            "内敛(S.Atk+,Atk-)",
+            "慢吞吞(S.Atk+,Def-)",
+            "冷静(S.Atk+,Spd-)",
+            "害羞",
+            "马虎(S.Atk+,S.Def-)",
+            "温和(S.Def+,Atk-)",
+            "温顺(S.Def+,Def-)",
+            "自大(S.Def+,Spd-)",
+            "慎重(S.Def+,S.Atk-)",
+            "浮躁"});
+            this.p1_nature.Location = new System.Drawing.Point(65, 221);
+            this.p1_nature.Name = "p1_nature";
+            this.p1_nature.Size = new System.Drawing.Size(170, 20);
+            this.p1_nature.TabIndex = 41;
+            this.p1_nature.SelectedIndexChanged += new System.EventHandler(this.p1_nature_SelectedIndexChanged);
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(30, 224);
+            this.label13.Location = new System.Drawing.Point(30, 225);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(29, 12);
             this.label13.TabIndex = 40;
             this.label13.Text = "性格";
             // 
-            // comboBox11
+            // p1_ability
             // 
-            this.comboBox11.FormattingEnabled = true;
-            this.comboBox11.Location = new System.Drawing.Point(280, 221);
-            this.comboBox11.Name = "comboBox11";
-            this.comboBox11.Size = new System.Drawing.Size(82, 20);
-            this.comboBox11.TabIndex = 43;
+            this.p1_ability.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p1_ability.FormattingEnabled = true;
+            this.p1_ability.Location = new System.Drawing.Point(280, 221);
+            this.p1_ability.Name = "p1_ability";
+            this.p1_ability.Size = new System.Drawing.Size(82, 20);
+            this.p1_ability.TabIndex = 43;
+            this.p1_ability.SelectedIndexChanged += new System.EventHandler(this.p1_ability_SelectedIndexChanged);
             // 
             // label14
             // 
@@ -623,13 +829,16 @@
             this.label14.TabIndex = 42;
             this.label14.Text = "特性";
             // 
-            // comboBox12
+            // p1_item
             // 
-            this.comboBox12.FormattingEnabled = true;
-            this.comboBox12.Location = new System.Drawing.Point(280, 247);
-            this.comboBox12.Name = "comboBox12";
-            this.comboBox12.Size = new System.Drawing.Size(82, 20);
-            this.comboBox12.TabIndex = 45;
+            this.p1_item.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.p1_item.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.p1_item.FormattingEnabled = true;
+            this.p1_item.Location = new System.Drawing.Point(280, 247);
+            this.p1_item.Name = "p1_item";
+            this.p1_item.Size = new System.Drawing.Size(82, 20);
+            this.p1_item.TabIndex = 45;
+            this.p1_item.SelectedIndexChanged += new System.EventHandler(this.p1_item_SelectedIndexChanged);
             // 
             // label15
             // 
@@ -649,12 +858,13 @@
             this.label16.TabIndex = 46;
             this.label16.Text = "现有血量";
             // 
-            // textBox20
+            // p1_curhp
             // 
-            this.textBox20.Location = new System.Drawing.Point(89, 466);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(40, 21);
-            this.textBox20.TabIndex = 47;
+            this.p1_curhp.Location = new System.Drawing.Point(89, 466);
+            this.p1_curhp.Name = "p1_curhp";
+            this.p1_curhp.Size = new System.Drawing.Size(40, 21);
+            this.p1_curhp.TabIndex = 47;
+            this.p1_curhp.TextChanged += new System.EventHandler(this.p1_curhp_TextChanged);
             // 
             // label17
             // 
@@ -665,469 +875,747 @@
             this.label17.TabIndex = 48;
             this.label17.Text = "状态";
             // 
-            // comboBox13
+            // p1_status
             // 
-            this.comboBox13.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox13.FormattingEnabled = true;
-            this.comboBox13.Location = new System.Drawing.Point(280, 274);
-            this.comboBox13.Name = "comboBox13";
-            this.comboBox13.Size = new System.Drawing.Size(82, 20);
-            this.comboBox13.TabIndex = 49;
+            this.p1_status.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p1_status.FormattingEnabled = true;
+            this.p1_status.Items.AddRange(new object[] {
+            "无",
+            "中毒",
+            "剧毒",
+            "灼伤",
+            "麻痹",
+            "睡眠",
+            "冰冻"});
+            this.p1_status.Location = new System.Drawing.Point(280, 274);
+            this.p1_status.Name = "p1_status";
+            this.p1_status.Size = new System.Drawing.Size(82, 20);
+            this.p1_status.TabIndex = 49;
             // 
-            // comboBox14
+            // p1_move1
             // 
-            this.comboBox14.FormattingEnabled = true;
-            this.comboBox14.Location = new System.Drawing.Point(32, 507);
-            this.comboBox14.Name = "comboBox14";
-            this.comboBox14.Size = new System.Drawing.Size(82, 20);
-            this.comboBox14.TabIndex = 50;
+            this.p1_move1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.p1_move1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.p1_move1.FormattingEnabled = true;
+            this.p1_move1.Location = new System.Drawing.Point(32, 507);
+            this.p1_move1.Name = "p1_move1";
+            this.p1_move1.Size = new System.Drawing.Size(82, 20);
+            this.p1_move1.TabIndex = 50;
+            this.p1_move1.Text = "(选择技能)";
+            this.p1_move1.SelectedIndexChanged += new System.EventHandler(this.p1_move1_SelectedIndexChanged);
             // 
-            // textBox21
+            // p1_m1_power
             // 
-            this.textBox21.Location = new System.Drawing.Point(122, 507);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(39, 21);
-            this.textBox21.TabIndex = 51;
+            this.p1_m1_power.Location = new System.Drawing.Point(122, 507);
+            this.p1_m1_power.Name = "p1_m1_power";
+            this.p1_m1_power.Size = new System.Drawing.Size(29, 21);
+            this.p1_m1_power.TabIndex = 51;
+            this.p1_m1_power.Text = "0";
+            this.p1_m1_power.TextChanged += new System.EventHandler(this.p1_m1_power_TextChanged);
             // 
-            // comboBox15
+            // p1_m1_type
             // 
-            this.comboBox15.FormattingEnabled = true;
-            this.comboBox15.Location = new System.Drawing.Point(167, 508);
-            this.comboBox15.Name = "comboBox15";
-            this.comboBox15.Size = new System.Drawing.Size(52, 20);
-            this.comboBox15.TabIndex = 52;
+            this.p1_m1_type.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p1_m1_type.FormattingEnabled = true;
+            this.p1_m1_type.Items.AddRange(new object[] {
+            "(无)",
+            "一般",
+            "格斗",
+            "飞行",
+            "毒",
+            "地面",
+            "岩石",
+            "虫",
+            "幽灵",
+            "钢",
+            "火",
+            "水",
+            "草",
+            "电",
+            "超能力",
+            "冰",
+            "龙",
+            "恶",
+            "妖精"});
+            this.p1_m1_type.Location = new System.Drawing.Point(157, 508);
+            this.p1_m1_type.Name = "p1_m1_type";
+            this.p1_m1_type.Size = new System.Drawing.Size(62, 20);
+            this.p1_m1_type.TabIndex = 52;
+            this.p1_m1_type.SelectedIndexChanged += new System.EventHandler(this.p1_m1_type_SelectedIndexChanged);
             // 
-            // comboBox16
+            // p1_m1_category
             // 
-            this.comboBox16.FormattingEnabled = true;
-            this.comboBox16.Items.AddRange(new object[] {
+            this.p1_m1_category.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p1_m1_category.FormattingEnabled = true;
+            this.p1_m1_category.Items.AddRange(new object[] {
             "物理",
             "特殊"});
-            this.comboBox16.Location = new System.Drawing.Point(225, 507);
-            this.comboBox16.Name = "comboBox16";
-            this.comboBox16.Size = new System.Drawing.Size(49, 20);
-            this.comboBox16.TabIndex = 53;
+            this.p1_m1_category.Location = new System.Drawing.Point(225, 507);
+            this.p1_m1_category.Name = "p1_m1_category";
+            this.p1_m1_category.Size = new System.Drawing.Size(49, 20);
+            this.p1_m1_category.TabIndex = 53;
+            this.p1_m1_category.SelectedIndexChanged += new System.EventHandler(this.p1_m1_category_SelectedIndexChanged);
             // 
-            // comboBox17
+            // p1_m1_crit
             // 
-            this.comboBox17.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox17.FormattingEnabled = true;
-            this.comboBox17.Items.AddRange(new object[] {
+            this.p1_m1_crit.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p1_m1_crit.FormattingEnabled = true;
+            this.p1_m1_crit.Items.AddRange(new object[] {
             "未会心",
             "会心",
             "期望"});
-            this.comboBox17.Location = new System.Drawing.Point(327, 508);
-            this.comboBox17.Name = "comboBox17";
-            this.comboBox17.Size = new System.Drawing.Size(58, 20);
-            this.comboBox17.TabIndex = 54;
+            this.p1_m1_crit.Location = new System.Drawing.Point(327, 508);
+            this.p1_m1_crit.Name = "p1_m1_crit";
+            this.p1_m1_crit.Size = new System.Drawing.Size(58, 20);
+            this.p1_m1_crit.TabIndex = 54;
+            this.p1_m1_crit.SelectedIndexChanged += new System.EventHandler(this.p1_m1_crit_SelectedIndexChanged);
             // 
-            // button1
+            // p1_m1_Z
             // 
-            this.button1.Location = new System.Drawing.Point(391, 507);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(22, 23);
-            this.button1.TabIndex = 55;
-            this.button1.Text = "Z";
-            this.button1.UseVisualStyleBackColor = true;
+            this.p1_m1_Z.Location = new System.Drawing.Point(391, 507);
+            this.p1_m1_Z.Name = "p1_m1_Z";
+            this.p1_m1_Z.Size = new System.Drawing.Size(22, 23);
+            this.p1_m1_Z.TabIndex = 55;
+            this.p1_m1_Z.Text = "Z";
+            this.p1_m1_Z.UseVisualStyleBackColor = true;
+            this.p1_m1_Z.FontChanged += new System.EventHandler(this.hightLight);
+            this.p1_m1_Z.Click += new System.EventHandler(this.p1_m1_Z_Click);
             // 
-            // button2
+            // p1_m2_Z
             // 
-            this.button2.Location = new System.Drawing.Point(391, 534);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(22, 23);
-            this.button2.TabIndex = 61;
-            this.button2.Text = "Z";
-            this.button2.UseVisualStyleBackColor = true;
+            this.p1_m2_Z.Location = new System.Drawing.Point(391, 534);
+            this.p1_m2_Z.Name = "p1_m2_Z";
+            this.p1_m2_Z.Size = new System.Drawing.Size(22, 23);
+            this.p1_m2_Z.TabIndex = 61;
+            this.p1_m2_Z.Text = "Z";
+            this.p1_m2_Z.UseVisualStyleBackColor = true;
+            this.p1_m2_Z.FontChanged += new System.EventHandler(this.hightLight);
+            this.p1_m2_Z.Click += new System.EventHandler(this.p1_m2_Z_Click);
             // 
-            // comboBox18
+            // p1_m2_crit
             // 
-            this.comboBox18.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox18.FormattingEnabled = true;
-            this.comboBox18.Items.AddRange(new object[] {
+            this.p1_m2_crit.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p1_m2_crit.FormattingEnabled = true;
+            this.p1_m2_crit.Items.AddRange(new object[] {
             "未会心",
             "会心",
             "期望"});
-            this.comboBox18.Location = new System.Drawing.Point(327, 535);
-            this.comboBox18.Name = "comboBox18";
-            this.comboBox18.Size = new System.Drawing.Size(58, 20);
-            this.comboBox18.TabIndex = 60;
+            this.p1_m2_crit.Location = new System.Drawing.Point(327, 535);
+            this.p1_m2_crit.Name = "p1_m2_crit";
+            this.p1_m2_crit.Size = new System.Drawing.Size(58, 20);
+            this.p1_m2_crit.TabIndex = 60;
+            this.p1_m2_crit.SelectedIndexChanged += new System.EventHandler(this.p1_m2_crit_SelectedIndexChanged);
             // 
-            // comboBox19
+            // p1_m2_category
             // 
-            this.comboBox19.FormattingEnabled = true;
-            this.comboBox19.Items.AddRange(new object[] {
+            this.p1_m2_category.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p1_m2_category.FormattingEnabled = true;
+            this.p1_m2_category.Items.AddRange(new object[] {
             "物理",
             "特殊"});
-            this.comboBox19.Location = new System.Drawing.Point(225, 534);
-            this.comboBox19.Name = "comboBox19";
-            this.comboBox19.Size = new System.Drawing.Size(49, 20);
-            this.comboBox19.TabIndex = 59;
+            this.p1_m2_category.Location = new System.Drawing.Point(225, 534);
+            this.p1_m2_category.Name = "p1_m2_category";
+            this.p1_m2_category.Size = new System.Drawing.Size(49, 20);
+            this.p1_m2_category.TabIndex = 59;
+            this.p1_m2_category.SelectedIndexChanged += new System.EventHandler(this.p1_m2_category_SelectedIndexChanged);
             // 
-            // comboBox20
+            // p1_m2_type
             // 
-            this.comboBox20.FormattingEnabled = true;
-            this.comboBox20.Location = new System.Drawing.Point(167, 535);
-            this.comboBox20.Name = "comboBox20";
-            this.comboBox20.Size = new System.Drawing.Size(52, 20);
-            this.comboBox20.TabIndex = 58;
+            this.p1_m2_type.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p1_m2_type.FormattingEnabled = true;
+            this.p1_m2_type.Items.AddRange(new object[] {
+            "(无)",
+            "一般",
+            "格斗",
+            "飞行",
+            "毒",
+            "地面",
+            "岩石",
+            "虫",
+            "幽灵",
+            "钢",
+            "火",
+            "水",
+            "草",
+            "电",
+            "超能力",
+            "冰",
+            "龙",
+            "恶",
+            "妖精"});
+            this.p1_m2_type.Location = new System.Drawing.Point(157, 535);
+            this.p1_m2_type.Name = "p1_m2_type";
+            this.p1_m2_type.Size = new System.Drawing.Size(62, 20);
+            this.p1_m2_type.TabIndex = 58;
+            this.p1_m2_type.SelectedIndexChanged += new System.EventHandler(this.p1_m2_type_SelectedIndexChanged);
             // 
-            // textBox22
+            // p1_m2_power
             // 
-            this.textBox22.Location = new System.Drawing.Point(122, 534);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(39, 21);
-            this.textBox22.TabIndex = 57;
+            this.p1_m2_power.Location = new System.Drawing.Point(122, 534);
+            this.p1_m2_power.Name = "p1_m2_power";
+            this.p1_m2_power.Size = new System.Drawing.Size(29, 21);
+            this.p1_m2_power.TabIndex = 57;
+            this.p1_m2_power.Text = "0";
+            this.p1_m2_power.TextChanged += new System.EventHandler(this.p1_m2_power_TextChanged);
             // 
-            // comboBox21
+            // p1_move2
             // 
-            this.comboBox21.FormattingEnabled = true;
-            this.comboBox21.Location = new System.Drawing.Point(32, 534);
-            this.comboBox21.Name = "comboBox21";
-            this.comboBox21.Size = new System.Drawing.Size(82, 20);
-            this.comboBox21.TabIndex = 56;
+            this.p1_move2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.p1_move2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.p1_move2.FormattingEnabled = true;
+            this.p1_move2.Location = new System.Drawing.Point(32, 534);
+            this.p1_move2.Name = "p1_move2";
+            this.p1_move2.Size = new System.Drawing.Size(82, 20);
+            this.p1_move2.TabIndex = 56;
+            this.p1_move2.Text = "(选择技能)";
+            this.p1_move2.SelectedIndexChanged += new System.EventHandler(this.p1_move2_SelectedIndexChanged);
             // 
-            // button3
+            // p1_m3_Z
             // 
-            this.button3.Location = new System.Drawing.Point(391, 560);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(22, 23);
-            this.button3.TabIndex = 67;
-            this.button3.Text = "Z";
-            this.button3.UseVisualStyleBackColor = true;
+            this.p1_m3_Z.Location = new System.Drawing.Point(391, 560);
+            this.p1_m3_Z.Name = "p1_m3_Z";
+            this.p1_m3_Z.Size = new System.Drawing.Size(22, 23);
+            this.p1_m3_Z.TabIndex = 67;
+            this.p1_m3_Z.Text = "Z";
+            this.p1_m3_Z.UseVisualStyleBackColor = true;
+            this.p1_m3_Z.FontChanged += new System.EventHandler(this.hightLight);
+            this.p1_m3_Z.Click += new System.EventHandler(this.p1_m3_Z_Click);
             // 
-            // comboBox22
+            // p1_m3_crit
             // 
-            this.comboBox22.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox22.FormattingEnabled = true;
-            this.comboBox22.Items.AddRange(new object[] {
+            this.p1_m3_crit.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p1_m3_crit.FormattingEnabled = true;
+            this.p1_m3_crit.Items.AddRange(new object[] {
             "未会心",
             "会心",
             "期望"});
-            this.comboBox22.Location = new System.Drawing.Point(327, 561);
-            this.comboBox22.Name = "comboBox22";
-            this.comboBox22.Size = new System.Drawing.Size(58, 20);
-            this.comboBox22.TabIndex = 66;
+            this.p1_m3_crit.Location = new System.Drawing.Point(327, 561);
+            this.p1_m3_crit.Name = "p1_m3_crit";
+            this.p1_m3_crit.Size = new System.Drawing.Size(58, 20);
+            this.p1_m3_crit.TabIndex = 66;
+            this.p1_m3_crit.SelectedIndexChanged += new System.EventHandler(this.p1_m3_crit_SelectedIndexChanged);
             // 
-            // comboBox23
+            // p1_m3_category
             // 
-            this.comboBox23.FormattingEnabled = true;
-            this.comboBox23.Items.AddRange(new object[] {
+            this.p1_m3_category.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p1_m3_category.FormattingEnabled = true;
+            this.p1_m3_category.Items.AddRange(new object[] {
             "物理",
             "特殊"});
-            this.comboBox23.Location = new System.Drawing.Point(225, 560);
-            this.comboBox23.Name = "comboBox23";
-            this.comboBox23.Size = new System.Drawing.Size(49, 20);
-            this.comboBox23.TabIndex = 65;
+            this.p1_m3_category.Location = new System.Drawing.Point(225, 560);
+            this.p1_m3_category.Name = "p1_m3_category";
+            this.p1_m3_category.Size = new System.Drawing.Size(49, 20);
+            this.p1_m3_category.TabIndex = 65;
+            this.p1_m3_category.SelectedIndexChanged += new System.EventHandler(this.p1_m3_category_SelectedIndexChanged);
             // 
-            // comboBox24
+            // p1_m3_type
             // 
-            this.comboBox24.FormattingEnabled = true;
-            this.comboBox24.Location = new System.Drawing.Point(167, 561);
-            this.comboBox24.Name = "comboBox24";
-            this.comboBox24.Size = new System.Drawing.Size(52, 20);
-            this.comboBox24.TabIndex = 64;
+            this.p1_m3_type.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p1_m3_type.FormattingEnabled = true;
+            this.p1_m3_type.Items.AddRange(new object[] {
+            "(无)",
+            "一般",
+            "格斗",
+            "飞行",
+            "毒",
+            "地面",
+            "岩石",
+            "虫",
+            "幽灵",
+            "钢",
+            "火",
+            "水",
+            "草",
+            "电",
+            "超能力",
+            "冰",
+            "龙",
+            "恶",
+            "妖精"});
+            this.p1_m3_type.Location = new System.Drawing.Point(157, 561);
+            this.p1_m3_type.Name = "p1_m3_type";
+            this.p1_m3_type.Size = new System.Drawing.Size(62, 20);
+            this.p1_m3_type.TabIndex = 64;
+            this.p1_m3_type.SelectedIndexChanged += new System.EventHandler(this.p1_m3_type_SelectedIndexChanged);
             // 
-            // textBox23
+            // p1_m3_power
             // 
-            this.textBox23.Location = new System.Drawing.Point(122, 560);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(39, 21);
-            this.textBox23.TabIndex = 63;
+            this.p1_m3_power.Location = new System.Drawing.Point(122, 560);
+            this.p1_m3_power.Name = "p1_m3_power";
+            this.p1_m3_power.Size = new System.Drawing.Size(29, 21);
+            this.p1_m3_power.TabIndex = 63;
+            this.p1_m3_power.Text = "0";
+            this.p1_m3_power.TextChanged += new System.EventHandler(this.p1_m3_power_TextChanged);
             // 
-            // comboBox25
+            // p1_move3
             // 
-            this.comboBox25.FormattingEnabled = true;
-            this.comboBox25.Location = new System.Drawing.Point(32, 560);
-            this.comboBox25.Name = "comboBox25";
-            this.comboBox25.Size = new System.Drawing.Size(82, 20);
-            this.comboBox25.TabIndex = 62;
+            this.p1_move3.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.p1_move3.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.p1_move3.FormattingEnabled = true;
+            this.p1_move3.Location = new System.Drawing.Point(32, 560);
+            this.p1_move3.Name = "p1_move3";
+            this.p1_move3.Size = new System.Drawing.Size(82, 20);
+            this.p1_move3.TabIndex = 62;
+            this.p1_move3.Text = "(选择技能)";
+            this.p1_move3.SelectedIndexChanged += new System.EventHandler(this.p1_move3_SelectedIndexChanged);
             // 
-            // button4
+            // p1_m4_Z
             // 
-            this.button4.Location = new System.Drawing.Point(391, 586);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(22, 23);
-            this.button4.TabIndex = 73;
-            this.button4.Text = "Z";
-            this.button4.UseVisualStyleBackColor = true;
+            this.p1_m4_Z.Location = new System.Drawing.Point(391, 586);
+            this.p1_m4_Z.Name = "p1_m4_Z";
+            this.p1_m4_Z.Size = new System.Drawing.Size(22, 23);
+            this.p1_m4_Z.TabIndex = 73;
+            this.p1_m4_Z.Text = "Z";
+            this.p1_m4_Z.UseVisualStyleBackColor = true;
+            this.p1_m4_Z.FontChanged += new System.EventHandler(this.hightLight);
+            this.p1_m4_Z.Click += new System.EventHandler(this.p1_m4_Z_Click);
             // 
-            // comboBox26
+            // p1_m4_crit
             // 
-            this.comboBox26.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox26.FormattingEnabled = true;
-            this.comboBox26.Items.AddRange(new object[] {
+            this.p1_m4_crit.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p1_m4_crit.FormattingEnabled = true;
+            this.p1_m4_crit.Items.AddRange(new object[] {
             "未会心",
             "会心",
             "期望"});
-            this.comboBox26.Location = new System.Drawing.Point(327, 587);
-            this.comboBox26.Name = "comboBox26";
-            this.comboBox26.Size = new System.Drawing.Size(58, 20);
-            this.comboBox26.TabIndex = 72;
+            this.p1_m4_crit.Location = new System.Drawing.Point(327, 587);
+            this.p1_m4_crit.Name = "p1_m4_crit";
+            this.p1_m4_crit.Size = new System.Drawing.Size(58, 20);
+            this.p1_m4_crit.TabIndex = 72;
+            this.p1_m4_crit.SelectedIndexChanged += new System.EventHandler(this.p1_m4_crit_SelectedIndexChanged);
             // 
-            // comboBox27
+            // p1_m4_category
             // 
-            this.comboBox27.FormattingEnabled = true;
-            this.comboBox27.Items.AddRange(new object[] {
+            this.p1_m4_category.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p1_m4_category.FormattingEnabled = true;
+            this.p1_m4_category.Items.AddRange(new object[] {
             "物理",
             "特殊"});
-            this.comboBox27.Location = new System.Drawing.Point(225, 586);
-            this.comboBox27.Name = "comboBox27";
-            this.comboBox27.Size = new System.Drawing.Size(49, 20);
-            this.comboBox27.TabIndex = 71;
+            this.p1_m4_category.Location = new System.Drawing.Point(225, 586);
+            this.p1_m4_category.Name = "p1_m4_category";
+            this.p1_m4_category.Size = new System.Drawing.Size(49, 20);
+            this.p1_m4_category.TabIndex = 71;
+            this.p1_m4_category.SelectedIndexChanged += new System.EventHandler(this.p1_m4_category_SelectedIndexChanged);
             // 
-            // comboBox28
+            // p1_m4_type
             // 
-            this.comboBox28.FormattingEnabled = true;
-            this.comboBox28.Location = new System.Drawing.Point(167, 587);
-            this.comboBox28.Name = "comboBox28";
-            this.comboBox28.Size = new System.Drawing.Size(52, 20);
-            this.comboBox28.TabIndex = 70;
+            this.p1_m4_type.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p1_m4_type.FormattingEnabled = true;
+            this.p1_m4_type.Items.AddRange(new object[] {
+            "(无)",
+            "一般",
+            "格斗",
+            "飞行",
+            "毒",
+            "地面",
+            "岩石",
+            "虫",
+            "幽灵",
+            "钢",
+            "火",
+            "水",
+            "草",
+            "电",
+            "超能力",
+            "冰",
+            "龙",
+            "恶",
+            "妖精"});
+            this.p1_m4_type.Location = new System.Drawing.Point(157, 587);
+            this.p1_m4_type.Name = "p1_m4_type";
+            this.p1_m4_type.Size = new System.Drawing.Size(62, 20);
+            this.p1_m4_type.TabIndex = 70;
+            this.p1_m4_type.SelectedIndexChanged += new System.EventHandler(this.p1_m4_type_SelectedIndexChanged);
             // 
-            // textBox24
+            // p1_m4_power
             // 
-            this.textBox24.Location = new System.Drawing.Point(122, 586);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(39, 21);
-            this.textBox24.TabIndex = 69;
+            this.p1_m4_power.Location = new System.Drawing.Point(122, 586);
+            this.p1_m4_power.Name = "p1_m4_power";
+            this.p1_m4_power.Size = new System.Drawing.Size(29, 21);
+            this.p1_m4_power.TabIndex = 69;
+            this.p1_m4_power.Text = "0";
+            this.p1_m4_power.TextChanged += new System.EventHandler(this.p1_m4_power_TextChanged);
             // 
-            // comboBox29
+            // p1_move4
             // 
-            this.comboBox29.FormattingEnabled = true;
-            this.comboBox29.Location = new System.Drawing.Point(32, 586);
-            this.comboBox29.Name = "comboBox29";
-            this.comboBox29.Size = new System.Drawing.Size(82, 20);
-            this.comboBox29.TabIndex = 68;
+            this.p1_move4.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.p1_move4.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.p1_move4.FormattingEnabled = true;
+            this.p1_move4.Location = new System.Drawing.Point(32, 586);
+            this.p1_move4.Name = "p1_move4";
+            this.p1_move4.Size = new System.Drawing.Size(82, 20);
+            this.p1_move4.TabIndex = 68;
+            this.p1_move4.Text = "(选择技能)";
+            this.p1_move4.SelectedIndexChanged += new System.EventHandler(this.p1_move4_SelectedIndexChanged);
             // 
-            // label18
+            // ConsoleLabel
             // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(48, 31);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(41, 12);
-            this.label18.TabIndex = 74;
-            this.label18.Text = "DAMAGE";
+            this.ConsoleLabel.AutoSize = true;
+            this.ConsoleLabel.Location = new System.Drawing.Point(559, 92);
+            this.ConsoleLabel.Name = "ConsoleLabel";
+            this.ConsoleLabel.Size = new System.Drawing.Size(41, 12);
+            this.ConsoleLabel.TabIndex = 74;
+            this.ConsoleLabel.Text = "DAMAGE";
             // 
-            // button5
+            // p2_m4_Z
             // 
-            this.button5.Location = new System.Drawing.Point(1106, 586);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(22, 23);
-            this.button5.TabIndex = 148;
-            this.button5.Text = "Z";
-            this.button5.UseVisualStyleBackColor = true;
+            this.p2_m4_Z.Location = new System.Drawing.Point(1106, 586);
+            this.p2_m4_Z.Name = "p2_m4_Z";
+            this.p2_m4_Z.Size = new System.Drawing.Size(22, 23);
+            this.p2_m4_Z.TabIndex = 148;
+            this.p2_m4_Z.Text = "Z";
+            this.p2_m4_Z.UseVisualStyleBackColor = true;
+            this.p2_m4_Z.FontChanged += new System.EventHandler(this.hightLight);
+            this.p2_m4_Z.Click += new System.EventHandler(this.p2_m4_Z_Click);
             // 
-            // comboBox30
+            // p2_m4_crit
             // 
-            this.comboBox30.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox30.FormattingEnabled = true;
-            this.comboBox30.Items.AddRange(new object[] {
+            this.p2_m4_crit.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p2_m4_crit.FormattingEnabled = true;
+            this.p2_m4_crit.Items.AddRange(new object[] {
             "未会心",
             "会心",
             "期望"});
-            this.comboBox30.Location = new System.Drawing.Point(1042, 587);
-            this.comboBox30.Name = "comboBox30";
-            this.comboBox30.Size = new System.Drawing.Size(58, 20);
-            this.comboBox30.TabIndex = 147;
+            this.p2_m4_crit.Location = new System.Drawing.Point(1042, 587);
+            this.p2_m4_crit.Name = "p2_m4_crit";
+            this.p2_m4_crit.Size = new System.Drawing.Size(58, 20);
+            this.p2_m4_crit.TabIndex = 147;
+            this.p2_m4_crit.SelectedIndexChanged += new System.EventHandler(this.p2_m4_crit_SelectedIndexChanged);
             // 
-            // comboBox31
+            // p2_m4_category
             // 
-            this.comboBox31.FormattingEnabled = true;
-            this.comboBox31.Items.AddRange(new object[] {
+            this.p2_m4_category.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p2_m4_category.FormattingEnabled = true;
+            this.p2_m4_category.Items.AddRange(new object[] {
             "物理",
             "特殊"});
-            this.comboBox31.Location = new System.Drawing.Point(939, 588);
-            this.comboBox31.Name = "comboBox31";
-            this.comboBox31.Size = new System.Drawing.Size(49, 20);
-            this.comboBox31.TabIndex = 146;
+            this.p2_m4_category.Location = new System.Drawing.Point(939, 588);
+            this.p2_m4_category.Name = "p2_m4_category";
+            this.p2_m4_category.Size = new System.Drawing.Size(49, 20);
+            this.p2_m4_category.TabIndex = 146;
+            this.p2_m4_category.SelectedIndexChanged += new System.EventHandler(this.p2_m4_category_SelectedIndexChanged);
             // 
-            // comboBox32
+            // p2_m4_type
             // 
-            this.comboBox32.FormattingEnabled = true;
-            this.comboBox32.Location = new System.Drawing.Point(881, 588);
-            this.comboBox32.Name = "comboBox32";
-            this.comboBox32.Size = new System.Drawing.Size(52, 20);
-            this.comboBox32.TabIndex = 145;
+            this.p2_m4_type.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p2_m4_type.FormattingEnabled = true;
+            this.p2_m4_type.Items.AddRange(new object[] {
+            "(无)",
+            "一般",
+            "格斗",
+            "飞行",
+            "毒",
+            "地面",
+            "岩石",
+            "虫",
+            "幽灵",
+            "钢",
+            "火",
+            "水",
+            "草",
+            "电",
+            "超能力",
+            "冰",
+            "龙",
+            "恶",
+            "妖精"});
+            this.p2_m4_type.Location = new System.Drawing.Point(872, 588);
+            this.p2_m4_type.Name = "p2_m4_type";
+            this.p2_m4_type.Size = new System.Drawing.Size(61, 20);
+            this.p2_m4_type.TabIndex = 145;
+            this.p2_m4_type.SelectedIndexChanged += new System.EventHandler(this.p2_m4_type_SelectedIndexChanged);
             // 
-            // textBox25
+            // p2_m4_power
             // 
-            this.textBox25.Location = new System.Drawing.Point(836, 587);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(39, 21);
-            this.textBox25.TabIndex = 144;
+            this.p2_m4_power.Location = new System.Drawing.Point(836, 587);
+            this.p2_m4_power.Name = "p2_m4_power";
+            this.p2_m4_power.Size = new System.Drawing.Size(25, 21);
+            this.p2_m4_power.TabIndex = 144;
+            this.p2_m4_power.Text = "0";
+            this.p2_m4_power.TextChanged += new System.EventHandler(this.p2_m4_power_TextChanged);
             // 
-            // comboBox33
+            // p2_move4
             // 
-            this.comboBox33.FormattingEnabled = true;
-            this.comboBox33.Location = new System.Drawing.Point(746, 587);
-            this.comboBox33.Name = "comboBox33";
-            this.comboBox33.Size = new System.Drawing.Size(82, 20);
-            this.comboBox33.TabIndex = 143;
+            this.p2_move4.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.p2_move4.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.p2_move4.FormattingEnabled = true;
+            this.p2_move4.Location = new System.Drawing.Point(746, 587);
+            this.p2_move4.Name = "p2_move4";
+            this.p2_move4.Size = new System.Drawing.Size(82, 20);
+            this.p2_move4.TabIndex = 143;
+            this.p2_move4.Text = "(选择技能)";
+            this.p2_move4.SelectedIndexChanged += new System.EventHandler(this.p2_move4_SelectedIndexChanged);
             // 
-            // button6
+            // p2_m3_Z
             // 
-            this.button6.Location = new System.Drawing.Point(1106, 560);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(22, 23);
-            this.button6.TabIndex = 142;
-            this.button6.Text = "Z";
-            this.button6.UseVisualStyleBackColor = true;
+            this.p2_m3_Z.Location = new System.Drawing.Point(1106, 560);
+            this.p2_m3_Z.Name = "p2_m3_Z";
+            this.p2_m3_Z.Size = new System.Drawing.Size(22, 23);
+            this.p2_m3_Z.TabIndex = 142;
+            this.p2_m3_Z.Text = "Z";
+            this.p2_m3_Z.UseVisualStyleBackColor = true;
+            this.p2_m3_Z.FontChanged += new System.EventHandler(this.hightLight);
+            this.p2_m3_Z.Click += new System.EventHandler(this.p2_m3_Z_Click);
             // 
-            // comboBox34
+            // p2_m3_crit
             // 
-            this.comboBox34.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox34.FormattingEnabled = true;
-            this.comboBox34.Items.AddRange(new object[] {
+            this.p2_m3_crit.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p2_m3_crit.FormattingEnabled = true;
+            this.p2_m3_crit.Items.AddRange(new object[] {
             "未会心",
             "会心",
             "期望"});
-            this.comboBox34.Location = new System.Drawing.Point(1042, 561);
-            this.comboBox34.Name = "comboBox34";
-            this.comboBox34.Size = new System.Drawing.Size(58, 20);
-            this.comboBox34.TabIndex = 141;
+            this.p2_m3_crit.Location = new System.Drawing.Point(1042, 561);
+            this.p2_m3_crit.Name = "p2_m3_crit";
+            this.p2_m3_crit.Size = new System.Drawing.Size(58, 20);
+            this.p2_m3_crit.TabIndex = 141;
+            this.p2_m3_crit.SelectedIndexChanged += new System.EventHandler(this.p2_m3_crit_SelectedIndexChanged);
             // 
-            // comboBox35
+            // p2_m3_category
             // 
-            this.comboBox35.FormattingEnabled = true;
-            this.comboBox35.Items.AddRange(new object[] {
+            this.p2_m3_category.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p2_m3_category.FormattingEnabled = true;
+            this.p2_m3_category.Items.AddRange(new object[] {
             "物理",
             "特殊"});
-            this.comboBox35.Location = new System.Drawing.Point(939, 562);
-            this.comboBox35.Name = "comboBox35";
-            this.comboBox35.Size = new System.Drawing.Size(49, 20);
-            this.comboBox35.TabIndex = 140;
+            this.p2_m3_category.Location = new System.Drawing.Point(939, 562);
+            this.p2_m3_category.Name = "p2_m3_category";
+            this.p2_m3_category.Size = new System.Drawing.Size(49, 20);
+            this.p2_m3_category.TabIndex = 140;
+            this.p2_m3_category.SelectedIndexChanged += new System.EventHandler(this.p2_m3_category_SelectedIndexChanged);
             // 
-            // comboBox36
+            // p2_m3_type
             // 
-            this.comboBox36.FormattingEnabled = true;
-            this.comboBox36.Location = new System.Drawing.Point(881, 562);
-            this.comboBox36.Name = "comboBox36";
-            this.comboBox36.Size = new System.Drawing.Size(52, 20);
-            this.comboBox36.TabIndex = 139;
+            this.p2_m3_type.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p2_m3_type.FormattingEnabled = true;
+            this.p2_m3_type.Items.AddRange(new object[] {
+            "(无)",
+            "一般",
+            "格斗",
+            "飞行",
+            "毒",
+            "地面",
+            "岩石",
+            "虫",
+            "幽灵",
+            "钢",
+            "火",
+            "水",
+            "草",
+            "电",
+            "超能力",
+            "冰",
+            "龙",
+            "恶",
+            "妖精"});
+            this.p2_m3_type.Location = new System.Drawing.Point(872, 562);
+            this.p2_m3_type.Name = "p2_m3_type";
+            this.p2_m3_type.Size = new System.Drawing.Size(61, 20);
+            this.p2_m3_type.TabIndex = 139;
+            this.p2_m3_type.SelectedIndexChanged += new System.EventHandler(this.p2_m3_type_SelectedIndexChanged);
             // 
-            // textBox26
+            // p2_m3_power
             // 
-            this.textBox26.Location = new System.Drawing.Point(836, 561);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(39, 21);
-            this.textBox26.TabIndex = 138;
+            this.p2_m3_power.Location = new System.Drawing.Point(836, 561);
+            this.p2_m3_power.Name = "p2_m3_power";
+            this.p2_m3_power.Size = new System.Drawing.Size(25, 21);
+            this.p2_m3_power.TabIndex = 138;
+            this.p2_m3_power.Text = "0";
+            this.p2_m3_power.TextChanged += new System.EventHandler(this.p2_m3_power_TextChanged);
             // 
-            // comboBox37
+            // p2_move3
             // 
-            this.comboBox37.FormattingEnabled = true;
-            this.comboBox37.Location = new System.Drawing.Point(746, 561);
-            this.comboBox37.Name = "comboBox37";
-            this.comboBox37.Size = new System.Drawing.Size(82, 20);
-            this.comboBox37.TabIndex = 137;
+            this.p2_move3.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.p2_move3.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.p2_move3.FormattingEnabled = true;
+            this.p2_move3.Location = new System.Drawing.Point(746, 561);
+            this.p2_move3.Name = "p2_move3";
+            this.p2_move3.Size = new System.Drawing.Size(82, 20);
+            this.p2_move3.TabIndex = 137;
+            this.p2_move3.Text = "(选择技能)";
+            this.p2_move3.SelectedIndexChanged += new System.EventHandler(this.p2_move3_SelectedIndexChanged);
             // 
-            // button7
+            // p2_m2_Z
             // 
-            this.button7.Location = new System.Drawing.Point(1106, 534);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(22, 23);
-            this.button7.TabIndex = 136;
-            this.button7.Text = "Z";
-            this.button7.UseVisualStyleBackColor = true;
+            this.p2_m2_Z.Location = new System.Drawing.Point(1106, 534);
+            this.p2_m2_Z.Name = "p2_m2_Z";
+            this.p2_m2_Z.Size = new System.Drawing.Size(22, 23);
+            this.p2_m2_Z.TabIndex = 136;
+            this.p2_m2_Z.Text = "Z";
+            this.p2_m2_Z.UseVisualStyleBackColor = true;
+            this.p2_m2_Z.FontChanged += new System.EventHandler(this.hightLight);
+            this.p2_m2_Z.Click += new System.EventHandler(this.p2_m2_Z_Click);
             // 
-            // comboBox38
+            // p2_m2_crit
             // 
-            this.comboBox38.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox38.FormattingEnabled = true;
-            this.comboBox38.Items.AddRange(new object[] {
+            this.p2_m2_crit.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p2_m2_crit.FormattingEnabled = true;
+            this.p2_m2_crit.Items.AddRange(new object[] {
             "未会心",
             "会心",
             "期望"});
-            this.comboBox38.Location = new System.Drawing.Point(1042, 535);
-            this.comboBox38.Name = "comboBox38";
-            this.comboBox38.Size = new System.Drawing.Size(58, 20);
-            this.comboBox38.TabIndex = 135;
+            this.p2_m2_crit.Location = new System.Drawing.Point(1042, 535);
+            this.p2_m2_crit.Name = "p2_m2_crit";
+            this.p2_m2_crit.Size = new System.Drawing.Size(58, 20);
+            this.p2_m2_crit.TabIndex = 135;
+            this.p2_m2_crit.SelectedIndexChanged += new System.EventHandler(this.p2_m2_crit_SelectedIndexChanged);
             // 
-            // comboBox39
+            // p2_m2_category
             // 
-            this.comboBox39.FormattingEnabled = true;
-            this.comboBox39.Items.AddRange(new object[] {
+            this.p2_m2_category.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p2_m2_category.FormattingEnabled = true;
+            this.p2_m2_category.Items.AddRange(new object[] {
             "物理",
             "特殊"});
-            this.comboBox39.Location = new System.Drawing.Point(939, 536);
-            this.comboBox39.Name = "comboBox39";
-            this.comboBox39.Size = new System.Drawing.Size(49, 20);
-            this.comboBox39.TabIndex = 134;
+            this.p2_m2_category.Location = new System.Drawing.Point(939, 536);
+            this.p2_m2_category.Name = "p2_m2_category";
+            this.p2_m2_category.Size = new System.Drawing.Size(49, 20);
+            this.p2_m2_category.TabIndex = 134;
+            this.p2_m2_category.SelectedIndexChanged += new System.EventHandler(this.p2_m2_category_SelectedIndexChanged);
             // 
-            // comboBox40
+            // p2_m2_type
             // 
-            this.comboBox40.FormattingEnabled = true;
-            this.comboBox40.Location = new System.Drawing.Point(881, 536);
-            this.comboBox40.Name = "comboBox40";
-            this.comboBox40.Size = new System.Drawing.Size(52, 20);
-            this.comboBox40.TabIndex = 133;
+            this.p2_m2_type.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p2_m2_type.FormattingEnabled = true;
+            this.p2_m2_type.Items.AddRange(new object[] {
+            "(无)",
+            "一般",
+            "格斗",
+            "飞行",
+            "毒",
+            "地面",
+            "岩石",
+            "虫",
+            "幽灵",
+            "钢",
+            "火",
+            "水",
+            "草",
+            "电",
+            "超能力",
+            "冰",
+            "龙",
+            "恶",
+            "妖精"});
+            this.p2_m2_type.Location = new System.Drawing.Point(872, 536);
+            this.p2_m2_type.Name = "p2_m2_type";
+            this.p2_m2_type.Size = new System.Drawing.Size(61, 20);
+            this.p2_m2_type.TabIndex = 133;
+            this.p2_m2_type.SelectedIndexChanged += new System.EventHandler(this.p2_m2_type_SelectedIndexChanged);
             // 
-            // textBox27
+            // p2_m2_power
             // 
-            this.textBox27.Location = new System.Drawing.Point(836, 535);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(39, 21);
-            this.textBox27.TabIndex = 132;
+            this.p2_m2_power.Location = new System.Drawing.Point(836, 535);
+            this.p2_m2_power.Name = "p2_m2_power";
+            this.p2_m2_power.Size = new System.Drawing.Size(25, 21);
+            this.p2_m2_power.TabIndex = 132;
+            this.p2_m2_power.Text = "0";
+            this.p2_m2_power.TextChanged += new System.EventHandler(this.p2_m2_power_TextChanged);
             // 
-            // comboBox41
+            // p2_move2
             // 
-            this.comboBox41.FormattingEnabled = true;
-            this.comboBox41.Location = new System.Drawing.Point(746, 535);
-            this.comboBox41.Name = "comboBox41";
-            this.comboBox41.Size = new System.Drawing.Size(82, 20);
-            this.comboBox41.TabIndex = 131;
+            this.p2_move2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.p2_move2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.p2_move2.FormattingEnabled = true;
+            this.p2_move2.Location = new System.Drawing.Point(746, 535);
+            this.p2_move2.Name = "p2_move2";
+            this.p2_move2.Size = new System.Drawing.Size(82, 20);
+            this.p2_move2.TabIndex = 131;
+            this.p2_move2.Text = "(选择技能)";
+            this.p2_move2.SelectedIndexChanged += new System.EventHandler(this.p2_move2_SelectedIndexChanged);
             // 
-            // button8
+            // p2_m1_Z
             // 
-            this.button8.Location = new System.Drawing.Point(1106, 507);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(22, 23);
-            this.button8.TabIndex = 130;
-            this.button8.Text = "Z";
-            this.button8.UseVisualStyleBackColor = true;
+            this.p2_m1_Z.Location = new System.Drawing.Point(1106, 507);
+            this.p2_m1_Z.Name = "p2_m1_Z";
+            this.p2_m1_Z.Size = new System.Drawing.Size(22, 23);
+            this.p2_m1_Z.TabIndex = 130;
+            this.p2_m1_Z.Text = "Z";
+            this.p2_m1_Z.UseVisualStyleBackColor = true;
+            this.p2_m1_Z.FontChanged += new System.EventHandler(this.hightLight);
+            this.p2_m1_Z.Click += new System.EventHandler(this.p2_m1_Z_Click);
             // 
-            // comboBox42
+            // p2_m1_crit
             // 
-            this.comboBox42.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox42.FormattingEnabled = true;
-            this.comboBox42.Items.AddRange(new object[] {
+            this.p2_m1_crit.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p2_m1_crit.FormattingEnabled = true;
+            this.p2_m1_crit.Items.AddRange(new object[] {
             "未会心",
             "会心",
             "期望"});
-            this.comboBox42.Location = new System.Drawing.Point(1042, 508);
-            this.comboBox42.Name = "comboBox42";
-            this.comboBox42.Size = new System.Drawing.Size(58, 20);
-            this.comboBox42.TabIndex = 129;
+            this.p2_m1_crit.Location = new System.Drawing.Point(1042, 508);
+            this.p2_m1_crit.Name = "p2_m1_crit";
+            this.p2_m1_crit.Size = new System.Drawing.Size(58, 20);
+            this.p2_m1_crit.TabIndex = 129;
+            this.p2_m1_crit.SelectedIndexChanged += new System.EventHandler(this.p2_m1_crit_SelectedIndexChanged);
             // 
-            // comboBox44
+            // p2_m1_type
             // 
-            this.comboBox44.FormattingEnabled = true;
-            this.comboBox44.Location = new System.Drawing.Point(881, 509);
-            this.comboBox44.Name = "comboBox44";
-            this.comboBox44.Size = new System.Drawing.Size(52, 20);
-            this.comboBox44.TabIndex = 127;
+            this.p2_m1_type.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p2_m1_type.FormattingEnabled = true;
+            this.p2_m1_type.Items.AddRange(new object[] {
+            "(无)",
+            "一般",
+            "格斗",
+            "飞行",
+            "毒",
+            "地面",
+            "岩石",
+            "虫",
+            "幽灵",
+            "钢",
+            "火",
+            "水",
+            "草",
+            "电",
+            "超能力",
+            "冰",
+            "龙",
+            "恶",
+            "妖精"});
+            this.p2_m1_type.Location = new System.Drawing.Point(872, 509);
+            this.p2_m1_type.Name = "p2_m1_type";
+            this.p2_m1_type.Size = new System.Drawing.Size(61, 20);
+            this.p2_m1_type.TabIndex = 127;
+            this.p2_m1_type.SelectedIndexChanged += new System.EventHandler(this.p2_m1_type_SelectedIndexChanged);
             // 
-            // textBox28
+            // p2_m1_power
             // 
-            this.textBox28.Location = new System.Drawing.Point(836, 508);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.Size = new System.Drawing.Size(39, 21);
-            this.textBox28.TabIndex = 126;
+            this.p2_m1_power.Location = new System.Drawing.Point(836, 508);
+            this.p2_m1_power.Name = "p2_m1_power";
+            this.p2_m1_power.Size = new System.Drawing.Size(25, 21);
+            this.p2_m1_power.TabIndex = 126;
+            this.p2_m1_power.Text = "0";
+            this.p2_m1_power.TextChanged += new System.EventHandler(this.p2_m1_power_TextChanged);
             // 
-            // comboBox45
+            // p2_move1
             // 
-            this.comboBox45.FormattingEnabled = true;
-            this.comboBox45.Location = new System.Drawing.Point(746, 508);
-            this.comboBox45.Name = "comboBox45";
-            this.comboBox45.Size = new System.Drawing.Size(82, 20);
-            this.comboBox45.TabIndex = 125;
+            this.p2_move1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.p2_move1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.p2_move1.FormattingEnabled = true;
+            this.p2_move1.Location = new System.Drawing.Point(746, 508);
+            this.p2_move1.Name = "p2_move1";
+            this.p2_move1.Size = new System.Drawing.Size(82, 20);
+            this.p2_move1.TabIndex = 125;
+            this.p2_move1.Text = "(选择技能)";
+            this.p2_move1.SelectedIndexChanged += new System.EventHandler(this.p2_move1_SelectedIndexChanged);
             // 
-            // comboBox46
+            // p2_status
             // 
-            this.comboBox46.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox46.FormattingEnabled = true;
-            this.comboBox46.Location = new System.Drawing.Point(1004, 274);
-            this.comboBox46.Name = "comboBox46";
-            this.comboBox46.Size = new System.Drawing.Size(82, 20);
-            this.comboBox46.TabIndex = 124;
+            this.p2_status.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p2_status.FormattingEnabled = true;
+            this.p2_status.Items.AddRange(new object[] {
+            "无",
+            "中毒",
+            "剧毒",
+            "灼伤",
+            "麻痹",
+            "睡眠",
+            "冰冻"});
+            this.p2_status.Location = new System.Drawing.Point(1004, 274);
+            this.p2_status.Name = "p2_status";
+            this.p2_status.Size = new System.Drawing.Size(82, 20);
+            this.p2_status.TabIndex = 124;
             // 
             // label19
             // 
@@ -1138,12 +1626,13 @@
             this.label19.TabIndex = 123;
             this.label19.Text = "状态";
             // 
-            // textBox29
+            // p2_curhp
             // 
-            this.textBox29.Location = new System.Drawing.Point(804, 466);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.Size = new System.Drawing.Size(40, 21);
-            this.textBox29.TabIndex = 122;
+            this.p2_curhp.Location = new System.Drawing.Point(804, 466);
+            this.p2_curhp.Name = "p2_curhp";
+            this.p2_curhp.Size = new System.Drawing.Size(40, 21);
+            this.p2_curhp.TabIndex = 122;
+            this.p2_curhp.TextChanged += new System.EventHandler(this.p2_curhp_TextChanged);
             // 
             // label20
             // 
@@ -1154,13 +1643,16 @@
             this.label20.TabIndex = 121;
             this.label20.Text = "现有血量";
             // 
-            // comboBox47
+            // p2_item
             // 
-            this.comboBox47.FormattingEnabled = true;
-            this.comboBox47.Location = new System.Drawing.Point(1004, 247);
-            this.comboBox47.Name = "comboBox47";
-            this.comboBox47.Size = new System.Drawing.Size(82, 20);
-            this.comboBox47.TabIndex = 120;
+            this.p2_item.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.p2_item.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.p2_item.FormattingEnabled = true;
+            this.p2_item.Location = new System.Drawing.Point(1004, 247);
+            this.p2_item.Name = "p2_item";
+            this.p2_item.Size = new System.Drawing.Size(82, 20);
+            this.p2_item.TabIndex = 120;
+            this.p2_item.SelectedIndexChanged += new System.EventHandler(this.p2_item_SelectedIndexChanged);
             // 
             // label21
             // 
@@ -1171,13 +1663,15 @@
             this.label21.TabIndex = 119;
             this.label21.Text = "物品";
             // 
-            // comboBox48
+            // p2_ability
             // 
-            this.comboBox48.FormattingEnabled = true;
-            this.comboBox48.Location = new System.Drawing.Point(1004, 221);
-            this.comboBox48.Name = "comboBox48";
-            this.comboBox48.Size = new System.Drawing.Size(82, 20);
-            this.comboBox48.TabIndex = 118;
+            this.p2_ability.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p2_ability.FormattingEnabled = true;
+            this.p2_ability.Location = new System.Drawing.Point(1004, 221);
+            this.p2_ability.Name = "p2_ability";
+            this.p2_ability.Size = new System.Drawing.Size(82, 20);
+            this.p2_ability.TabIndex = 118;
+            this.p2_ability.SelectedIndexChanged += new System.EventHandler(this.p2_ability_SelectedIndexChanged);
             // 
             // label22
             // 
@@ -1188,56 +1682,146 @@
             this.label22.TabIndex = 117;
             this.label22.Text = "特性";
             // 
-            // comboBox49
+            // p2_nature
             // 
-            this.comboBox49.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox49.FormattingEnabled = true;
-            this.comboBox49.Location = new System.Drawing.Point(779, 221);
-            this.comboBox49.Name = "comboBox49";
-            this.comboBox49.Size = new System.Drawing.Size(170, 20);
-            this.comboBox49.TabIndex = 116;
-            this.comboBox49.SelectedIndexChanged += new System.EventHandler(this.comboBox49_SelectedIndexChanged);
+            this.p2_nature.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p2_nature.FormattingEnabled = true;
+            this.p2_nature.Items.AddRange(new object[] {
+            "勤奋",
+            "怕寂寞(Atk+,Def-)",
+            "勇敢(Atk+,Spd-)",
+            "固执(Atk+,S.Atk-)",
+            "顽皮(Atk+,S.Def-)",
+            "大胆(Def+,Atk-)",
+            "坦率",
+            "悠闲(Def+,Spd-)",
+            "淘气(Def+,S.Atk-)",
+            "乐天(Def+,S.Def-)",
+            "胆小(Spd+,Atk-)",
+            "急躁(Spd+,Def-)",
+            "认真",
+            "爽朗(Spd+,S.Atk-)",
+            "天真(Spd+,S.Def-)",
+            "内敛(S.Atk+,Atk-)",
+            "慢吞吞(S.Atk+,Def-)",
+            "冷静(S.Atk+,Spd-)",
+            "害羞",
+            "马虎(S.Atk+,S.Def-)",
+            "温和(S.Def+,Atk-)",
+            "温顺(S.Def+,Def-)",
+            "自大(S.Def+,Spd-)",
+            "慎重(S.Def+,S.Atk-)",
+            "浮躁"});
+            this.p2_nature.Location = new System.Drawing.Point(779, 221);
+            this.p2_nature.Name = "p2_nature";
+            this.p2_nature.Size = new System.Drawing.Size(170, 20);
+            this.p2_nature.TabIndex = 116;
+            this.p2_nature.SelectedIndexChanged += new System.EventHandler(this.p2_nature_SelectedIndexChanged);
             // 
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(744, 224);
+            this.label23.Location = new System.Drawing.Point(744, 225);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(29, 12);
             this.label23.TabIndex = 115;
             this.label23.Text = "性格";
             // 
-            // comboBox50
+            // p2_stage_spd
             // 
-            this.comboBox50.FormattingEnabled = true;
-            this.comboBox50.Location = new System.Drawing.Point(987, 434);
-            this.comboBox50.Name = "comboBox50";
-            this.comboBox50.Size = new System.Drawing.Size(44, 20);
-            this.comboBox50.TabIndex = 114;
+            this.p2_stage_spd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p2_stage_spd.FormattingEnabled = true;
+            this.p2_stage_spd.Items.AddRange(new object[] {
+            "+6",
+            "+5",
+            "+4",
+            "+3",
+            "+2",
+            "+1",
+            "0",
+            "-1",
+            "-2",
+            "-3",
+            "-4",
+            "-5",
+            "-6"});
+            this.p2_stage_spd.Location = new System.Drawing.Point(987, 434);
+            this.p2_stage_spd.Name = "p2_stage_spd";
+            this.p2_stage_spd.Size = new System.Drawing.Size(44, 20);
+            this.p2_stage_spd.TabIndex = 114;
+            this.p2_stage_spd.SelectedIndexChanged += new System.EventHandler(this.p2_stage_spd_SelectedIndexChanged);
             // 
-            // comboBox51
+            // p2_stage_spdef
             // 
-            this.comboBox51.FormattingEnabled = true;
-            this.comboBox51.Location = new System.Drawing.Point(987, 407);
-            this.comboBox51.Name = "comboBox51";
-            this.comboBox51.Size = new System.Drawing.Size(44, 20);
-            this.comboBox51.TabIndex = 113;
+            this.p2_stage_spdef.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p2_stage_spdef.FormattingEnabled = true;
+            this.p2_stage_spdef.Items.AddRange(new object[] {
+            "+6",
+            "+5",
+            "+4",
+            "+3",
+            "+2",
+            "+1",
+            "0",
+            "-1",
+            "-2",
+            "-3",
+            "-4",
+            "-5",
+            "-6"});
+            this.p2_stage_spdef.Location = new System.Drawing.Point(987, 407);
+            this.p2_stage_spdef.Name = "p2_stage_spdef";
+            this.p2_stage_spdef.Size = new System.Drawing.Size(44, 20);
+            this.p2_stage_spdef.TabIndex = 113;
+            this.p2_stage_spdef.SelectedIndexChanged += new System.EventHandler(this.p2_stage_spdef_SelectedIndexChanged);
             // 
-            // comboBox52
+            // p2_stage_spatk
             // 
-            this.comboBox52.FormattingEnabled = true;
-            this.comboBox52.Location = new System.Drawing.Point(987, 380);
-            this.comboBox52.Name = "comboBox52";
-            this.comboBox52.Size = new System.Drawing.Size(44, 20);
-            this.comboBox52.TabIndex = 112;
+            this.p2_stage_spatk.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p2_stage_spatk.FormattingEnabled = true;
+            this.p2_stage_spatk.Items.AddRange(new object[] {
+            "+6",
+            "+5",
+            "+4",
+            "+3",
+            "+2",
+            "+1",
+            "0",
+            "-1",
+            "-2",
+            "-3",
+            "-4",
+            "-5",
+            "-6"});
+            this.p2_stage_spatk.Location = new System.Drawing.Point(987, 380);
+            this.p2_stage_spatk.Name = "p2_stage_spatk";
+            this.p2_stage_spatk.Size = new System.Drawing.Size(44, 20);
+            this.p2_stage_spatk.TabIndex = 112;
+            this.p2_stage_spatk.SelectedIndexChanged += new System.EventHandler(this.p2_stage_spatk_SelectedIndexChanged);
             // 
-            // comboBox53
+            // p2_stage_def
             // 
-            this.comboBox53.FormattingEnabled = true;
-            this.comboBox53.Location = new System.Drawing.Point(987, 353);
-            this.comboBox53.Name = "comboBox53";
-            this.comboBox53.Size = new System.Drawing.Size(44, 20);
-            this.comboBox53.TabIndex = 111;
+            this.p2_stage_def.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p2_stage_def.FormattingEnabled = true;
+            this.p2_stage_def.Items.AddRange(new object[] {
+            "+6",
+            "+5",
+            "+4",
+            "+3",
+            "+2",
+            "+1",
+            "0",
+            "-1",
+            "-2",
+            "-3",
+            "-4",
+            "-5",
+            "-6"});
+            this.p2_stage_def.Location = new System.Drawing.Point(987, 353);
+            this.p2_stage_def.Name = "p2_stage_def";
+            this.p2_stage_def.Size = new System.Drawing.Size(44, 20);
+            this.p2_stage_def.TabIndex = 111;
+            this.p2_stage_def.SelectedIndexChanged += new System.EventHandler(this.p2_stage_def_SelectedIndexChanged);
             // 
             // label24
             // 
@@ -1293,125 +1877,140 @@
             this.label29.TabIndex = 105;
             this.label29.Text = "HP";
             // 
-            // textBox30
+            // p2_ev_spd
             // 
-            this.textBox30.Location = new System.Drawing.Point(894, 433);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.Size = new System.Drawing.Size(50, 21);
-            this.textBox30.TabIndex = 104;
-            this.textBox30.Text = "0";
+            this.p2_ev_spd.Location = new System.Drawing.Point(894, 433);
+            this.p2_ev_spd.Name = "p2_ev_spd";
+            this.p2_ev_spd.Size = new System.Drawing.Size(50, 21);
+            this.p2_ev_spd.TabIndex = 104;
+            this.p2_ev_spd.Text = "0";
+            this.p2_ev_spd.TextChanged += new System.EventHandler(this.p2_ev_spd_TextChanged);
             // 
-            // textBox31
+            // p2_iv_spd
             // 
-            this.textBox31.Location = new System.Drawing.Point(836, 433);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.Size = new System.Drawing.Size(50, 21);
-            this.textBox31.TabIndex = 103;
-            this.textBox31.Text = "31";
+            this.p2_iv_spd.Location = new System.Drawing.Point(836, 433);
+            this.p2_iv_spd.Name = "p2_iv_spd";
+            this.p2_iv_spd.Size = new System.Drawing.Size(50, 21);
+            this.p2_iv_spd.TabIndex = 103;
+            this.p2_iv_spd.Text = "31";
+            this.p2_iv_spd.TextChanged += new System.EventHandler(this.p2_iv_spd_TextChanged);
             // 
-            // textBox32
+            // p2_base_spd
             // 
-            this.textBox32.Location = new System.Drawing.Point(780, 433);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.Size = new System.Drawing.Size(50, 21);
-            this.textBox32.TabIndex = 102;
-            this.textBox32.Text = "0";
+            this.p2_base_spd.Location = new System.Drawing.Point(780, 433);
+            this.p2_base_spd.Name = "p2_base_spd";
+            this.p2_base_spd.Size = new System.Drawing.Size(50, 21);
+            this.p2_base_spd.TabIndex = 102;
+            this.p2_base_spd.Text = "0";
+            this.p2_base_spd.TextChanged += new System.EventHandler(this.p2_base_spd_TextChanged);
             // 
-            // textBox33
+            // p2_ev_spdef
             // 
-            this.textBox33.Location = new System.Drawing.Point(894, 406);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.Size = new System.Drawing.Size(50, 21);
-            this.textBox33.TabIndex = 101;
-            this.textBox33.Text = "0";
+            this.p2_ev_spdef.Location = new System.Drawing.Point(894, 406);
+            this.p2_ev_spdef.Name = "p2_ev_spdef";
+            this.p2_ev_spdef.Size = new System.Drawing.Size(50, 21);
+            this.p2_ev_spdef.TabIndex = 101;
+            this.p2_ev_spdef.Text = "0";
+            this.p2_ev_spdef.TextChanged += new System.EventHandler(this.p2_ev_spdef_TextChanged);
             // 
-            // textBox34
+            // p2_iv_spdef
             // 
-            this.textBox34.Location = new System.Drawing.Point(836, 406);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.Size = new System.Drawing.Size(50, 21);
-            this.textBox34.TabIndex = 100;
-            this.textBox34.Text = "31";
+            this.p2_iv_spdef.Location = new System.Drawing.Point(836, 406);
+            this.p2_iv_spdef.Name = "p2_iv_spdef";
+            this.p2_iv_spdef.Size = new System.Drawing.Size(50, 21);
+            this.p2_iv_spdef.TabIndex = 100;
+            this.p2_iv_spdef.Text = "31";
+            this.p2_iv_spdef.TextChanged += new System.EventHandler(this.p2_iv_spdef_TextChanged);
             // 
-            // textBox35
+            // p2_base_spdef
             // 
-            this.textBox35.Location = new System.Drawing.Point(780, 406);
-            this.textBox35.Name = "textBox35";
-            this.textBox35.Size = new System.Drawing.Size(50, 21);
-            this.textBox35.TabIndex = 99;
-            this.textBox35.Text = "0";
+            this.p2_base_spdef.Location = new System.Drawing.Point(780, 406);
+            this.p2_base_spdef.Name = "p2_base_spdef";
+            this.p2_base_spdef.Size = new System.Drawing.Size(50, 21);
+            this.p2_base_spdef.TabIndex = 99;
+            this.p2_base_spdef.Text = "0";
+            this.p2_base_spdef.TextChanged += new System.EventHandler(this.p2_base_spdef_TextChanged);
             // 
-            // textBox36
+            // p2_ev_spatk
             // 
-            this.textBox36.Location = new System.Drawing.Point(894, 379);
-            this.textBox36.Name = "textBox36";
-            this.textBox36.Size = new System.Drawing.Size(50, 21);
-            this.textBox36.TabIndex = 98;
-            this.textBox36.Text = "0";
+            this.p2_ev_spatk.Location = new System.Drawing.Point(894, 379);
+            this.p2_ev_spatk.Name = "p2_ev_spatk";
+            this.p2_ev_spatk.Size = new System.Drawing.Size(50, 21);
+            this.p2_ev_spatk.TabIndex = 98;
+            this.p2_ev_spatk.Text = "0";
+            this.p2_ev_spatk.TextChanged += new System.EventHandler(this.p2_ev_spatk_TextChanged);
             // 
-            // textBox37
+            // p2_iv_spatk
             // 
-            this.textBox37.Location = new System.Drawing.Point(836, 379);
-            this.textBox37.Name = "textBox37";
-            this.textBox37.Size = new System.Drawing.Size(50, 21);
-            this.textBox37.TabIndex = 97;
-            this.textBox37.Text = "31";
+            this.p2_iv_spatk.Location = new System.Drawing.Point(836, 379);
+            this.p2_iv_spatk.Name = "p2_iv_spatk";
+            this.p2_iv_spatk.Size = new System.Drawing.Size(50, 21);
+            this.p2_iv_spatk.TabIndex = 97;
+            this.p2_iv_spatk.Text = "31";
+            this.p2_iv_spatk.TextChanged += new System.EventHandler(this.p2_iv_spatk_TextChanged);
             // 
-            // textBox38
+            // p2_base_spatk
             // 
-            this.textBox38.Location = new System.Drawing.Point(780, 379);
-            this.textBox38.Name = "textBox38";
-            this.textBox38.Size = new System.Drawing.Size(50, 21);
-            this.textBox38.TabIndex = 96;
-            this.textBox38.Text = "0";
+            this.p2_base_spatk.Location = new System.Drawing.Point(780, 379);
+            this.p2_base_spatk.Name = "p2_base_spatk";
+            this.p2_base_spatk.Size = new System.Drawing.Size(50, 21);
+            this.p2_base_spatk.TabIndex = 96;
+            this.p2_base_spatk.Text = "0";
+            this.p2_base_spatk.TextChanged += new System.EventHandler(this.p2_base_spatk_TextChanged);
             // 
-            // textBox39
+            // p2_ev_def
             // 
-            this.textBox39.Location = new System.Drawing.Point(894, 352);
-            this.textBox39.Name = "textBox39";
-            this.textBox39.Size = new System.Drawing.Size(50, 21);
-            this.textBox39.TabIndex = 95;
-            this.textBox39.Text = "0";
+            this.p2_ev_def.Location = new System.Drawing.Point(894, 352);
+            this.p2_ev_def.Name = "p2_ev_def";
+            this.p2_ev_def.Size = new System.Drawing.Size(50, 21);
+            this.p2_ev_def.TabIndex = 95;
+            this.p2_ev_def.Text = "0";
+            this.p2_ev_def.TextChanged += new System.EventHandler(this.p2_ev_def_TextChanged);
             // 
-            // textBox40
+            // p2_iv_def
             // 
-            this.textBox40.Location = new System.Drawing.Point(836, 352);
-            this.textBox40.Name = "textBox40";
-            this.textBox40.Size = new System.Drawing.Size(50, 21);
-            this.textBox40.TabIndex = 94;
-            this.textBox40.Text = "31";
+            this.p2_iv_def.Location = new System.Drawing.Point(836, 352);
+            this.p2_iv_def.Name = "p2_iv_def";
+            this.p2_iv_def.Size = new System.Drawing.Size(50, 21);
+            this.p2_iv_def.TabIndex = 94;
+            this.p2_iv_def.Text = "31";
+            this.p2_iv_def.TextChanged += new System.EventHandler(this.p2_iv_def_TextChanged);
             // 
-            // textBox41
+            // p2_base_def
             // 
-            this.textBox41.Location = new System.Drawing.Point(780, 352);
-            this.textBox41.Name = "textBox41";
-            this.textBox41.Size = new System.Drawing.Size(50, 21);
-            this.textBox41.TabIndex = 93;
-            this.textBox41.Text = "0";
+            this.p2_base_def.Location = new System.Drawing.Point(780, 352);
+            this.p2_base_def.Name = "p2_base_def";
+            this.p2_base_def.Size = new System.Drawing.Size(50, 21);
+            this.p2_base_def.TabIndex = 93;
+            this.p2_base_def.Text = "0";
+            this.p2_base_def.TextChanged += new System.EventHandler(this.p2_base_def_TextChanged);
             // 
-            // textBox42
+            // p2_ev_atk
             // 
-            this.textBox42.Location = new System.Drawing.Point(894, 325);
-            this.textBox42.Name = "textBox42";
-            this.textBox42.Size = new System.Drawing.Size(50, 21);
-            this.textBox42.TabIndex = 92;
-            this.textBox42.Text = "0";
+            this.p2_ev_atk.Location = new System.Drawing.Point(894, 325);
+            this.p2_ev_atk.Name = "p2_ev_atk";
+            this.p2_ev_atk.Size = new System.Drawing.Size(50, 21);
+            this.p2_ev_atk.TabIndex = 92;
+            this.p2_ev_atk.Text = "0";
+            this.p2_ev_atk.TextChanged += new System.EventHandler(this.p2_ev_atk_TextChanged);
             // 
-            // textBox43
+            // p2_iv_atk
             // 
-            this.textBox43.Location = new System.Drawing.Point(836, 325);
-            this.textBox43.Name = "textBox43";
-            this.textBox43.Size = new System.Drawing.Size(50, 21);
-            this.textBox43.TabIndex = 91;
-            this.textBox43.Text = "31";
+            this.p2_iv_atk.Location = new System.Drawing.Point(836, 325);
+            this.p2_iv_atk.Name = "p2_iv_atk";
+            this.p2_iv_atk.Size = new System.Drawing.Size(50, 21);
+            this.p2_iv_atk.TabIndex = 91;
+            this.p2_iv_atk.Text = "31";
+            this.p2_iv_atk.TextChanged += new System.EventHandler(this.p2_iv_atk_TextChanged);
             // 
-            // textBox44
+            // p2_base_atk
             // 
-            this.textBox44.Location = new System.Drawing.Point(780, 325);
-            this.textBox44.Name = "textBox44";
-            this.textBox44.Size = new System.Drawing.Size(50, 21);
-            this.textBox44.TabIndex = 90;
-            this.textBox44.Text = "0";
+            this.p2_base_atk.Location = new System.Drawing.Point(780, 325);
+            this.p2_base_atk.Name = "p2_base_atk";
+            this.p2_base_atk.Size = new System.Drawing.Size(50, 21);
+            this.p2_base_atk.TabIndex = 90;
+            this.p2_base_atk.Text = "0";
+            this.p2_base_atk.TextChanged += new System.EventHandler(this.p2_base_atk_TextChanged);
             // 
             // label30
             // 
@@ -1422,21 +2021,23 @@
             this.label30.TabIndex = 89;
             this.label30.Text = "努力值";
             // 
-            // textBox45
+            // p2_ev_hp
             // 
-            this.textBox45.Location = new System.Drawing.Point(894, 298);
-            this.textBox45.Name = "textBox45";
-            this.textBox45.Size = new System.Drawing.Size(50, 21);
-            this.textBox45.TabIndex = 88;
-            this.textBox45.Text = "0";
+            this.p2_ev_hp.Location = new System.Drawing.Point(894, 298);
+            this.p2_ev_hp.Name = "p2_ev_hp";
+            this.p2_ev_hp.Size = new System.Drawing.Size(50, 21);
+            this.p2_ev_hp.TabIndex = 88;
+            this.p2_ev_hp.Text = "0";
+            this.p2_ev_hp.TextChanged += new System.EventHandler(this.p2_ev_hp_TextChanged);
             // 
-            // textBox46
+            // p2_iv_hp
             // 
-            this.textBox46.Location = new System.Drawing.Point(836, 298);
-            this.textBox46.Name = "textBox46";
-            this.textBox46.Size = new System.Drawing.Size(50, 21);
-            this.textBox46.TabIndex = 87;
-            this.textBox46.Text = "31";
+            this.p2_iv_hp.Location = new System.Drawing.Point(836, 298);
+            this.p2_iv_hp.Name = "p2_iv_hp";
+            this.p2_iv_hp.Size = new System.Drawing.Size(50, 21);
+            this.p2_iv_hp.TabIndex = 87;
+            this.p2_iv_hp.Text = "31";
+            this.p2_iv_hp.TextChanged += new System.EventHandler(this.p2_iv_hp_TextChanged);
             // 
             // label31
             // 
@@ -1447,13 +2048,14 @@
             this.label31.TabIndex = 86;
             this.label31.Text = "个体值";
             // 
-            // textBox47
+            // p2_base_hp
             // 
-            this.textBox47.Location = new System.Drawing.Point(780, 298);
-            this.textBox47.Name = "textBox47";
-            this.textBox47.Size = new System.Drawing.Size(50, 21);
-            this.textBox47.TabIndex = 85;
-            this.textBox47.Text = "0";
+            this.p2_base_hp.Location = new System.Drawing.Point(780, 298);
+            this.p2_base_hp.Name = "p2_base_hp";
+            this.p2_base_hp.Size = new System.Drawing.Size(50, 21);
+            this.p2_base_hp.TabIndex = 85;
+            this.p2_base_hp.Text = "0";
+            this.p2_base_hp.TextChanged += new System.EventHandler(this.p2_base_hp_TextChanged);
             // 
             // label32
             // 
@@ -1464,39 +2066,58 @@
             this.label32.TabIndex = 84;
             this.label32.Text = "种族值";
             // 
-            // textBox48
+            // p2_level
             // 
-            this.textBox48.Location = new System.Drawing.Point(779, 247);
-            this.textBox48.Name = "textBox48";
-            this.textBox48.Size = new System.Drawing.Size(50, 21);
-            this.textBox48.TabIndex = 83;
+            this.p2_level.Location = new System.Drawing.Point(779, 247);
+            this.p2_level.Name = "p2_level";
+            this.p2_level.Size = new System.Drawing.Size(50, 21);
+            this.p2_level.TabIndex = 83;
+            this.p2_level.Text = "100";
+            this.p2_level.TextChanged += new System.EventHandler(this.p2_level_TextChanged);
             // 
-            // comboBox54
+            // p2_stage_atk
             // 
-            this.comboBox54.FormattingEnabled = true;
-            this.comboBox54.Location = new System.Drawing.Point(987, 326);
-            this.comboBox54.Name = "comboBox54";
-            this.comboBox54.Size = new System.Drawing.Size(44, 20);
-            this.comboBox54.TabIndex = 82;
+            this.p2_stage_atk.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p2_stage_atk.FormattingEnabled = true;
+            this.p2_stage_atk.Items.AddRange(new object[] {
+            "+6",
+            "+5",
+            "+4",
+            "+3",
+            "+2",
+            "+1",
+            "0",
+            "-1",
+            "-2",
+            "-3",
+            "-4",
+            "-5",
+            "-6"});
+            this.p2_stage_atk.Location = new System.Drawing.Point(987, 326);
+            this.p2_stage_atk.Name = "p2_stage_atk";
+            this.p2_stage_atk.Size = new System.Drawing.Size(44, 20);
+            this.p2_stage_atk.TabIndex = 82;
+            this.p2_stage_atk.SelectedIndexChanged += new System.EventHandler(this.p2_stage_atk_SelectedIndexChanged);
             // 
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(744, 247);
+            this.label33.Location = new System.Drawing.Point(744, 251);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(29, 12);
             this.label33.TabIndex = 81;
             this.label33.Text = "等级";
             // 
-            // comboBox55
+            // p2_forme
             // 
-            this.comboBox55.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox55.Enabled = false;
-            this.comboBox55.FormattingEnabled = true;
-            this.comboBox55.Location = new System.Drawing.Point(1004, 195);
-            this.comboBox55.Name = "comboBox55";
-            this.comboBox55.Size = new System.Drawing.Size(82, 20);
-            this.comboBox55.TabIndex = 80;
+            this.p2_forme.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p2_forme.Enabled = false;
+            this.p2_forme.FormattingEnabled = true;
+            this.p2_forme.Location = new System.Drawing.Point(1004, 195);
+            this.p2_forme.Name = "p2_forme";
+            this.p2_forme.Size = new System.Drawing.Size(82, 20);
+            this.p2_forme.TabIndex = 80;
+            this.p2_forme.SelectedIndexChanged += new System.EventHandler(this.p2_forme_SelectedIndexChanged);
             // 
             // label34
             // 
@@ -1507,25 +2128,65 @@
             this.label34.TabIndex = 79;
             this.label34.Text = "形态";
             // 
-            // comboBox56
+            // p2_type2
             // 
-            this.comboBox56.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox56.FormattingEnabled = true;
-            this.comboBox56.Location = new System.Drawing.Point(867, 195);
-            this.comboBox56.Name = "comboBox56";
-            this.comboBox56.Size = new System.Drawing.Size(82, 20);
-            this.comboBox56.TabIndex = 78;
-            this.comboBox56.SelectedIndexChanged += new System.EventHandler(this.comboBox56_SelectedIndexChanged);
+            this.p2_type2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p2_type2.FormattingEnabled = true;
+            this.p2_type2.Items.AddRange(new object[] {
+            "(无)",
+            "一般",
+            "格斗",
+            "飞行",
+            "毒",
+            "地面",
+            "岩石",
+            "虫",
+            "幽灵",
+            "钢",
+            "火",
+            "水",
+            "草",
+            "电",
+            "超能力",
+            "冰",
+            "龙",
+            "恶",
+            "妖精"});
+            this.p2_type2.Location = new System.Drawing.Point(867, 195);
+            this.p2_type2.Name = "p2_type2";
+            this.p2_type2.Size = new System.Drawing.Size(82, 20);
+            this.p2_type2.TabIndex = 78;
+            this.p2_type2.SelectedIndexChanged += new System.EventHandler(this.p2_type2_SelectedIndexChanged);
             // 
-            // comboBox57
+            // p2_type1
             // 
-            this.comboBox57.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox57.FormattingEnabled = true;
-            this.comboBox57.Location = new System.Drawing.Point(779, 195);
-            this.comboBox57.Name = "comboBox57";
-            this.comboBox57.Size = new System.Drawing.Size(82, 20);
-            this.comboBox57.TabIndex = 77;
-            this.comboBox57.SelectedIndexChanged += new System.EventHandler(this.comboBox57_SelectedIndexChanged);
+            this.p2_type1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p2_type1.FormattingEnabled = true;
+            this.p2_type1.Items.AddRange(new object[] {
+            "(无)",
+            "一般",
+            "格斗",
+            "飞行",
+            "毒",
+            "地面",
+            "岩石",
+            "虫",
+            "幽灵",
+            "钢",
+            "火",
+            "水",
+            "草",
+            "电",
+            "超能力",
+            "冰",
+            "龙",
+            "恶",
+            "妖精"});
+            this.p2_type1.Location = new System.Drawing.Point(779, 195);
+            this.p2_type1.Name = "p2_type1";
+            this.p2_type1.Size = new System.Drawing.Size(82, 20);
+            this.p2_type1.TabIndex = 77;
+            this.p2_type1.SelectedIndexChanged += new System.EventHandler(this.p2_type1_SelectedIndexChanged);
             // 
             // label35
             // 
@@ -1536,155 +2197,174 @@
             this.label35.TabIndex = 76;
             this.label35.Text = "属性";
             // 
-            // comboBox58
+            // pokemon2
             // 
-            this.comboBox58.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.comboBox58.FormattingEnabled = true;
-            this.comboBox58.Location = new System.Drawing.Point(758, 157);
-            this.comboBox58.Name = "comboBox58";
-            this.comboBox58.Size = new System.Drawing.Size(340, 20);
-            this.comboBox58.TabIndex = 75;
-            this.comboBox58.SelectedIndexChanged += new System.EventHandler(this.comboBox58_SelectedIndexChanged);
+            this.pokemon2.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.pokemon2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.pokemon2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.pokemon2.FormattingEnabled = true;
+            this.pokemon2.Location = new System.Drawing.Point(758, 157);
+            this.pokemon2.Name = "pokemon2";
+            this.pokemon2.Size = new System.Drawing.Size(340, 20);
+            this.pokemon2.TabIndex = 75;
+            this.pokemon2.Text = "（选择精灵2）";
+            this.pokemon2.SelectedIndexChanged += new System.EventHandler(this.pokemon2_SelectedIndexChanged);
             // 
-            // label36
+            // p1_panel_hp
             // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(235, 301);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(17, 12);
-            this.label36.TabIndex = 149;
-            this.label36.Text = "HP";
+            this.p1_panel_hp.AutoSize = true;
+            this.p1_panel_hp.Location = new System.Drawing.Point(235, 301);
+            this.p1_panel_hp.Name = "p1_panel_hp";
+            this.p1_panel_hp.Size = new System.Drawing.Size(11, 12);
+            this.p1_panel_hp.TabIndex = 149;
+            this.p1_panel_hp.Text = "0";
+            this.p1_panel_hp.TextChanged += new System.EventHandler(this.p1_panel_hp_TextChanged);
             // 
-            // label37
+            // p1_panel_atk
             // 
-            this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(235, 329);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(23, 12);
-            this.label37.TabIndex = 150;
-            this.label37.Text = "Atk";
+            this.p1_panel_atk.AutoSize = true;
+            this.p1_panel_atk.Location = new System.Drawing.Point(235, 329);
+            this.p1_panel_atk.Name = "p1_panel_atk";
+            this.p1_panel_atk.Size = new System.Drawing.Size(11, 12);
+            this.p1_panel_atk.TabIndex = 150;
+            this.p1_panel_atk.Text = "0";
+            this.p1_panel_atk.TextChanged += new System.EventHandler(this.p1_panel_atk_TextChanged);
             // 
-            // label38
+            // p1_panel_def
             // 
-            this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(235, 356);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(23, 12);
-            this.label38.TabIndex = 151;
-            this.label38.Text = "Def";
+            this.p1_panel_def.AutoSize = true;
+            this.p1_panel_def.Location = new System.Drawing.Point(235, 356);
+            this.p1_panel_def.Name = "p1_panel_def";
+            this.p1_panel_def.Size = new System.Drawing.Size(11, 12);
+            this.p1_panel_def.TabIndex = 151;
+            this.p1_panel_def.Text = "0";
+            this.p1_panel_def.TextChanged += new System.EventHandler(this.p1_panel_def_TextChanged);
             // 
-            // label39
+            // p1_panel_spatk
             // 
-            this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(235, 383);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(35, 12);
-            this.label39.TabIndex = 152;
-            this.label39.Text = "S.Atk";
+            this.p1_panel_spatk.AutoSize = true;
+            this.p1_panel_spatk.Location = new System.Drawing.Point(235, 383);
+            this.p1_panel_spatk.Name = "p1_panel_spatk";
+            this.p1_panel_spatk.Size = new System.Drawing.Size(11, 12);
+            this.p1_panel_spatk.TabIndex = 152;
+            this.p1_panel_spatk.Text = "0";
+            this.p1_panel_spatk.TextChanged += new System.EventHandler(this.p1_panel_spatk_TextChanged);
             // 
-            // label40
+            // p1_panel_spdef
             // 
-            this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(235, 410);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(35, 12);
-            this.label40.TabIndex = 153;
-            this.label40.Text = "S.Def";
+            this.p1_panel_spdef.AutoSize = true;
+            this.p1_panel_spdef.Location = new System.Drawing.Point(235, 410);
+            this.p1_panel_spdef.Name = "p1_panel_spdef";
+            this.p1_panel_spdef.Size = new System.Drawing.Size(11, 12);
+            this.p1_panel_spdef.TabIndex = 153;
+            this.p1_panel_spdef.Text = "0";
+            this.p1_panel_spdef.TextChanged += new System.EventHandler(this.p1_panel_spdef_TextChanged);
             // 
-            // label41
+            // p1_panel_spd
             // 
-            this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(235, 436);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(23, 12);
-            this.label41.TabIndex = 154;
-            this.label41.Text = "Spd";
+            this.p1_panel_spd.AutoSize = true;
+            this.p1_panel_spd.Location = new System.Drawing.Point(235, 436);
+            this.p1_panel_spd.Name = "p1_panel_spd";
+            this.p1_panel_spd.Size = new System.Drawing.Size(11, 12);
+            this.p1_panel_spd.TabIndex = 154;
+            this.p1_panel_spd.Text = "0";
+            this.p1_panel_spd.TextChanged += new System.EventHandler(this.p1_panel_spd_TextChanged);
             // 
-            // label42
+            // p2_panel_spd
             // 
-            this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(950, 436);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(23, 12);
-            this.label42.TabIndex = 160;
-            this.label42.Text = "Spd";
+            this.p2_panel_spd.AutoSize = true;
+            this.p2_panel_spd.Location = new System.Drawing.Point(950, 436);
+            this.p2_panel_spd.Name = "p2_panel_spd";
+            this.p2_panel_spd.Size = new System.Drawing.Size(11, 12);
+            this.p2_panel_spd.TabIndex = 160;
+            this.p2_panel_spd.Text = "0";
+            this.p2_panel_spd.TextChanged += new System.EventHandler(this.p2_panel_spd_TextChanged);
             // 
-            // label43
+            // p2_panel_spdef
             // 
-            this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(950, 410);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(35, 12);
-            this.label43.TabIndex = 159;
-            this.label43.Text = "S.Def";
+            this.p2_panel_spdef.AutoSize = true;
+            this.p2_panel_spdef.Location = new System.Drawing.Point(950, 410);
+            this.p2_panel_spdef.Name = "p2_panel_spdef";
+            this.p2_panel_spdef.Size = new System.Drawing.Size(11, 12);
+            this.p2_panel_spdef.TabIndex = 159;
+            this.p2_panel_spdef.Text = "0";
+            this.p2_panel_spdef.TextChanged += new System.EventHandler(this.p2_panel_spdef_TextChanged);
             // 
-            // label44
+            // p2_panel_spatk
             // 
-            this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(950, 383);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(35, 12);
-            this.label44.TabIndex = 158;
-            this.label44.Text = "S.Atk";
+            this.p2_panel_spatk.AutoSize = true;
+            this.p2_panel_spatk.Location = new System.Drawing.Point(950, 383);
+            this.p2_panel_spatk.Name = "p2_panel_spatk";
+            this.p2_panel_spatk.Size = new System.Drawing.Size(11, 12);
+            this.p2_panel_spatk.TabIndex = 158;
+            this.p2_panel_spatk.Text = "0";
+            this.p2_panel_spatk.TextChanged += new System.EventHandler(this.p2_panel_spatk_TextChanged);
             // 
-            // label45
+            // p2_panel_def
             // 
-            this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(950, 356);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(23, 12);
-            this.label45.TabIndex = 157;
-            this.label45.Text = "Def";
+            this.p2_panel_def.AutoSize = true;
+            this.p2_panel_def.Location = new System.Drawing.Point(950, 356);
+            this.p2_panel_def.Name = "p2_panel_def";
+            this.p2_panel_def.Size = new System.Drawing.Size(11, 12);
+            this.p2_panel_def.TabIndex = 157;
+            this.p2_panel_def.Text = "0";
+            this.p2_panel_def.TextChanged += new System.EventHandler(this.p2_panel_def_TextChanged);
             // 
-            // label46
+            // p2_panel_atk
             // 
-            this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(950, 329);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(23, 12);
-            this.label46.TabIndex = 156;
-            this.label46.Text = "Atk";
+            this.p2_panel_atk.AutoSize = true;
+            this.p2_panel_atk.Location = new System.Drawing.Point(950, 329);
+            this.p2_panel_atk.Name = "p2_panel_atk";
+            this.p2_panel_atk.Size = new System.Drawing.Size(11, 12);
+            this.p2_panel_atk.TabIndex = 156;
+            this.p2_panel_atk.Text = "0";
+            this.p2_panel_atk.TextChanged += new System.EventHandler(this.p2_panel_atk_TextChanged);
             // 
-            // label47
+            // p2_panel_hp
             // 
-            this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(950, 301);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(17, 12);
-            this.label47.TabIndex = 155;
-            this.label47.Text = "HP";
+            this.p2_panel_hp.AutoSize = true;
+            this.p2_panel_hp.Location = new System.Drawing.Point(950, 301);
+            this.p2_panel_hp.Name = "p2_panel_hp";
+            this.p2_panel_hp.Size = new System.Drawing.Size(11, 12);
+            this.p2_panel_hp.TabIndex = 155;
+            this.p2_panel_hp.Text = "0";
+            this.p2_panel_hp.TextChanged += new System.EventHandler(this.p2_panel_hp_TextChanged);
             // 
-            // textBox49
+            // p1_m1_acc
             // 
-            this.textBox49.Location = new System.Drawing.Point(280, 507);
-            this.textBox49.Name = "textBox49";
-            this.textBox49.Size = new System.Drawing.Size(33, 21);
-            this.textBox49.TabIndex = 161;
-            this.textBox49.Text = "100";
+            this.p1_m1_acc.Location = new System.Drawing.Point(280, 507);
+            this.p1_m1_acc.Name = "p1_m1_acc";
+            this.p1_m1_acc.Size = new System.Drawing.Size(33, 21);
+            this.p1_m1_acc.TabIndex = 161;
+            this.p1_m1_acc.Text = "100";
+            this.p1_m1_acc.TextChanged += new System.EventHandler(this.p1_m1_acc_TextChanged);
             // 
-            // textBox50
+            // p1_m2_acc
             // 
-            this.textBox50.Location = new System.Drawing.Point(280, 534);
-            this.textBox50.Name = "textBox50";
-            this.textBox50.Size = new System.Drawing.Size(33, 21);
-            this.textBox50.TabIndex = 162;
-            this.textBox50.Text = "100";
+            this.p1_m2_acc.Location = new System.Drawing.Point(280, 534);
+            this.p1_m2_acc.Name = "p1_m2_acc";
+            this.p1_m2_acc.Size = new System.Drawing.Size(33, 21);
+            this.p1_m2_acc.TabIndex = 162;
+            this.p1_m2_acc.Text = "100";
+            this.p1_m2_acc.TextChanged += new System.EventHandler(this.p1_m2_acc_TextChanged);
             // 
-            // textBox51
+            // p1_m3_acc
             // 
-            this.textBox51.Location = new System.Drawing.Point(280, 560);
-            this.textBox51.Name = "textBox51";
-            this.textBox51.Size = new System.Drawing.Size(33, 21);
-            this.textBox51.TabIndex = 163;
-            this.textBox51.Text = "100";
+            this.p1_m3_acc.Location = new System.Drawing.Point(280, 560);
+            this.p1_m3_acc.Name = "p1_m3_acc";
+            this.p1_m3_acc.Size = new System.Drawing.Size(33, 21);
+            this.p1_m3_acc.TabIndex = 163;
+            this.p1_m3_acc.Text = "100";
+            this.p1_m3_acc.TextChanged += new System.EventHandler(this.p1_m3_acc_TextChanged);
             // 
-            // textBox52
+            // p1_m4_acc
             // 
-            this.textBox52.Location = new System.Drawing.Point(280, 586);
-            this.textBox52.Name = "textBox52";
-            this.textBox52.Size = new System.Drawing.Size(33, 21);
-            this.textBox52.TabIndex = 164;
-            this.textBox52.Text = "100";
+            this.p1_m4_acc.Location = new System.Drawing.Point(280, 586);
+            this.p1_m4_acc.Name = "p1_m4_acc";
+            this.p1_m4_acc.Size = new System.Drawing.Size(33, 21);
+            this.p1_m4_acc.TabIndex = 164;
+            this.p1_m4_acc.Text = "100";
+            this.p1_m4_acc.TextChanged += new System.EventHandler(this.p1_m4_acc_TextChanged);
             // 
             // label48
             // 
@@ -1758,46 +2438,50 @@
             this.label55.TabIndex = 177;
             this.label55.Text = "%";
             // 
-            // textBox53
+            // p2_m4_acc
             // 
-            this.textBox53.Location = new System.Drawing.Point(994, 587);
-            this.textBox53.Name = "textBox53";
-            this.textBox53.Size = new System.Drawing.Size(33, 21);
-            this.textBox53.TabIndex = 176;
-            this.textBox53.Text = "100";
+            this.p2_m4_acc.Location = new System.Drawing.Point(994, 587);
+            this.p2_m4_acc.Name = "p2_m4_acc";
+            this.p2_m4_acc.Size = new System.Drawing.Size(33, 21);
+            this.p2_m4_acc.TabIndex = 176;
+            this.p2_m4_acc.Text = "100";
+            this.p2_m4_acc.TextChanged += new System.EventHandler(this.p2_m4_acc_TextChanged);
             // 
-            // textBox54
+            // p2_m3_acc
             // 
-            this.textBox54.Location = new System.Drawing.Point(994, 561);
-            this.textBox54.Name = "textBox54";
-            this.textBox54.Size = new System.Drawing.Size(33, 21);
-            this.textBox54.TabIndex = 175;
-            this.textBox54.Text = "100";
+            this.p2_m3_acc.Location = new System.Drawing.Point(994, 561);
+            this.p2_m3_acc.Name = "p2_m3_acc";
+            this.p2_m3_acc.Size = new System.Drawing.Size(33, 21);
+            this.p2_m3_acc.TabIndex = 175;
+            this.p2_m3_acc.Text = "100";
+            this.p2_m3_acc.TextChanged += new System.EventHandler(this.p2_m3_acc_TextChanged);
             // 
-            // textBox55
+            // p2_m2_acc
             // 
-            this.textBox55.Location = new System.Drawing.Point(994, 536);
-            this.textBox55.Name = "textBox55";
-            this.textBox55.Size = new System.Drawing.Size(33, 21);
-            this.textBox55.TabIndex = 174;
-            this.textBox55.Text = "100";
+            this.p2_m2_acc.Location = new System.Drawing.Point(994, 536);
+            this.p2_m2_acc.Name = "p2_m2_acc";
+            this.p2_m2_acc.Size = new System.Drawing.Size(33, 21);
+            this.p2_m2_acc.TabIndex = 174;
+            this.p2_m2_acc.Text = "100";
+            this.p2_m2_acc.TextChanged += new System.EventHandler(this.p2_m2_acc_TextChanged);
             // 
-            // textBox56
+            // p2_m1_acc
             // 
-            this.textBox56.Location = new System.Drawing.Point(994, 509);
-            this.textBox56.Name = "textBox56";
-            this.textBox56.Size = new System.Drawing.Size(33, 21);
-            this.textBox56.TabIndex = 173;
-            this.textBox56.Text = "100";
+            this.p2_m1_acc.Location = new System.Drawing.Point(994, 509);
+            this.p2_m1_acc.Name = "p2_m1_acc";
+            this.p2_m1_acc.Size = new System.Drawing.Size(33, 21);
+            this.p2_m1_acc.TabIndex = 173;
+            this.p2_m1_acc.Text = "100";
+            this.p2_m1_acc.TextChanged += new System.EventHandler(this.p2_m1_acc_TextChanged);
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox57);
+            this.groupBox1.Controls.Add(this.p1_hp_percent);
             this.groupBox1.Controls.Add(this.label56);
-            this.groupBox1.Controls.Add(this.label61);
-            this.groupBox1.Controls.Add(this.comboBox60);
+            this.groupBox1.Controls.Add(this.p1_totalhp);
+            this.groupBox1.Controls.Add(this.p1_stage_acc);
             this.groupBox1.Controls.Add(this.label58);
-            this.groupBox1.Controls.Add(this.comboBox59);
+            this.groupBox1.Controls.Add(this.p1_stage_eva);
             this.groupBox1.Controls.Add(this.label57);
             this.groupBox1.Location = new System.Drawing.Point(12, 130);
             this.groupBox1.Name = "groupBox1";
@@ -1806,107 +2490,14 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "精灵1";
             // 
-            // groupBox2
+            // p1_hp_percent
             // 
-            this.groupBox2.Controls.Add(this.textBox58);
-            this.groupBox2.Controls.Add(this.label63);
-            this.groupBox2.Controls.Add(this.label62);
-            this.groupBox2.Controls.Add(this.comboBox61);
-            this.groupBox2.Controls.Add(this.label59);
-            this.groupBox2.Controls.Add(this.label60);
-            this.groupBox2.Controls.Add(this.comboBox62);
-            this.groupBox2.Location = new System.Drawing.Point(726, 130);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(417, 492);
-            this.groupBox2.TabIndex = 183;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "精灵2";
-            // 
-            // label57
-            // 
-            this.label57.AutoSize = true;
-            this.label57.Location = new System.Drawing.Point(322, 224);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(29, 12);
-            this.label57.TabIndex = 0;
-            this.label57.Text = "闪避";
-            // 
-            // comboBox59
-            // 
-            this.comboBox59.FormattingEnabled = true;
-            this.comboBox59.Location = new System.Drawing.Point(357, 221);
-            this.comboBox59.Name = "comboBox59";
-            this.comboBox59.Size = new System.Drawing.Size(44, 20);
-            this.comboBox59.TabIndex = 185;
-            // 
-            // comboBox60
-            // 
-            this.comboBox60.FormattingEnabled = true;
-            this.comboBox60.Location = new System.Drawing.Point(357, 195);
-            this.comboBox60.Name = "comboBox60";
-            this.comboBox60.Size = new System.Drawing.Size(44, 20);
-            this.comboBox60.TabIndex = 187;
-            // 
-            // label58
-            // 
-            this.label58.AutoSize = true;
-            this.label58.Location = new System.Drawing.Point(322, 198);
-            this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(29, 12);
-            this.label58.TabIndex = 186;
-            this.label58.Text = "命中";
-            // 
-            // comboBox61
-            // 
-            this.comboBox61.FormattingEnabled = true;
-            this.comboBox61.Location = new System.Drawing.Point(358, 195);
-            this.comboBox61.Name = "comboBox61";
-            this.comboBox61.Size = new System.Drawing.Size(44, 20);
-            this.comboBox61.TabIndex = 191;
-            // 
-            // label59
-            // 
-            this.label59.AutoSize = true;
-            this.label59.Location = new System.Drawing.Point(323, 198);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(29, 12);
-            this.label59.TabIndex = 190;
-            this.label59.Text = "命中";
-            // 
-            // comboBox62
-            // 
-            this.comboBox62.FormattingEnabled = true;
-            this.comboBox62.Location = new System.Drawing.Point(358, 221);
-            this.comboBox62.Name = "comboBox62";
-            this.comboBox62.Size = new System.Drawing.Size(44, 20);
-            this.comboBox62.TabIndex = 189;
-            // 
-            // label60
-            // 
-            this.label60.AutoSize = true;
-            this.label60.Location = new System.Drawing.Point(323, 224);
-            this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(29, 12);
-            this.label60.TabIndex = 188;
-            this.label60.Text = "闪避";
-            // 
-            // label61
-            // 
-            this.label61.AutoSize = true;
-            this.label61.Location = new System.Drawing.Point(120, 341);
-            this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(23, 12);
-            this.label61.TabIndex = 185;
-            this.label61.Text = "/HP";
-            // 
-            // label62
-            // 
-            this.label62.AutoSize = true;
-            this.label62.Location = new System.Drawing.Point(121, 341);
-            this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(23, 12);
-            this.label62.TabIndex = 188;
-            this.label62.Text = "/HP";
+            this.p1_hp_percent.Location = new System.Drawing.Point(145, 336);
+            this.p1_hp_percent.Name = "p1_hp_percent";
+            this.p1_hp_percent.Size = new System.Drawing.Size(40, 21);
+            this.p1_hp_percent.TabIndex = 189;
+            this.p1_hp_percent.Text = "100";
+            this.p1_hp_percent.TextChanged += new System.EventHandler(this.p1_hp_percent_TextChanged);
             // 
             // label56
             // 
@@ -1917,19 +2508,106 @@
             this.label56.TabIndex = 188;
             this.label56.Text = "%";
             // 
-            // textBox57
+            // p1_totalhp
             // 
-            this.textBox57.Location = new System.Drawing.Point(145, 336);
-            this.textBox57.Name = "textBox57";
-            this.textBox57.Size = new System.Drawing.Size(40, 21);
-            this.textBox57.TabIndex = 189;
+            this.p1_totalhp.AutoSize = true;
+            this.p1_totalhp.Location = new System.Drawing.Point(115, 341);
+            this.p1_totalhp.Name = "p1_totalhp";
+            this.p1_totalhp.Size = new System.Drawing.Size(17, 12);
+            this.p1_totalhp.TabIndex = 185;
+            this.p1_totalhp.Text = "/?";
+            this.p1_totalhp.TextChanged += new System.EventHandler(this.p1_totalhp_TextChanged);
             // 
-            // textBox58
+            // p1_stage_acc
             // 
-            this.textBox58.Location = new System.Drawing.Point(146, 336);
-            this.textBox58.Name = "textBox58";
-            this.textBox58.Size = new System.Drawing.Size(40, 21);
-            this.textBox58.TabIndex = 191;
+            this.p1_stage_acc.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p1_stage_acc.FormattingEnabled = true;
+            this.p1_stage_acc.Items.AddRange(new object[] {
+            "+6",
+            "+5",
+            "+4",
+            "+3",
+            "+2",
+            "+1",
+            "0",
+            "-1",
+            "-2",
+            "-3",
+            "-4",
+            "-5",
+            "-6"});
+            this.p1_stage_acc.Location = new System.Drawing.Point(357, 195);
+            this.p1_stage_acc.Name = "p1_stage_acc";
+            this.p1_stage_acc.Size = new System.Drawing.Size(44, 20);
+            this.p1_stage_acc.TabIndex = 187;
+            this.p1_stage_acc.SelectedIndexChanged += new System.EventHandler(this.p1_stage_acc_SelectedIndexChanged);
+            // 
+            // label58
+            // 
+            this.label58.AutoSize = true;
+            this.label58.Location = new System.Drawing.Point(322, 198);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(29, 12);
+            this.label58.TabIndex = 186;
+            this.label58.Text = "命中";
+            // 
+            // p1_stage_eva
+            // 
+            this.p1_stage_eva.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p1_stage_eva.FormattingEnabled = true;
+            this.p1_stage_eva.Items.AddRange(new object[] {
+            "+6",
+            "+5",
+            "+4",
+            "+3",
+            "+2",
+            "+1",
+            "0",
+            "-1",
+            "-2",
+            "-3",
+            "-4",
+            "-5",
+            "-6"});
+            this.p1_stage_eva.Location = new System.Drawing.Point(357, 221);
+            this.p1_stage_eva.Name = "p1_stage_eva";
+            this.p1_stage_eva.Size = new System.Drawing.Size(44, 20);
+            this.p1_stage_eva.TabIndex = 185;
+            this.p1_stage_eva.SelectedIndexChanged += new System.EventHandler(this.p1_stage_eva_SelectedIndexChanged);
+            // 
+            // label57
+            // 
+            this.label57.AutoSize = true;
+            this.label57.Location = new System.Drawing.Point(322, 224);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(29, 12);
+            this.label57.TabIndex = 0;
+            this.label57.Text = "闪避";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.p2_hp_percent);
+            this.groupBox2.Controls.Add(this.label63);
+            this.groupBox2.Controls.Add(this.p2_totalhp);
+            this.groupBox2.Controls.Add(this.p2_stage_acc);
+            this.groupBox2.Controls.Add(this.label59);
+            this.groupBox2.Controls.Add(this.label60);
+            this.groupBox2.Controls.Add(this.p2_stage_eva);
+            this.groupBox2.Location = new System.Drawing.Point(726, 130);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(417, 492);
+            this.groupBox2.TabIndex = 183;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "精灵2";
+            // 
+            // p2_hp_percent
+            // 
+            this.p2_hp_percent.Location = new System.Drawing.Point(146, 336);
+            this.p2_hp_percent.Name = "p2_hp_percent";
+            this.p2_hp_percent.Size = new System.Drawing.Size(40, 21);
+            this.p2_hp_percent.TabIndex = 191;
+            this.p2_hp_percent.Text = "100";
+            this.p2_hp_percent.TextChanged += new System.EventHandler(this.p2_hp_percent_TextChanged);
             // 
             // label63
             // 
@@ -1940,422 +2618,924 @@
             this.label63.TabIndex = 190;
             this.label63.Text = "%";
             // 
-            // button9
+            // p2_totalhp
             // 
-            this.button9.Location = new System.Drawing.Point(63, 18);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(75, 23);
-            this.button9.TabIndex = 184;
-            this.button9.Text = "button9";
-            this.button9.UseVisualStyleBackColor = true;
+            this.p2_totalhp.AutoSize = true;
+            this.p2_totalhp.Location = new System.Drawing.Point(116, 341);
+            this.p2_totalhp.Name = "p2_totalhp";
+            this.p2_totalhp.Size = new System.Drawing.Size(17, 12);
+            this.p2_totalhp.TabIndex = 188;
+            this.p2_totalhp.Text = "/?";
+            this.p2_totalhp.TextChanged += new System.EventHandler(this.p2_totalhp_TextChanged);
             // 
-            // button10
+            // p2_stage_acc
             // 
-            this.button10.Location = new System.Drawing.Point(144, 18);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(75, 23);
-            this.button10.TabIndex = 185;
-            this.button10.Text = "button10";
-            this.button10.UseVisualStyleBackColor = true;
+            this.p2_stage_acc.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p2_stage_acc.FormattingEnabled = true;
+            this.p2_stage_acc.Items.AddRange(new object[] {
+            "+6",
+            "+5",
+            "+4",
+            "+3",
+            "+2",
+            "+1",
+            "0",
+            "-1",
+            "-2",
+            "-3",
+            "-4",
+            "-5",
+            "-6"});
+            this.p2_stage_acc.Location = new System.Drawing.Point(358, 195);
+            this.p2_stage_acc.Name = "p2_stage_acc";
+            this.p2_stage_acc.Size = new System.Drawing.Size(44, 20);
+            this.p2_stage_acc.TabIndex = 191;
+            this.p2_stage_acc.SelectedIndexChanged += new System.EventHandler(this.p2_stage_acc_SelectedIndexChanged);
             // 
-            // button11
+            // label59
             // 
-            this.button11.Location = new System.Drawing.Point(63, 57);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(75, 23);
-            this.button11.TabIndex = 186;
-            this.button11.Text = "button11";
-            this.button11.UseVisualStyleBackColor = true;
+            this.label59.AutoSize = true;
+            this.label59.Location = new System.Drawing.Point(323, 198);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(29, 12);
+            this.label59.TabIndex = 190;
+            this.label59.Text = "命中";
             // 
-            // button12
+            // label60
             // 
-            this.button12.Location = new System.Drawing.Point(144, 57);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(75, 23);
-            this.button12.TabIndex = 187;
-            this.button12.Text = "button12";
-            this.button12.UseVisualStyleBackColor = true;
+            this.label60.AutoSize = true;
+            this.label60.Location = new System.Drawing.Point(323, 224);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(29, 12);
+            this.label60.TabIndex = 188;
+            this.label60.Text = "闪避";
             // 
-            // button13
+            // p2_stage_eva
             // 
-            this.button13.Location = new System.Drawing.Point(63, 86);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(75, 23);
-            this.button13.TabIndex = 188;
-            this.button13.Text = "button13";
-            this.button13.UseVisualStyleBackColor = true;
+            this.p2_stage_eva.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p2_stage_eva.FormattingEnabled = true;
+            this.p2_stage_eva.Items.AddRange(new object[] {
+            "+6",
+            "+5",
+            "+4",
+            "+3",
+            "+2",
+            "+1",
+            "0",
+            "-1",
+            "-2",
+            "-3",
+            "-4",
+            "-5",
+            "-6"});
+            this.p2_stage_eva.Location = new System.Drawing.Point(358, 221);
+            this.p2_stage_eva.Name = "p2_stage_eva";
+            this.p2_stage_eva.Size = new System.Drawing.Size(44, 20);
+            this.p2_stage_eva.TabIndex = 189;
+            this.p2_stage_eva.SelectedIndexChanged += new System.EventHandler(this.p2_stage_eva_SelectedIndexChanged);
             // 
-            // button14
+            // btn_single
             // 
-            this.button14.Location = new System.Drawing.Point(144, 86);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(75, 23);
-            this.button14.TabIndex = 189;
-            this.button14.Text = "button14";
-            this.button14.UseVisualStyleBackColor = true;
+            this.btn_single.Location = new System.Drawing.Point(69, 16);
+            this.btn_single.Name = "btn_single";
+            this.btn_single.Size = new System.Drawing.Size(75, 23);
+            this.btn_single.TabIndex = 184;
+            this.btn_single.Text = "单打";
+            this.btn_single.UseVisualStyleBackColor = true;
+            this.btn_single.FontChanged += new System.EventHandler(this.hightLight);
+            this.btn_single.Click += new System.EventHandler(this.btn_single_Click);
             // 
-            // button15
+            // btn_double
             // 
-            this.button15.Location = new System.Drawing.Point(21, 7);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(47, 23);
-            this.button15.TabIndex = 190;
-            this.button15.Text = "b15";
-            this.button15.UseVisualStyleBackColor = true;
+            this.btn_double.Location = new System.Drawing.Point(144, 16);
+            this.btn_double.Name = "btn_double";
+            this.btn_double.Size = new System.Drawing.Size(75, 23);
+            this.btn_double.TabIndex = 185;
+            this.btn_double.Text = "双打";
+            this.btn_double.UseVisualStyleBackColor = true;
+            this.btn_double.FontChanged += new System.EventHandler(this.hightLight);
+            this.btn_double.Click += new System.EventHandler(this.btn_double_Click);
             // 
-            // button16
+            // terrain_electric
             // 
-            this.button16.Location = new System.Drawing.Point(67, 7);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(47, 23);
-            this.button16.TabIndex = 191;
-            this.button16.Text = "晴天";
-            this.button16.UseVisualStyleBackColor = true;
+            this.terrain_electric.Location = new System.Drawing.Point(69, 46);
+            this.terrain_electric.Name = "terrain_electric";
+            this.terrain_electric.Size = new System.Drawing.Size(75, 23);
+            this.terrain_electric.TabIndex = 186;
+            this.terrain_electric.Text = "电气场地";
+            this.terrain_electric.UseVisualStyleBackColor = true;
+            this.terrain_electric.FontChanged += new System.EventHandler(this.hightLight);
+            this.terrain_electric.Click += new System.EventHandler(this.terrain_Click);
             // 
-            // button17
+            // terrain_grassy
             // 
-            this.button17.Location = new System.Drawing.Point(111, 7);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(47, 23);
-            this.button17.TabIndex = 192;
-            this.button17.Text = "b17";
-            this.button17.UseVisualStyleBackColor = true;
+            this.terrain_grassy.Location = new System.Drawing.Point(144, 46);
+            this.terrain_grassy.Name = "terrain_grassy";
+            this.terrain_grassy.Size = new System.Drawing.Size(75, 23);
+            this.terrain_grassy.TabIndex = 187;
+            this.terrain_grassy.Text = "青草场地";
+            this.terrain_grassy.UseVisualStyleBackColor = true;
+            this.terrain_grassy.FontChanged += new System.EventHandler(this.hightLight);
+            this.terrain_grassy.Click += new System.EventHandler(this.terrain_Click);
             // 
-            // button18
+            // terrain_misty
             // 
-            this.button18.Location = new System.Drawing.Point(157, 7);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(47, 23);
-            this.button18.TabIndex = 193;
-            this.button18.Text = "b18";
-            this.button18.UseVisualStyleBackColor = true;
+            this.terrain_misty.Location = new System.Drawing.Point(69, 69);
+            this.terrain_misty.Name = "terrain_misty";
+            this.terrain_misty.Size = new System.Drawing.Size(75, 23);
+            this.terrain_misty.TabIndex = 188;
+            this.terrain_misty.Text = "薄雾场地";
+            this.terrain_misty.UseVisualStyleBackColor = true;
+            this.terrain_misty.FontChanged += new System.EventHandler(this.hightLight);
+            this.terrain_misty.Click += new System.EventHandler(this.terrain_Click);
+            // 
+            // terrain_psychic
+            // 
+            this.terrain_psychic.Location = new System.Drawing.Point(144, 69);
+            this.terrain_psychic.Name = "terrain_psychic";
+            this.terrain_psychic.Size = new System.Drawing.Size(75, 23);
+            this.terrain_psychic.TabIndex = 189;
+            this.terrain_psychic.Text = "精神场地";
+            this.terrain_psychic.UseVisualStyleBackColor = true;
+            this.terrain_psychic.FontChanged += new System.EventHandler(this.hightLight);
+            this.terrain_psychic.Click += new System.EventHandler(this.terrain_Click);
+            // 
+            // weather_none
+            // 
+            this.weather_none.Location = new System.Drawing.Point(21, 7);
+            this.weather_none.Name = "weather_none";
+            this.weather_none.Size = new System.Drawing.Size(47, 23);
+            this.weather_none.TabIndex = 190;
+            this.weather_none.Text = "无";
+            this.weather_none.UseVisualStyleBackColor = true;
+            this.weather_none.FontChanged += new System.EventHandler(this.hightLight);
+            this.weather_none.Click += new System.EventHandler(this.weather_Click);
+            // 
+            // weather_sun
+            // 
+            this.weather_sun.Location = new System.Drawing.Point(67, 7);
+            this.weather_sun.Name = "weather_sun";
+            this.weather_sun.Size = new System.Drawing.Size(47, 23);
+            this.weather_sun.TabIndex = 191;
+            this.weather_sun.Text = "晴天";
+            this.weather_sun.UseVisualStyleBackColor = true;
+            this.weather_sun.FontChanged += new System.EventHandler(this.hightLight);
+            this.weather_sun.Click += new System.EventHandler(this.weather_Click);
+            // 
+            // weather_rain
+            // 
+            this.weather_rain.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.weather_rain.Location = new System.Drawing.Point(113, 7);
+            this.weather_rain.Name = "weather_rain";
+            this.weather_rain.Size = new System.Drawing.Size(47, 23);
+            this.weather_rain.TabIndex = 192;
+            this.weather_rain.Text = "下雨";
+            this.weather_rain.UseVisualStyleBackColor = true;
+            this.weather_rain.FontChanged += new System.EventHandler(this.hightLight);
+            this.weather_rain.Click += new System.EventHandler(this.weather_Click);
+            // 
+            // weather_sand
+            // 
+            this.weather_sand.Location = new System.Drawing.Point(161, 7);
+            this.weather_sand.Name = "weather_sand";
+            this.weather_sand.Size = new System.Drawing.Size(47, 23);
+            this.weather_sand.TabIndex = 193;
+            this.weather_sand.Text = "沙暴";
+            this.weather_sand.UseVisualStyleBackColor = true;
+            this.weather_sand.FontChanged += new System.EventHandler(this.hightLight);
+            this.weather_sand.Click += new System.EventHandler(this.weather_Click);
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.comboBox63);
-            this.groupBox3.Controls.Add(this.button26);
-            this.groupBox3.Controls.Add(this.button25);
-            this.groupBox3.Controls.Add(this.button24);
-            this.groupBox3.Controls.Add(this.button23);
-            this.groupBox3.Controls.Add(this.button14);
-            this.groupBox3.Controls.Add(this.button13);
-            this.groupBox3.Controls.Add(this.button12);
-            this.groupBox3.Controls.Add(this.button11);
-            this.groupBox3.Controls.Add(this.button10);
-            this.groupBox3.Controls.Add(this.button9);
+            this.groupBox3.Controls.Add(this.label65);
+            this.groupBox3.Controls.Add(this.aurora_veil_2);
+            this.groupBox3.Controls.Add(this.friend_guard_2);
+            this.groupBox3.Controls.Add(this.helping_hand_2);
+            this.groupBox3.Controls.Add(this.foresight_2);
+            this.groupBox3.Controls.Add(this.leech_seed_2);
+            this.groupBox3.Controls.Add(this.spikes_2);
+            this.groupBox3.Controls.Add(this.protect_2);
+            this.groupBox3.Controls.Add(this.light_screen_2);
+            this.groupBox3.Controls.Add(this.reflect_2);
+            this.groupBox3.Controls.Add(this.stealth_rock_2);
+            this.groupBox3.Controls.Add(this.label64);
+            this.groupBox3.Controls.Add(this.aurora_veil_1);
+            this.groupBox3.Controls.Add(this.friend_guard_1);
+            this.groupBox3.Controls.Add(this.helping_hand_1);
+            this.groupBox3.Controls.Add(this.foresight_1);
+            this.groupBox3.Controls.Add(this.leech_seed_1);
+            this.groupBox3.Controls.Add(this.spikes_1);
+            this.groupBox3.Controls.Add(this.protect_1);
+            this.groupBox3.Controls.Add(this.light_screen_1);
+            this.groupBox3.Controls.Add(this.reflect_1);
+            this.groupBox3.Controls.Add(this.stealth_rock_1);
+            this.groupBox3.Controls.Add(this.terrain_psychic);
+            this.groupBox3.Controls.Add(this.terrain_misty);
+            this.groupBox3.Controls.Add(this.terrain_grassy);
+            this.groupBox3.Controls.Add(this.terrain_electric);
+            this.groupBox3.Controls.Add(this.btn_double);
+            this.groupBox3.Controls.Add(this.btn_single);
             this.groupBox3.Controls.Add(this.panel1);
-            this.groupBox3.Location = new System.Drawing.Point(434, 136);
+            this.groupBox3.Location = new System.Drawing.Point(434, 130);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(286, 486);
+            this.groupBox3.Size = new System.Drawing.Size(286, 492);
             this.groupBox3.TabIndex = 194;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "环境";
             // 
-            // button19
+            // label65
             // 
-            this.button19.Location = new System.Drawing.Point(201, 7);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(47, 23);
-            this.button19.TabIndex = 194;
-            this.button19.Text = "b19";
-            this.button19.UseVisualStyleBackColor = true;
+            this.label65.AutoSize = true;
+            this.label65.Location = new System.Drawing.Point(248, 242);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(29, 12);
+            this.label65.TabIndex = 219;
+            this.label65.Text = "撒菱";
             // 
-            // button20
+            // aurora_veil_2
             // 
-            this.button20.Location = new System.Drawing.Point(44, 29);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(92, 23);
-            this.button20.TabIndex = 195;
-            this.button20.Text = "b20";
-            this.button20.UseVisualStyleBackColor = true;
+            this.aurora_veil_2.Location = new System.Drawing.Point(188, 420);
+            this.aurora_veil_2.Name = "aurora_veil_2";
+            this.aurora_veil_2.Size = new System.Drawing.Size(92, 23);
+            this.aurora_veil_2.TabIndex = 218;
+            this.aurora_veil_2.Text = "极光幕";
+            this.aurora_veil_2.UseVisualStyleBackColor = true;
+            this.aurora_veil_2.FontChanged += new System.EventHandler(this.hightLight);
+            this.aurora_veil_2.Click += new System.EventHandler(this.aurora_veil_2_Click);
             // 
-            // button21
+            // friend_guard_2
             // 
-            this.button21.Location = new System.Drawing.Point(135, 29);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(92, 23);
-            this.button21.TabIndex = 196;
-            this.button21.Text = "b21";
-            this.button21.UseVisualStyleBackColor = true;
+            this.friend_guard_2.Location = new System.Drawing.Point(188, 397);
+            this.friend_guard_2.Name = "friend_guard_2";
+            this.friend_guard_2.Size = new System.Drawing.Size(92, 23);
+            this.friend_guard_2.TabIndex = 217;
+            this.friend_guard_2.Text = "友情防护";
+            this.friend_guard_2.UseVisualStyleBackColor = true;
+            this.friend_guard_2.FontChanged += new System.EventHandler(this.hightLight);
+            this.friend_guard_2.Click += new System.EventHandler(this.friend_guard_2_Click);
             // 
-            // button22
+            // helping_hand_2
             // 
-            this.button22.Location = new System.Drawing.Point(95, 69);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(92, 23);
-            this.button22.TabIndex = 197;
-            this.button22.Text = "b22";
-            this.button22.UseVisualStyleBackColor = true;
+            this.helping_hand_2.Location = new System.Drawing.Point(188, 374);
+            this.helping_hand_2.Name = "helping_hand_2";
+            this.helping_hand_2.Size = new System.Drawing.Size(92, 23);
+            this.helping_hand_2.TabIndex = 216;
+            this.helping_hand_2.Text = "帮助";
+            this.helping_hand_2.UseVisualStyleBackColor = true;
+            this.helping_hand_2.FontChanged += new System.EventHandler(this.hightLight);
+            this.helping_hand_2.Click += new System.EventHandler(this.helping_hand_2_Click);
             // 
-            // button23
+            // foresight_2
             // 
-            this.button23.Location = new System.Drawing.Point(6, 241);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(92, 23);
-            this.button23.TabIndex = 198;
-            this.button23.Text = "b23";
-            this.button23.UseVisualStyleBackColor = true;
+            this.foresight_2.Location = new System.Drawing.Point(188, 351);
+            this.foresight_2.Name = "foresight_2";
+            this.foresight_2.Size = new System.Drawing.Size(92, 23);
+            this.foresight_2.TabIndex = 215;
+            this.foresight_2.Text = "被识破";
+            this.foresight_2.UseVisualStyleBackColor = true;
+            this.foresight_2.FontChanged += new System.EventHandler(this.hightLight);
+            this.foresight_2.Click += new System.EventHandler(this.foresight_2_Click);
             // 
-            // button24
+            // leech_seed_2
             // 
-            this.button24.Location = new System.Drawing.Point(6, 297);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(92, 23);
-            this.button24.TabIndex = 199;
-            this.button24.Text = "b24";
-            this.button24.UseVisualStyleBackColor = true;
+            this.leech_seed_2.Location = new System.Drawing.Point(188, 328);
+            this.leech_seed_2.Name = "leech_seed_2";
+            this.leech_seed_2.Size = new System.Drawing.Size(92, 23);
+            this.leech_seed_2.TabIndex = 214;
+            this.leech_seed_2.Text = "寄生种子";
+            this.leech_seed_2.UseVisualStyleBackColor = true;
+            this.leech_seed_2.FontChanged += new System.EventHandler(this.hightLight);
+            this.leech_seed_2.Click += new System.EventHandler(this.leech_seed_2_Click);
             // 
-            // button25
+            // spikes_2
             // 
-            this.button25.Location = new System.Drawing.Point(6, 326);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(92, 23);
-            this.button25.TabIndex = 200;
-            this.button25.Text = "b25";
-            this.button25.UseVisualStyleBackColor = true;
-            // 
-            // button26
-            // 
-            this.button26.Location = new System.Drawing.Point(6, 355);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(92, 23);
-            this.button26.TabIndex = 201;
-            this.button26.Text = "b26";
-            this.button26.UseVisualStyleBackColor = true;
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.button21);
-            this.panel1.Controls.Add(this.button22);
-            this.panel1.Controls.Add(this.button16);
-            this.panel1.Controls.Add(this.button15);
-            this.panel1.Controls.Add(this.button19);
-            this.panel1.Controls.Add(this.button18);
-            this.panel1.Controls.Add(this.button20);
-            this.panel1.Controls.Add(this.button17);
-            this.panel1.Location = new System.Drawing.Point(6, 114);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(274, 96);
-            this.panel1.TabIndex = 195;
-            // 
-            // comboBox43
-            // 
-            this.comboBox43.FormattingEnabled = true;
-            this.comboBox43.Items.AddRange(new object[] {
-            "物理",
-            "特殊"});
-            this.comboBox43.Location = new System.Drawing.Point(939, 509);
-            this.comboBox43.Name = "comboBox43";
-            this.comboBox43.Size = new System.Drawing.Size(49, 20);
-            this.comboBox43.TabIndex = 128;
-            // 
-            // comboBox63
-            // 
-            this.comboBox63.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox63.FormattingEnabled = true;
-            this.comboBox63.Items.AddRange(new object[] {
+            this.spikes_2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.spikes_2.FormattingEnabled = true;
+            this.spikes_2.Items.AddRange(new object[] {
             "0",
             "1",
             "2",
             "3"});
-            this.comboBox63.Location = new System.Drawing.Point(6, 265);
-            this.comboBox63.Name = "comboBox63";
-            this.comboBox63.Size = new System.Drawing.Size(49, 20);
-            this.comboBox63.TabIndex = 202;
+            this.spikes_2.Location = new System.Drawing.Point(189, 238);
+            this.spikes_2.Name = "spikes_2";
+            this.spikes_2.Size = new System.Drawing.Size(53, 20);
+            this.spikes_2.TabIndex = 213;
+            this.spikes_2.SelectedIndexChanged += new System.EventHandler(this.spikes_2_SelectedIndexChanged);
+            // 
+            // protect_2
+            // 
+            this.protect_2.Location = new System.Drawing.Point(188, 305);
+            this.protect_2.Name = "protect_2";
+            this.protect_2.Size = new System.Drawing.Size(92, 23);
+            this.protect_2.TabIndex = 212;
+            this.protect_2.Text = "守住";
+            this.protect_2.UseVisualStyleBackColor = true;
+            this.protect_2.FontChanged += new System.EventHandler(this.hightLight);
+            this.protect_2.Click += new System.EventHandler(this.protect_2_Click);
+            // 
+            // light_screen_2
+            // 
+            this.light_screen_2.Location = new System.Drawing.Point(188, 282);
+            this.light_screen_2.Name = "light_screen_2";
+            this.light_screen_2.Size = new System.Drawing.Size(92, 23);
+            this.light_screen_2.TabIndex = 211;
+            this.light_screen_2.Text = "光墙";
+            this.light_screen_2.UseVisualStyleBackColor = true;
+            this.light_screen_2.FontChanged += new System.EventHandler(this.hightLight);
+            this.light_screen_2.Click += new System.EventHandler(this.light_screen_2_Click);
+            // 
+            // reflect_2
+            // 
+            this.reflect_2.Location = new System.Drawing.Point(188, 259);
+            this.reflect_2.Name = "reflect_2";
+            this.reflect_2.Size = new System.Drawing.Size(92, 23);
+            this.reflect_2.TabIndex = 210;
+            this.reflect_2.Text = "反射壁";
+            this.reflect_2.UseVisualStyleBackColor = true;
+            this.reflect_2.FontChanged += new System.EventHandler(this.hightLight);
+            this.reflect_2.Click += new System.EventHandler(this.reflect_2_Click);
+            // 
+            // stealth_rock_2
+            // 
+            this.stealth_rock_2.Location = new System.Drawing.Point(188, 214);
+            this.stealth_rock_2.Name = "stealth_rock_2";
+            this.stealth_rock_2.Size = new System.Drawing.Size(92, 23);
+            this.stealth_rock_2.TabIndex = 209;
+            this.stealth_rock_2.Text = "隐形岩";
+            this.stealth_rock_2.UseVisualStyleBackColor = true;
+            this.stealth_rock_2.FontChanged += new System.EventHandler(this.hightLight);
+            this.stealth_rock_2.Click += new System.EventHandler(this.stealth_rock_2_Click);
+            // 
+            // label64
+            // 
+            this.label64.AutoSize = true;
+            this.label64.Location = new System.Drawing.Point(66, 242);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(29, 12);
+            this.label64.TabIndex = 208;
+            this.label64.Text = "撒菱";
+            // 
+            // aurora_veil_1
+            // 
+            this.aurora_veil_1.Location = new System.Drawing.Point(6, 420);
+            this.aurora_veil_1.Name = "aurora_veil_1";
+            this.aurora_veil_1.Size = new System.Drawing.Size(92, 23);
+            this.aurora_veil_1.TabIndex = 207;
+            this.aurora_veil_1.Text = "极光幕";
+            this.aurora_veil_1.UseVisualStyleBackColor = true;
+            this.aurora_veil_1.FontChanged += new System.EventHandler(this.hightLight);
+            this.aurora_veil_1.Click += new System.EventHandler(this.aurora_veil_1_Click);
+            // 
+            // friend_guard_1
+            // 
+            this.friend_guard_1.Location = new System.Drawing.Point(6, 397);
+            this.friend_guard_1.Name = "friend_guard_1";
+            this.friend_guard_1.Size = new System.Drawing.Size(92, 23);
+            this.friend_guard_1.TabIndex = 206;
+            this.friend_guard_1.Text = "友情防护";
+            this.friend_guard_1.UseVisualStyleBackColor = true;
+            this.friend_guard_1.FontChanged += new System.EventHandler(this.hightLight);
+            this.friend_guard_1.Click += new System.EventHandler(this.friend_guard_1_Click);
+            // 
+            // helping_hand_1
+            // 
+            this.helping_hand_1.BackColor = System.Drawing.SystemColors.Control;
+            this.helping_hand_1.Location = new System.Drawing.Point(6, 374);
+            this.helping_hand_1.Name = "helping_hand_1";
+            this.helping_hand_1.Size = new System.Drawing.Size(92, 23);
+            this.helping_hand_1.TabIndex = 205;
+            this.helping_hand_1.Text = "帮助";
+            this.helping_hand_1.UseVisualStyleBackColor = true;
+            this.helping_hand_1.FontChanged += new System.EventHandler(this.hightLight);
+            this.helping_hand_1.Click += new System.EventHandler(this.helping_hand_1_Click);
+            // 
+            // foresight_1
+            // 
+            this.foresight_1.Location = new System.Drawing.Point(6, 351);
+            this.foresight_1.Name = "foresight_1";
+            this.foresight_1.Size = new System.Drawing.Size(92, 23);
+            this.foresight_1.TabIndex = 204;
+            this.foresight_1.Text = "被识破";
+            this.foresight_1.UseVisualStyleBackColor = true;
+            this.foresight_1.FontChanged += new System.EventHandler(this.hightLight);
+            this.foresight_1.Click += new System.EventHandler(this.foresight_1_Click);
+            // 
+            // leech_seed_1
+            // 
+            this.leech_seed_1.Location = new System.Drawing.Point(6, 328);
+            this.leech_seed_1.Name = "leech_seed_1";
+            this.leech_seed_1.Size = new System.Drawing.Size(92, 23);
+            this.leech_seed_1.TabIndex = 203;
+            this.leech_seed_1.Text = "寄生种子";
+            this.leech_seed_1.UseVisualStyleBackColor = true;
+            this.leech_seed_1.FontChanged += new System.EventHandler(this.hightLight);
+            this.leech_seed_1.Click += new System.EventHandler(this.leech_seed_1_Click);
+            // 
+            // spikes_1
+            // 
+            this.spikes_1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.spikes_1.FormattingEnabled = true;
+            this.spikes_1.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2",
+            "3"});
+            this.spikes_1.Location = new System.Drawing.Point(7, 238);
+            this.spikes_1.Name = "spikes_1";
+            this.spikes_1.Size = new System.Drawing.Size(53, 20);
+            this.spikes_1.TabIndex = 202;
+            this.spikes_1.SelectedIndexChanged += new System.EventHandler(this.spikes_1_SelectedIndexChanged);
+            // 
+            // protect_1
+            // 
+            this.protect_1.Location = new System.Drawing.Point(6, 305);
+            this.protect_1.Name = "protect_1";
+            this.protect_1.Size = new System.Drawing.Size(92, 23);
+            this.protect_1.TabIndex = 201;
+            this.protect_1.Text = "守住";
+            this.protect_1.UseVisualStyleBackColor = true;
+            this.protect_1.FontChanged += new System.EventHandler(this.hightLight);
+            this.protect_1.Click += new System.EventHandler(this.protect_1_Click);
+            // 
+            // light_screen_1
+            // 
+            this.light_screen_1.Location = new System.Drawing.Point(6, 282);
+            this.light_screen_1.Name = "light_screen_1";
+            this.light_screen_1.Size = new System.Drawing.Size(92, 23);
+            this.light_screen_1.TabIndex = 200;
+            this.light_screen_1.Text = "光墙";
+            this.light_screen_1.UseVisualStyleBackColor = true;
+            this.light_screen_1.FontChanged += new System.EventHandler(this.hightLight);
+            this.light_screen_1.Click += new System.EventHandler(this.light_screen_1_Click);
+            // 
+            // reflect_1
+            // 
+            this.reflect_1.Location = new System.Drawing.Point(6, 259);
+            this.reflect_1.Name = "reflect_1";
+            this.reflect_1.Size = new System.Drawing.Size(92, 23);
+            this.reflect_1.TabIndex = 199;
+            this.reflect_1.Text = "反射壁";
+            this.reflect_1.UseVisualStyleBackColor = true;
+            this.reflect_1.FontChanged += new System.EventHandler(this.hightLight);
+            this.reflect_1.Click += new System.EventHandler(this.reflect_1_Click);
+            // 
+            // stealth_rock_1
+            // 
+            this.stealth_rock_1.Location = new System.Drawing.Point(6, 214);
+            this.stealth_rock_1.Name = "stealth_rock_1";
+            this.stealth_rock_1.Size = new System.Drawing.Size(92, 23);
+            this.stealth_rock_1.TabIndex = 198;
+            this.stealth_rock_1.Text = "隐形岩";
+            this.stealth_rock_1.UseVisualStyleBackColor = true;
+            this.stealth_rock_1.FontChanged += new System.EventHandler(this.hightLight);
+            this.stealth_rock_1.Click += new System.EventHandler(this.stealth_rock_1_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.weather_strongwind);
+            this.panel1.Controls.Add(this.weather_heavyrain);
+            this.panel1.Controls.Add(this.btn_gravity);
+            this.panel1.Controls.Add(this.weather_sun);
+            this.panel1.Controls.Add(this.weather_none);
+            this.panel1.Controls.Add(this.weather_hail);
+            this.panel1.Controls.Add(this.weather_sand);
+            this.panel1.Controls.Add(this.weather_harshsun);
+            this.panel1.Controls.Add(this.weather_rain);
+            this.panel1.Location = new System.Drawing.Point(6, 98);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(274, 112);
+            this.panel1.TabIndex = 195;
+            // 
+            // weather_strongwind
+            // 
+            this.weather_strongwind.Location = new System.Drawing.Point(90, 51);
+            this.weather_strongwind.Name = "weather_strongwind";
+            this.weather_strongwind.Size = new System.Drawing.Size(92, 23);
+            this.weather_strongwind.TabIndex = 198;
+            this.weather_strongwind.Text = "乱流";
+            this.weather_strongwind.UseVisualStyleBackColor = true;
+            this.weather_strongwind.FontChanged += new System.EventHandler(this.hightLight);
+            this.weather_strongwind.Click += new System.EventHandler(this.weather_Click);
+            // 
+            // weather_heavyrain
+            // 
+            this.weather_heavyrain.Location = new System.Drawing.Point(136, 29);
+            this.weather_heavyrain.Name = "weather_heavyrain";
+            this.weather_heavyrain.Size = new System.Drawing.Size(92, 23);
+            this.weather_heavyrain.TabIndex = 196;
+            this.weather_heavyrain.Text = "大雨天";
+            this.weather_heavyrain.UseVisualStyleBackColor = true;
+            this.weather_heavyrain.FontChanged += new System.EventHandler(this.hightLight);
+            this.weather_heavyrain.Click += new System.EventHandler(this.weather_Click);
+            // 
+            // btn_gravity
+            // 
+            this.btn_gravity.Location = new System.Drawing.Point(90, 84);
+            this.btn_gravity.Name = "btn_gravity";
+            this.btn_gravity.Size = new System.Drawing.Size(92, 23);
+            this.btn_gravity.TabIndex = 197;
+            this.btn_gravity.Text = "重力";
+            this.btn_gravity.UseVisualStyleBackColor = true;
+            this.btn_gravity.FontChanged += new System.EventHandler(this.hightLight);
+            // 
+            // weather_hail
+            // 
+            this.weather_hail.Location = new System.Drawing.Point(205, 7);
+            this.weather_hail.Name = "weather_hail";
+            this.weather_hail.Size = new System.Drawing.Size(47, 23);
+            this.weather_hail.TabIndex = 194;
+            this.weather_hail.Text = "冰雹";
+            this.weather_hail.UseVisualStyleBackColor = true;
+            this.weather_hail.FontChanged += new System.EventHandler(this.hightLight);
+            this.weather_hail.Click += new System.EventHandler(this.weather_Click);
+            // 
+            // weather_harshsun
+            // 
+            this.weather_harshsun.Location = new System.Drawing.Point(45, 29);
+            this.weather_harshsun.Name = "weather_harshsun";
+            this.weather_harshsun.Size = new System.Drawing.Size(92, 23);
+            this.weather_harshsun.TabIndex = 195;
+            this.weather_harshsun.Text = "大日照";
+            this.weather_harshsun.UseVisualStyleBackColor = true;
+            this.weather_harshsun.FontChanged += new System.EventHandler(this.hightLight);
+            this.weather_harshsun.Click += new System.EventHandler(this.weather_Click);
+            // 
+            // p2_m1_category
+            // 
+            this.p2_m1_category.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.p2_m1_category.FormattingEnabled = true;
+            this.p2_m1_category.Items.AddRange(new object[] {
+            "物理",
+            "特殊"});
+            this.p2_m1_category.Location = new System.Drawing.Point(939, 509);
+            this.p2_m1_category.Name = "p2_m1_category";
+            this.p2_m1_category.Size = new System.Drawing.Size(49, 20);
+            this.p2_m1_category.TabIndex = 128;
+            this.p2_m1_category.SelectedIndexChanged += new System.EventHandler(this.p2_m1_category_SelectedIndexChanged);
+            // 
+            // btn_p1_m4
+            // 
+            this.btn_p1_m4.Location = new System.Drawing.Point(55, 81);
+            this.btn_p1_m4.Name = "btn_p1_m4";
+            this.btn_p1_m4.Size = new System.Drawing.Size(92, 23);
+            this.btn_p1_m4.TabIndex = 222;
+            this.btn_p1_m4.Text = "（技能）";
+            this.btn_p1_m4.UseVisualStyleBackColor = true;
+            this.btn_p1_m4.FontChanged += new System.EventHandler(this.hightLight);
+            // 
+            // btn_p1_m3
+            // 
+            this.btn_p1_m3.Location = new System.Drawing.Point(55, 58);
+            this.btn_p1_m3.Name = "btn_p1_m3";
+            this.btn_p1_m3.Size = new System.Drawing.Size(92, 23);
+            this.btn_p1_m3.TabIndex = 221;
+            this.btn_p1_m3.Text = "（技能）";
+            this.btn_p1_m3.UseVisualStyleBackColor = true;
+            this.btn_p1_m3.FontChanged += new System.EventHandler(this.hightLight);
+            // 
+            // btn_p1_m2
+            // 
+            this.btn_p1_m2.Location = new System.Drawing.Point(55, 35);
+            this.btn_p1_m2.Name = "btn_p1_m2";
+            this.btn_p1_m2.Size = new System.Drawing.Size(92, 23);
+            this.btn_p1_m2.TabIndex = 220;
+            this.btn_p1_m2.Text = "（技能）";
+            this.btn_p1_m2.UseVisualStyleBackColor = true;
+            this.btn_p1_m2.FontChanged += new System.EventHandler(this.hightLight);
+            // 
+            // btn_p1_m1
+            // 
+            this.btn_p1_m1.Location = new System.Drawing.Point(55, 12);
+            this.btn_p1_m1.Name = "btn_p1_m1";
+            this.btn_p1_m1.Size = new System.Drawing.Size(92, 23);
+            this.btn_p1_m1.TabIndex = 219;
+            this.btn_p1_m1.Text = "（技能）";
+            this.btn_p1_m1.UseVisualStyleBackColor = true;
+            this.btn_p1_m1.FontChanged += new System.EventHandler(this.hightLight);
+            // 
+            // btn_p2_m4
+            // 
+            this.btn_p2_m4.Location = new System.Drawing.Point(769, 81);
+            this.btn_p2_m4.Name = "btn_p2_m4";
+            this.btn_p2_m4.Size = new System.Drawing.Size(92, 23);
+            this.btn_p2_m4.TabIndex = 226;
+            this.btn_p2_m4.Text = "（技能）";
+            this.btn_p2_m4.UseVisualStyleBackColor = true;
+            this.btn_p2_m4.FontChanged += new System.EventHandler(this.hightLight);
+            // 
+            // btn_p2_m3
+            // 
+            this.btn_p2_m3.Location = new System.Drawing.Point(769, 58);
+            this.btn_p2_m3.Name = "btn_p2_m3";
+            this.btn_p2_m3.Size = new System.Drawing.Size(92, 23);
+            this.btn_p2_m3.TabIndex = 225;
+            this.btn_p2_m3.Text = "（技能）";
+            this.btn_p2_m3.UseVisualStyleBackColor = true;
+            this.btn_p2_m3.FontChanged += new System.EventHandler(this.hightLight);
+            // 
+            // btn_p2_m2
+            // 
+            this.btn_p2_m2.Location = new System.Drawing.Point(769, 35);
+            this.btn_p2_m2.Name = "btn_p2_m2";
+            this.btn_p2_m2.Size = new System.Drawing.Size(92, 23);
+            this.btn_p2_m2.TabIndex = 224;
+            this.btn_p2_m2.Text = "（技能）";
+            this.btn_p2_m2.UseVisualStyleBackColor = true;
+            this.btn_p2_m2.FontChanged += new System.EventHandler(this.hightLight);
+            // 
+            // btn_p2_m1
+            // 
+            this.btn_p2_m1.Location = new System.Drawing.Point(769, 12);
+            this.btn_p2_m1.Name = "btn_p2_m1";
+            this.btn_p2_m1.Size = new System.Drawing.Size(92, 23);
+            this.btn_p2_m1.TabIndex = 223;
+            this.btn_p2_m1.Text = "（技能）";
+            this.btn_p2_m1.UseVisualStyleBackColor = true;
+            this.btn_p2_m1.FontChanged += new System.EventHandler(this.hightLight);
+            // 
+            // p1_m1_damage
+            // 
+            this.p1_m1_damage.AutoSize = true;
+            this.p1_m1_damage.Location = new System.Drawing.Point(160, 17);
+            this.p1_m1_damage.Name = "p1_m1_damage";
+            this.p1_m1_damage.Size = new System.Drawing.Size(11, 12);
+            this.p1_m1_damage.TabIndex = 227;
+            this.p1_m1_damage.Text = "0";
+            // 
+            // p1_m2_damage
+            // 
+            this.p1_m2_damage.AutoSize = true;
+            this.p1_m2_damage.Location = new System.Drawing.Point(160, 40);
+            this.p1_m2_damage.Name = "p1_m2_damage";
+            this.p1_m2_damage.Size = new System.Drawing.Size(11, 12);
+            this.p1_m2_damage.TabIndex = 228;
+            this.p1_m2_damage.Text = "0";
+            // 
+            // p1_m3_damage
+            // 
+            this.p1_m3_damage.AutoSize = true;
+            this.p1_m3_damage.Location = new System.Drawing.Point(160, 63);
+            this.p1_m3_damage.Name = "p1_m3_damage";
+            this.p1_m3_damage.Size = new System.Drawing.Size(11, 12);
+            this.p1_m3_damage.TabIndex = 229;
+            this.p1_m3_damage.Text = "0";
+            // 
+            // p1_m4_damage
+            // 
+            this.p1_m4_damage.AutoSize = true;
+            this.p1_m4_damage.Location = new System.Drawing.Point(160, 86);
+            this.p1_m4_damage.Name = "p1_m4_damage";
+            this.p1_m4_damage.Size = new System.Drawing.Size(11, 12);
+            this.p1_m4_damage.TabIndex = 230;
+            this.p1_m4_damage.Text = "0";
+            // 
+            // p2_m4_damage
+            // 
+            this.p2_m4_damage.AutoSize = true;
+            this.p2_m4_damage.Location = new System.Drawing.Point(875, 86);
+            this.p2_m4_damage.Name = "p2_m4_damage";
+            this.p2_m4_damage.Size = new System.Drawing.Size(11, 12);
+            this.p2_m4_damage.TabIndex = 234;
+            this.p2_m4_damage.Text = "0";
+            // 
+            // p2_m3_damage
+            // 
+            this.p2_m3_damage.AutoSize = true;
+            this.p2_m3_damage.Location = new System.Drawing.Point(875, 63);
+            this.p2_m3_damage.Name = "p2_m3_damage";
+            this.p2_m3_damage.Size = new System.Drawing.Size(11, 12);
+            this.p2_m3_damage.TabIndex = 233;
+            this.p2_m3_damage.Text = "0";
+            // 
+            // p2_m2_damage
+            // 
+            this.p2_m2_damage.AutoSize = true;
+            this.p2_m2_damage.Location = new System.Drawing.Point(875, 40);
+            this.p2_m2_damage.Name = "p2_m2_damage";
+            this.p2_m2_damage.Size = new System.Drawing.Size(11, 12);
+            this.p2_m2_damage.TabIndex = 232;
+            this.p2_m2_damage.Text = "0";
+            // 
+            // p2_m1_damage
+            // 
+            this.p2_m1_damage.AutoSize = true;
+            this.p2_m1_damage.Location = new System.Drawing.Point(875, 17);
+            this.p2_m1_damage.Name = "p2_m1_damage";
+            this.p2_m1_damage.Size = new System.Drawing.Size(11, 12);
+            this.p2_m1_damage.TabIndex = 231;
+            this.p2_m1_damage.Text = "0";
             // 
             // PokeDamageCalc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1155, 634);
+            this.Controls.Add(this.p2_m4_damage);
+            this.Controls.Add(this.p2_m3_damage);
+            this.Controls.Add(this.p2_m2_damage);
+            this.Controls.Add(this.p2_m1_damage);
+            this.Controls.Add(this.p1_m4_damage);
+            this.Controls.Add(this.p1_m3_damage);
+            this.Controls.Add(this.p1_m2_damage);
+            this.Controls.Add(this.p1_m1_damage);
+            this.Controls.Add(this.btn_p2_m4);
+            this.Controls.Add(this.btn_p2_m3);
+            this.Controls.Add(this.btn_p2_m2);
+            this.Controls.Add(this.btn_p2_m1);
+            this.Controls.Add(this.btn_p1_m4);
+            this.Controls.Add(this.btn_p1_m3);
+            this.Controls.Add(this.btn_p1_m2);
+            this.Controls.Add(this.btn_p1_m1);
             this.Controls.Add(this.label52);
             this.Controls.Add(this.label53);
             this.Controls.Add(this.label54);
             this.Controls.Add(this.label55);
-            this.Controls.Add(this.textBox53);
-            this.Controls.Add(this.textBox54);
-            this.Controls.Add(this.textBox55);
-            this.Controls.Add(this.textBox56);
+            this.Controls.Add(this.p2_m4_acc);
+            this.Controls.Add(this.p2_m3_acc);
+            this.Controls.Add(this.p2_m2_acc);
+            this.Controls.Add(this.p2_m1_acc);
             this.Controls.Add(this.label51);
             this.Controls.Add(this.label50);
             this.Controls.Add(this.label49);
             this.Controls.Add(this.label48);
-            this.Controls.Add(this.textBox52);
-            this.Controls.Add(this.textBox51);
-            this.Controls.Add(this.textBox50);
-            this.Controls.Add(this.textBox49);
-            this.Controls.Add(this.label42);
-            this.Controls.Add(this.label43);
-            this.Controls.Add(this.label44);
-            this.Controls.Add(this.label45);
-            this.Controls.Add(this.label46);
-            this.Controls.Add(this.label47);
-            this.Controls.Add(this.label41);
-            this.Controls.Add(this.label40);
-            this.Controls.Add(this.label39);
-            this.Controls.Add(this.label38);
-            this.Controls.Add(this.label37);
-            this.Controls.Add(this.label36);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.comboBox30);
-            this.Controls.Add(this.comboBox31);
-            this.Controls.Add(this.comboBox32);
-            this.Controls.Add(this.textBox25);
-            this.Controls.Add(this.comboBox33);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.comboBox34);
-            this.Controls.Add(this.comboBox35);
-            this.Controls.Add(this.comboBox36);
-            this.Controls.Add(this.textBox26);
-            this.Controls.Add(this.comboBox37);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.comboBox38);
-            this.Controls.Add(this.comboBox39);
-            this.Controls.Add(this.comboBox40);
-            this.Controls.Add(this.textBox27);
-            this.Controls.Add(this.comboBox41);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.comboBox42);
-            this.Controls.Add(this.comboBox43);
-            this.Controls.Add(this.comboBox44);
-            this.Controls.Add(this.textBox28);
-            this.Controls.Add(this.comboBox45);
-            this.Controls.Add(this.comboBox46);
+            this.Controls.Add(this.p1_m4_acc);
+            this.Controls.Add(this.p1_m3_acc);
+            this.Controls.Add(this.p1_m2_acc);
+            this.Controls.Add(this.p1_m1_acc);
+            this.Controls.Add(this.p2_panel_spd);
+            this.Controls.Add(this.p2_panel_spdef);
+            this.Controls.Add(this.p2_panel_spatk);
+            this.Controls.Add(this.p2_panel_def);
+            this.Controls.Add(this.p2_panel_atk);
+            this.Controls.Add(this.p2_panel_hp);
+            this.Controls.Add(this.p1_panel_spd);
+            this.Controls.Add(this.p1_panel_spdef);
+            this.Controls.Add(this.p1_panel_spatk);
+            this.Controls.Add(this.p1_panel_def);
+            this.Controls.Add(this.p1_panel_atk);
+            this.Controls.Add(this.p1_panel_hp);
+            this.Controls.Add(this.p2_m4_Z);
+            this.Controls.Add(this.p2_m4_crit);
+            this.Controls.Add(this.p2_m4_category);
+            this.Controls.Add(this.p2_m4_type);
+            this.Controls.Add(this.p2_m4_power);
+            this.Controls.Add(this.p2_move4);
+            this.Controls.Add(this.p2_m3_Z);
+            this.Controls.Add(this.p2_m3_crit);
+            this.Controls.Add(this.p2_m3_category);
+            this.Controls.Add(this.p2_m3_type);
+            this.Controls.Add(this.p2_m3_power);
+            this.Controls.Add(this.p2_move3);
+            this.Controls.Add(this.p2_m2_Z);
+            this.Controls.Add(this.p2_m2_crit);
+            this.Controls.Add(this.p2_m2_category);
+            this.Controls.Add(this.p2_m2_type);
+            this.Controls.Add(this.p2_m2_power);
+            this.Controls.Add(this.p2_move2);
+            this.Controls.Add(this.p2_m1_Z);
+            this.Controls.Add(this.p2_m1_crit);
+            this.Controls.Add(this.p2_m1_category);
+            this.Controls.Add(this.p2_m1_type);
+            this.Controls.Add(this.p2_m1_power);
+            this.Controls.Add(this.p2_move1);
+            this.Controls.Add(this.p2_status);
             this.Controls.Add(this.label19);
-            this.Controls.Add(this.textBox29);
+            this.Controls.Add(this.p2_curhp);
             this.Controls.Add(this.label20);
-            this.Controls.Add(this.comboBox47);
+            this.Controls.Add(this.p2_item);
             this.Controls.Add(this.label21);
-            this.Controls.Add(this.comboBox48);
+            this.Controls.Add(this.p2_ability);
             this.Controls.Add(this.label22);
-            this.Controls.Add(this.comboBox49);
+            this.Controls.Add(this.p2_nature);
             this.Controls.Add(this.label23);
-            this.Controls.Add(this.comboBox50);
-            this.Controls.Add(this.comboBox51);
-            this.Controls.Add(this.comboBox52);
-            this.Controls.Add(this.comboBox53);
+            this.Controls.Add(this.p2_stage_spd);
+            this.Controls.Add(this.p2_stage_spdef);
+            this.Controls.Add(this.p2_stage_spatk);
+            this.Controls.Add(this.p2_stage_def);
             this.Controls.Add(this.label24);
             this.Controls.Add(this.label25);
             this.Controls.Add(this.label26);
             this.Controls.Add(this.label27);
             this.Controls.Add(this.label28);
             this.Controls.Add(this.label29);
-            this.Controls.Add(this.textBox30);
-            this.Controls.Add(this.textBox31);
-            this.Controls.Add(this.textBox32);
-            this.Controls.Add(this.textBox33);
-            this.Controls.Add(this.textBox34);
-            this.Controls.Add(this.textBox35);
-            this.Controls.Add(this.textBox36);
-            this.Controls.Add(this.textBox37);
-            this.Controls.Add(this.textBox38);
-            this.Controls.Add(this.textBox39);
-            this.Controls.Add(this.textBox40);
-            this.Controls.Add(this.textBox41);
-            this.Controls.Add(this.textBox42);
-            this.Controls.Add(this.textBox43);
-            this.Controls.Add(this.textBox44);
+            this.Controls.Add(this.p2_ev_spd);
+            this.Controls.Add(this.p2_iv_spd);
+            this.Controls.Add(this.p2_base_spd);
+            this.Controls.Add(this.p2_ev_spdef);
+            this.Controls.Add(this.p2_iv_spdef);
+            this.Controls.Add(this.p2_base_spdef);
+            this.Controls.Add(this.p2_ev_spatk);
+            this.Controls.Add(this.p2_iv_spatk);
+            this.Controls.Add(this.p2_base_spatk);
+            this.Controls.Add(this.p2_ev_def);
+            this.Controls.Add(this.p2_iv_def);
+            this.Controls.Add(this.p2_base_def);
+            this.Controls.Add(this.p2_ev_atk);
+            this.Controls.Add(this.p2_iv_atk);
+            this.Controls.Add(this.p2_base_atk);
             this.Controls.Add(this.label30);
-            this.Controls.Add(this.textBox45);
-            this.Controls.Add(this.textBox46);
+            this.Controls.Add(this.p2_ev_hp);
+            this.Controls.Add(this.p2_iv_hp);
             this.Controls.Add(this.label31);
-            this.Controls.Add(this.textBox47);
+            this.Controls.Add(this.p2_base_hp);
             this.Controls.Add(this.label32);
-            this.Controls.Add(this.textBox48);
-            this.Controls.Add(this.comboBox54);
+            this.Controls.Add(this.p2_level);
+            this.Controls.Add(this.p2_stage_atk);
             this.Controls.Add(this.label33);
-            this.Controls.Add(this.comboBox55);
+            this.Controls.Add(this.p2_forme);
             this.Controls.Add(this.label34);
-            this.Controls.Add(this.comboBox56);
-            this.Controls.Add(this.comboBox57);
+            this.Controls.Add(this.p2_type2);
+            this.Controls.Add(this.p2_type1);
             this.Controls.Add(this.label35);
-            this.Controls.Add(this.comboBox58);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.comboBox26);
-            this.Controls.Add(this.comboBox27);
-            this.Controls.Add(this.comboBox28);
-            this.Controls.Add(this.textBox24);
-            this.Controls.Add(this.comboBox29);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.comboBox22);
-            this.Controls.Add(this.comboBox23);
-            this.Controls.Add(this.comboBox24);
-            this.Controls.Add(this.textBox23);
-            this.Controls.Add(this.comboBox25);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.comboBox18);
-            this.Controls.Add(this.comboBox19);
-            this.Controls.Add(this.comboBox20);
-            this.Controls.Add(this.textBox22);
-            this.Controls.Add(this.comboBox21);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox17);
-            this.Controls.Add(this.comboBox16);
-            this.Controls.Add(this.comboBox15);
-            this.Controls.Add(this.textBox21);
-            this.Controls.Add(this.comboBox14);
-            this.Controls.Add(this.comboBox13);
+            this.Controls.Add(this.pokemon2);
+            this.Controls.Add(this.ConsoleLabel);
+            this.Controls.Add(this.p1_m4_Z);
+            this.Controls.Add(this.p1_m4_crit);
+            this.Controls.Add(this.p1_m4_category);
+            this.Controls.Add(this.p1_m4_type);
+            this.Controls.Add(this.p1_m4_power);
+            this.Controls.Add(this.p1_move4);
+            this.Controls.Add(this.p1_m3_Z);
+            this.Controls.Add(this.p1_m3_crit);
+            this.Controls.Add(this.p1_m3_category);
+            this.Controls.Add(this.p1_m3_type);
+            this.Controls.Add(this.p1_m3_power);
+            this.Controls.Add(this.p1_move3);
+            this.Controls.Add(this.p1_m2_Z);
+            this.Controls.Add(this.p1_m2_crit);
+            this.Controls.Add(this.p1_m2_category);
+            this.Controls.Add(this.p1_m2_type);
+            this.Controls.Add(this.p1_m2_power);
+            this.Controls.Add(this.p1_move2);
+            this.Controls.Add(this.p1_m1_Z);
+            this.Controls.Add(this.p1_m1_crit);
+            this.Controls.Add(this.p1_m1_category);
+            this.Controls.Add(this.p1_m1_type);
+            this.Controls.Add(this.p1_m1_power);
+            this.Controls.Add(this.p1_move1);
+            this.Controls.Add(this.p1_status);
             this.Controls.Add(this.label17);
-            this.Controls.Add(this.textBox20);
+            this.Controls.Add(this.p1_curhp);
             this.Controls.Add(this.label16);
-            this.Controls.Add(this.comboBox12);
+            this.Controls.Add(this.p1_item);
             this.Controls.Add(this.label15);
-            this.Controls.Add(this.comboBox11);
+            this.Controls.Add(this.p1_ability);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.comboBox10);
+            this.Controls.Add(this.p1_nature);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.comboBox9);
-            this.Controls.Add(this.comboBox7);
-            this.Controls.Add(this.comboBox8);
-            this.Controls.Add(this.comboBox6);
+            this.Controls.Add(this.p1_stage_spd);
+            this.Controls.Add(this.p1_stage_spdef);
+            this.Controls.Add(this.p1_stage_spatk);
+            this.Controls.Add(this.p1_stage_def);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox17);
-            this.Controls.Add(this.textBox18);
-            this.Controls.Add(this.textBox19);
-            this.Controls.Add(this.textBox14);
-            this.Controls.Add(this.textBox15);
-            this.Controls.Add(this.textBox16);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox12);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.p1_ev_spd);
+            this.Controls.Add(this.p1_iv_spd);
+            this.Controls.Add(this.p1_base_spd);
+            this.Controls.Add(this.p1_ev_spdef);
+            this.Controls.Add(this.p1_iv_spdef);
+            this.Controls.Add(this.p1_base_spdef);
+            this.Controls.Add(this.p1_ev_spatk);
+            this.Controls.Add(this.p1_iv_spatk);
+            this.Controls.Add(this.p1_base_spatk);
+            this.Controls.Add(this.p1_ev_def);
+            this.Controls.Add(this.p1_iv_def);
+            this.Controls.Add(this.p1_base_def);
+            this.Controls.Add(this.p1_ev_atk);
+            this.Controls.Add(this.p1_iv_atk);
+            this.Controls.Add(this.p1_base_atk);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.p1_ev_hp);
+            this.Controls.Add(this.p1_iv_hp);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.p1_base_hp);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.comboBox5);
+            this.Controls.Add(this.p1_level);
+            this.Controls.Add(this.p1_stage_atk);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.comboBox4);
+            this.Controls.Add(this.p1_forme);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.p1_type2);
+            this.Controls.Add(this.p1_type1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.pokemon1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox3);
             this.Name = "PokeDamageCalc";
             this.Text = "口袋伤害计算器";
             this.Load += new System.EventHandler(this.PokeDamageCalc_Load);
+            this.FontChanged += new System.EventHandler(this.hightLight);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -2363,170 +3543,170 @@
         }
 
         #endregion
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox pokemon1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox p1_type1;
+        private System.Windows.Forms.ComboBox p1_type2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox p1_forme;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ComboBox p1_stage_atk;
+        private System.Windows.Forms.TextBox p1_level;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox p1_base_hp;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox p1_iv_hp;
+        private System.Windows.Forms.TextBox p1_ev_hp;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox19;
+        private System.Windows.Forms.TextBox p1_ev_atk;
+        private System.Windows.Forms.TextBox p1_iv_atk;
+        private System.Windows.Forms.TextBox p1_base_atk;
+        private System.Windows.Forms.TextBox p1_ev_def;
+        private System.Windows.Forms.TextBox p1_iv_def;
+        private System.Windows.Forms.TextBox p1_base_def;
+        private System.Windows.Forms.TextBox p1_ev_spatk;
+        private System.Windows.Forms.TextBox p1_iv_spatk;
+        private System.Windows.Forms.TextBox p1_base_spatk;
+        private System.Windows.Forms.TextBox p1_ev_spdef;
+        private System.Windows.Forms.TextBox p1_iv_spdef;
+        private System.Windows.Forms.TextBox p1_base_spdef;
+        private System.Windows.Forms.TextBox p1_ev_spd;
+        private System.Windows.Forms.TextBox p1_iv_spd;
+        private System.Windows.Forms.TextBox p1_base_spd;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.ComboBox comboBox6;
-        private System.Windows.Forms.ComboBox comboBox7;
-        private System.Windows.Forms.ComboBox comboBox8;
-        private System.Windows.Forms.ComboBox comboBox9;
-        private System.Windows.Forms.ComboBox comboBox10;
+        private System.Windows.Forms.ComboBox p1_stage_def;
+        private System.Windows.Forms.ComboBox p1_stage_spdef;
+        private System.Windows.Forms.ComboBox p1_stage_spatk;
+        private System.Windows.Forms.ComboBox p1_stage_spd;
+        private System.Windows.Forms.ComboBox p1_nature;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.ComboBox comboBox11;
+        private System.Windows.Forms.ComboBox p1_ability;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.ComboBox comboBox12;
+        private System.Windows.Forms.ComboBox p1_item;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox textBox20;
+        private System.Windows.Forms.TextBox p1_curhp;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.ComboBox comboBox13;
-        private System.Windows.Forms.ComboBox comboBox14;
-        private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.ComboBox comboBox15;
-        private System.Windows.Forms.ComboBox comboBox16;
-        private System.Windows.Forms.ComboBox comboBox17;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.ComboBox comboBox18;
-        private System.Windows.Forms.ComboBox comboBox19;
-        private System.Windows.Forms.ComboBox comboBox20;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.ComboBox comboBox21;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.ComboBox comboBox22;
-        private System.Windows.Forms.ComboBox comboBox23;
-        private System.Windows.Forms.ComboBox comboBox24;
-        private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.ComboBox comboBox25;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.ComboBox comboBox26;
-        private System.Windows.Forms.ComboBox comboBox27;
-        private System.Windows.Forms.ComboBox comboBox28;
-        private System.Windows.Forms.TextBox textBox24;
-        private System.Windows.Forms.ComboBox comboBox29;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.ComboBox comboBox30;
-        private System.Windows.Forms.ComboBox comboBox31;
-        private System.Windows.Forms.ComboBox comboBox32;
-        private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.ComboBox comboBox33;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.ComboBox comboBox34;
-        private System.Windows.Forms.ComboBox comboBox35;
-        private System.Windows.Forms.ComboBox comboBox36;
-        private System.Windows.Forms.TextBox textBox26;
-        private System.Windows.Forms.ComboBox comboBox37;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.ComboBox comboBox38;
-        private System.Windows.Forms.ComboBox comboBox39;
-        private System.Windows.Forms.ComboBox comboBox40;
-        private System.Windows.Forms.TextBox textBox27;
-        private System.Windows.Forms.ComboBox comboBox41;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.ComboBox comboBox42;
-        private System.Windows.Forms.ComboBox comboBox44;
-        private System.Windows.Forms.TextBox textBox28;
-        private System.Windows.Forms.ComboBox comboBox45;
-        private System.Windows.Forms.ComboBox comboBox46;
+        private System.Windows.Forms.ComboBox p1_status;
+        private System.Windows.Forms.ComboBox p1_move1;
+        private System.Windows.Forms.TextBox p1_m1_power;
+        private System.Windows.Forms.ComboBox p1_m1_type;
+        private System.Windows.Forms.ComboBox p1_m1_category;
+        private System.Windows.Forms.ComboBox p1_m1_crit;
+        private System.Windows.Forms.Button p1_m1_Z;
+        private System.Windows.Forms.Button p1_m2_Z;
+        private System.Windows.Forms.ComboBox p1_m2_crit;
+        private System.Windows.Forms.ComboBox p1_m2_category;
+        private System.Windows.Forms.ComboBox p1_m2_type;
+        private System.Windows.Forms.TextBox p1_m2_power;
+        private System.Windows.Forms.ComboBox p1_move2;
+        private System.Windows.Forms.Button p1_m3_Z;
+        private System.Windows.Forms.ComboBox p1_m3_crit;
+        private System.Windows.Forms.ComboBox p1_m3_category;
+        private System.Windows.Forms.ComboBox p1_m3_type;
+        private System.Windows.Forms.TextBox p1_m3_power;
+        private System.Windows.Forms.ComboBox p1_move3;
+        private System.Windows.Forms.Button p1_m4_Z;
+        private System.Windows.Forms.ComboBox p1_m4_crit;
+        private System.Windows.Forms.ComboBox p1_m4_category;
+        private System.Windows.Forms.ComboBox p1_m4_type;
+        private System.Windows.Forms.TextBox p1_m4_power;
+        private System.Windows.Forms.ComboBox p1_move4;
+        private System.Windows.Forms.Label ConsoleLabel;
+        private System.Windows.Forms.Button p2_m4_Z;
+        private System.Windows.Forms.ComboBox p2_m4_crit;
+        private System.Windows.Forms.ComboBox p2_m4_category;
+        private System.Windows.Forms.ComboBox p2_m4_type;
+        private System.Windows.Forms.TextBox p2_m4_power;
+        private System.Windows.Forms.ComboBox p2_move4;
+        private System.Windows.Forms.Button p2_m3_Z;
+        private System.Windows.Forms.ComboBox p2_m3_crit;
+        private System.Windows.Forms.ComboBox p2_m3_category;
+        private System.Windows.Forms.ComboBox p2_m3_type;
+        private System.Windows.Forms.TextBox p2_m3_power;
+        private System.Windows.Forms.ComboBox p2_move3;
+        private System.Windows.Forms.Button p2_m2_Z;
+        private System.Windows.Forms.ComboBox p2_m2_crit;
+        private System.Windows.Forms.ComboBox p2_m2_category;
+        private System.Windows.Forms.ComboBox p2_m2_type;
+        private System.Windows.Forms.TextBox p2_m2_power;
+        private System.Windows.Forms.ComboBox p2_move2;
+        private System.Windows.Forms.Button p2_m1_Z;
+        private System.Windows.Forms.ComboBox p2_m1_crit;
+        private System.Windows.Forms.ComboBox p2_m1_type;
+        private System.Windows.Forms.TextBox p2_m1_power;
+        private System.Windows.Forms.ComboBox p2_move1;
+        private System.Windows.Forms.ComboBox p2_status;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TextBox textBox29;
+        private System.Windows.Forms.TextBox p2_curhp;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.ComboBox comboBox47;
+        private System.Windows.Forms.ComboBox p2_item;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.ComboBox comboBox48;
+        private System.Windows.Forms.ComboBox p2_ability;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.ComboBox comboBox49;
+        private System.Windows.Forms.ComboBox p2_nature;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.ComboBox comboBox50;
-        private System.Windows.Forms.ComboBox comboBox51;
-        private System.Windows.Forms.ComboBox comboBox52;
-        private System.Windows.Forms.ComboBox comboBox53;
+        private System.Windows.Forms.ComboBox p2_stage_spd;
+        private System.Windows.Forms.ComboBox p2_stage_spdef;
+        private System.Windows.Forms.ComboBox p2_stage_spatk;
+        private System.Windows.Forms.ComboBox p2_stage_def;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.TextBox textBox30;
-        private System.Windows.Forms.TextBox textBox31;
-        private System.Windows.Forms.TextBox textBox32;
-        private System.Windows.Forms.TextBox textBox33;
-        private System.Windows.Forms.TextBox textBox34;
-        private System.Windows.Forms.TextBox textBox35;
-        private System.Windows.Forms.TextBox textBox36;
-        private System.Windows.Forms.TextBox textBox37;
-        private System.Windows.Forms.TextBox textBox38;
-        private System.Windows.Forms.TextBox textBox39;
-        private System.Windows.Forms.TextBox textBox40;
-        private System.Windows.Forms.TextBox textBox41;
-        private System.Windows.Forms.TextBox textBox42;
-        private System.Windows.Forms.TextBox textBox43;
-        private System.Windows.Forms.TextBox textBox44;
+        private System.Windows.Forms.TextBox p2_ev_spd;
+        private System.Windows.Forms.TextBox p2_iv_spd;
+        private System.Windows.Forms.TextBox p2_base_spd;
+        private System.Windows.Forms.TextBox p2_ev_spdef;
+        private System.Windows.Forms.TextBox p2_iv_spdef;
+        private System.Windows.Forms.TextBox p2_base_spdef;
+        private System.Windows.Forms.TextBox p2_ev_spatk;
+        private System.Windows.Forms.TextBox p2_iv_spatk;
+        private System.Windows.Forms.TextBox p2_base_spatk;
+        private System.Windows.Forms.TextBox p2_ev_def;
+        private System.Windows.Forms.TextBox p2_iv_def;
+        private System.Windows.Forms.TextBox p2_base_def;
+        private System.Windows.Forms.TextBox p2_ev_atk;
+        private System.Windows.Forms.TextBox p2_iv_atk;
+        private System.Windows.Forms.TextBox p2_base_atk;
         private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.TextBox textBox45;
-        private System.Windows.Forms.TextBox textBox46;
+        private System.Windows.Forms.TextBox p2_ev_hp;
+        private System.Windows.Forms.TextBox p2_iv_hp;
         private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.TextBox textBox47;
+        private System.Windows.Forms.TextBox p2_base_hp;
         private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.TextBox textBox48;
-        private System.Windows.Forms.ComboBox comboBox54;
+        private System.Windows.Forms.TextBox p2_level;
+        private System.Windows.Forms.ComboBox p2_stage_atk;
         private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.ComboBox comboBox55;
+        private System.Windows.Forms.ComboBox p2_forme;
         private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.ComboBox comboBox56;
-        private System.Windows.Forms.ComboBox comboBox57;
+        private System.Windows.Forms.ComboBox p2_type2;
+        private System.Windows.Forms.ComboBox p2_type1;
         private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.ComboBox comboBox58;
-        private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.Label label47;
-        private System.Windows.Forms.TextBox textBox49;
-        private System.Windows.Forms.TextBox textBox50;
-        private System.Windows.Forms.TextBox textBox51;
-        private System.Windows.Forms.TextBox textBox52;
+        private System.Windows.Forms.ComboBox pokemon2;
+        private System.Windows.Forms.Label p1_panel_hp;
+        private System.Windows.Forms.Label p1_panel_atk;
+        private System.Windows.Forms.Label p1_panel_def;
+        private System.Windows.Forms.Label p1_panel_spatk;
+        private System.Windows.Forms.Label p1_panel_spdef;
+        private System.Windows.Forms.Label p1_panel_spd;
+        private System.Windows.Forms.Label p2_panel_spd;
+        private System.Windows.Forms.Label p2_panel_spdef;
+        private System.Windows.Forms.Label p2_panel_spatk;
+        private System.Windows.Forms.Label p2_panel_def;
+        private System.Windows.Forms.Label p2_panel_atk;
+        private System.Windows.Forms.Label p2_panel_hp;
+        private System.Windows.Forms.TextBox p1_m1_acc;
+        private System.Windows.Forms.TextBox p1_m2_acc;
+        private System.Windows.Forms.TextBox p1_m3_acc;
+        private System.Windows.Forms.TextBox p1_m4_acc;
         private System.Windows.Forms.Label label48;
         private System.Windows.Forms.Label label49;
         private System.Windows.Forms.Label label50;
@@ -2535,48 +3715,82 @@
         private System.Windows.Forms.Label label53;
         private System.Windows.Forms.Label label54;
         private System.Windows.Forms.Label label55;
-        private System.Windows.Forms.TextBox textBox53;
-        private System.Windows.Forms.TextBox textBox54;
-        private System.Windows.Forms.TextBox textBox55;
-        private System.Windows.Forms.TextBox textBox56;
+        private System.Windows.Forms.TextBox p2_m4_acc;
+        private System.Windows.Forms.TextBox p2_m3_acc;
+        private System.Windows.Forms.TextBox p2_m2_acc;
+        private System.Windows.Forms.TextBox p2_m1_acc;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox57;
+        private System.Windows.Forms.TextBox p1_hp_percent;
         private System.Windows.Forms.Label label56;
-        private System.Windows.Forms.Label label61;
-        private System.Windows.Forms.ComboBox comboBox60;
+        private System.Windows.Forms.Label p1_totalhp;
+        private System.Windows.Forms.ComboBox p1_stage_acc;
         private System.Windows.Forms.Label label58;
-        private System.Windows.Forms.ComboBox comboBox59;
+        private System.Windows.Forms.ComboBox p1_stage_eva;
         private System.Windows.Forms.Label label57;
-        private System.Windows.Forms.TextBox textBox58;
+        private System.Windows.Forms.TextBox p2_hp_percent;
         private System.Windows.Forms.Label label63;
-        private System.Windows.Forms.Label label62;
-        private System.Windows.Forms.ComboBox comboBox61;
+        private System.Windows.Forms.Label p2_totalhp;
+        private System.Windows.Forms.ComboBox p2_stage_acc;
         private System.Windows.Forms.Label label59;
         private System.Windows.Forms.Label label60;
-        private System.Windows.Forms.ComboBox comboBox62;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.ComboBox p2_stage_eva;
+        private System.Windows.Forms.Button btn_single;
+        private System.Windows.Forms.Button btn_double;
+        private System.Windows.Forms.Button terrain_electric;
+        private System.Windows.Forms.Button terrain_grassy;
+        private System.Windows.Forms.Button terrain_misty;
+        private System.Windows.Forms.Button terrain_psychic;
+        private System.Windows.Forms.Button weather_none;
+        private System.Windows.Forms.Button weather_sun;
+        private System.Windows.Forms.Button weather_rain;
+        private System.Windows.Forms.Button weather_sand;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Button button26;
-        private System.Windows.Forms.Button button25;
-        private System.Windows.Forms.Button button24;
-        private System.Windows.Forms.Button button23;
+        private System.Windows.Forms.Button protect_1;
+        private System.Windows.Forms.Button light_screen_1;
+        private System.Windows.Forms.Button reflect_1;
+        private System.Windows.Forms.Button stealth_rock_1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.ComboBox comboBox63;
-        private System.Windows.Forms.ComboBox comboBox43;
+        private System.Windows.Forms.Button weather_heavyrain;
+        private System.Windows.Forms.Button btn_gravity;
+        private System.Windows.Forms.Button weather_hail;
+        private System.Windows.Forms.Button weather_harshsun;
+        private System.Windows.Forms.ComboBox spikes_1;
+        private System.Windows.Forms.ComboBox p2_m1_category;
+        private System.Windows.Forms.Label label65;
+        private System.Windows.Forms.Button aurora_veil_2;
+        private System.Windows.Forms.Button friend_guard_2;
+        private System.Windows.Forms.Button helping_hand_2;
+        private System.Windows.Forms.Button foresight_2;
+        private System.Windows.Forms.Button leech_seed_2;
+        private System.Windows.Forms.ComboBox spikes_2;
+        private System.Windows.Forms.Button protect_2;
+        private System.Windows.Forms.Button light_screen_2;
+        private System.Windows.Forms.Button reflect_2;
+        private System.Windows.Forms.Button stealth_rock_2;
+        private System.Windows.Forms.Label label64;
+        private System.Windows.Forms.Button aurora_veil_1;
+        private System.Windows.Forms.Button friend_guard_1;
+        private System.Windows.Forms.Button helping_hand_1;
+        private System.Windows.Forms.Button foresight_1;
+        private System.Windows.Forms.Button leech_seed_1;
+        private System.Windows.Forms.Button btn_p1_m4;
+        private System.Windows.Forms.Button btn_p1_m3;
+        private System.Windows.Forms.Button btn_p1_m2;
+        private System.Windows.Forms.Button btn_p1_m1;
+        private System.Windows.Forms.Button weather_strongwind;
+        private System.Windows.Forms.Button btn_p2_m4;
+        private System.Windows.Forms.Button btn_p2_m3;
+        private System.Windows.Forms.Button btn_p2_m2;
+        private System.Windows.Forms.Button btn_p2_m1;
+        private System.Windows.Forms.Label p1_m1_damage;
+        private System.Windows.Forms.Label p1_m2_damage;
+        private System.Windows.Forms.Label p1_m3_damage;
+        private System.Windows.Forms.Label p1_m4_damage;
+        private System.Windows.Forms.Label p2_m4_damage;
+        private System.Windows.Forms.Label p2_m3_damage;
+        private System.Windows.Forms.Label p2_m2_damage;
+        private System.Windows.Forms.Label p2_m1_damage;
     }
 }
 

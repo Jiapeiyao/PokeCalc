@@ -13,6 +13,7 @@ namespace PokeCalculator
         public Type Type;
         public int Accuracy;
         public String Category;
+        public int crit;
         public bool Z;
 
         public Move(String _Name, int _power, Type _Type, int _Accuracy, String _Category) {
@@ -21,6 +22,7 @@ namespace PokeCalculator
             Type = _Type;
             Accuracy = _Accuracy;
             Category = _Category;
+            crit = 0;
             Z = false;
         }
 

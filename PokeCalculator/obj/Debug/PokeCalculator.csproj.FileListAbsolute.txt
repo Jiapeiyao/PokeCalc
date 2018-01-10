@@ -12,3 +12,4 @@ d:\Users\Jiapei\Documents\Visual Studio 2017\Projects\PokeCalculator\PokeCalcula
 d:\Users\Jiapei\Documents\Visual Studio 2017\Projects\PokeCalculator\PokeCalculator\obj\Debug\Interop.Office.dll
 d:\Users\Jiapei\Documents\Visual Studio 2017\Projects\PokeCalculator\PokeCalculator\obj\Debug\Interop.VBIDE.dll
 d:\Users\Jiapei\Documents\Visual Studio 2017\Projects\PokeCalculator\PokeCalculator\obj\Debug\PokeCalculator.csproj.ResolveComReference.cache
+d:\Users\Jiapei\Documents\Visual Studio 2017\Projects\PokeCalculator\PokeCalculator\obj\Debug\PokeCalculator.g.resources

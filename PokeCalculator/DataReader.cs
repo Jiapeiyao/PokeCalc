@@ -27,7 +27,7 @@ namespace PokeCalculator
             {
                 for (int j = 0; j < ncol; j++)
                 {
-                    if (objectTable[i + 1, j + 1] != null)
+                    if (objectTable[i + 1, j + 1] != null && !objectTable[i + 1, j + 1].Equals(""))
                     {
                         dataTable[i, j] = objectTable[i + 1, j + 1].ToString().Trim();
                     }
